@@ -316,9 +316,115 @@ table,th,td,.formula,.eqno,.badge,.footnotes{font-feature-settings:"tnum" 1,"lnu
 th{font-size:var(--fs-2sm);}
 .formula .eqno,.eqno{font-size:var(--fs-2sm);}
 .badge.mono{background:var(--mono);color:var(--mono-foreground);border-color:var(--mono);}
+
+/* ===== SECURITY GATE MODAL (OFFLIFE AUTH) ===== */
+#authGateOverlay {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background: radial-gradient(circle at 50% 30%, #1e293b, #0f172a);
+  z-index: 999999; display: flex; align-items: center; justify-content: center;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 1.25rem; transition: opacity .35s ease, visibility .35s ease;
+}
+#authGateOverlay.unlocked {
+  opacity: 0; visibility: hidden; pointer-events: none;
+}
+.auth-box {
+  background: rgba(30, 41, 59, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 1.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  max-width: 440px; width: 100%; padding: 2.5rem 2.25rem; text-align: center; color: #f8fafc;
+}
+.auth-icon {
+  width: 68px; height: 68px; margin: 0 auto 1.5rem; border-radius: 50%;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.2), rgba(16, 185, 129, 0.2));
+  border: 1px solid rgba(59, 130, 246, 0.4); display: flex; align-items: center; justify-content: center;
+  color: #60a5fa; box-shadow: 0 0 24px rgba(37, 99, 235, 0.25);
+}
+.auth-box h2 {
+  font-size: 1.35rem; font-weight: 700; margin: 0 0 .5rem; letter-spacing: -0.01em; color: #ffffff;
+}
+.auth-box p {
+  font-size: .875rem; color: #94a3b8; line-height: 1.5; margin: 0 0 1.75rem;
+}
+.auth-input-group {
+  position: relative; margin-bottom: 1.25rem; text-align: left;
+}
+.auth-input-group label {
+  display: block; font-size: .75rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .05em; color: #cbd5e1; margin-bottom: .4rem;
+}
+.auth-input-wrapper {
+  position: relative; display: flex; align-items: center;
+}
+.auth-input {
+  width: 100%; background: rgba(15, 23, 42, 0.7); border: 1.5px solid rgba(148, 163, 184, 0.25);
+  border-radius: .75rem; padding: .85rem 3rem .85rem 1rem; color: #f8fafc; font-size: 1rem;
+  outline: none; transition: border-color .2s, box-shadow .2s;
+}
+.auth-input:focus {
+  border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+.auth-toggle-pwd {
+  position: absolute; right: .85rem; background: none; border: none; color: #94a3b8;
+  cursor: pointer; padding: .25rem; display: flex; align-items: center; justify-content: center;
+}
+.auth-toggle-pwd:hover { color: #f8fafc; }
+.auth-btn {
+  width: 100%; background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border: none; border-radius: .75rem; padding: .85rem 1.5rem; color: #ffffff;
+  font-weight: 600; font-size: .95rem; cursor: pointer; transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+}
+.auth-btn:hover {
+  transform: translateY(-1px); box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
+}
+.auth-btn:active { transform: translateY(0); }
+.auth-error {
+  color: #f87171; font-size: .82rem; margin-top: .75rem; min-height: 1.25rem; font-weight: 500;
+}
+.auth-badge {
+  display: inline-flex; align-items: center; gap: .35rem; padding: .25rem .75rem;
+  background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 9999px; font-size: .72rem; color: #93c5fd; font-weight: 500; margin-bottom: 1.25rem;
+}
+
 </style>
 </head>
 <body>
+
+<!-- ============ SECURITY GATE OVERLAY ============ -->
+<div id="authGateOverlay">
+  <div class="auth-box">
+    <div class="auth-icon">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+      </svg>
+    </div>
+    <div class="auth-badge">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+      CỔNG BẢO MẬT NỘI BỘ OFFLIFE
+    </div>
+    <h2>Xác thực Quyền Truy cập</h2>
+    <p>Quy trình tiêu chuẩn (SOP) tuyển chọn, đào tạo & cấp quyền OffLife Master là tài liệu nội bộ bảo mật. Vui lòng nhập mật khẩu để tiếp tục.</p>
+    
+    <form id="authGateForm" onsubmit="event.preventDefault(); verifyPasscode();">
+      <div class="auth-input-group">
+        <label for="gateInputPass">Mật khẩu truy cập</label>
+        <div class="auth-input-wrapper">
+          <input type="password" id="gateInputPass" class="auth-input" placeholder="Nhập mật khẩu được cấp..." autocomplete="current-password" autofocus required>
+          <button type="button" class="auth-toggle-pwd" id="gateToggleEye" onclick="togglePassVisibility()" title="Ẩn/Hiện mật khẩu">
+            <svg id="eyeShow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            <svg id="eyeHide" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
+          </button>
+        </div>
+      </div>
+      <button type="submit" class="auth-btn" id="btnUnlockGate">Mở khóa Truy cập</button>
+      <div id="gateErrorMsg" class="auth-error"></div>
+    </form>
+  </div>
+</div>
+
 
 <div class="progress-bar" id="progressBar"></div>
 
@@ -2182,7 +2288,92 @@ function printCurrentFormContent() {
   w.document.write('<html><head><title>' + title + '</title><style>@page{size:A4;margin:20mm 15mm 20mm 20mm;}body{font-family:"Times New Roman",Times,serif;font-size:12pt;line-height:1.5;color:#000;padding:10px;white-space:pre-wrap;}</style></head><body>');
   w.document.write('<h2>' + title + '</h2><hr style="margin-bottom:1rem;">');
   w.document.write(escapeHtml(body));
-  w.document.write('</body></html>');
+  w.document.write('<script>
+
+// ===== SECURITY GATE AUTHENTICATION SCRIPT =====
+(function() {
+  var EXPECTED_HASH = "ac3e22bf2aac7efebf2cb80b01ea668bfc1bec5b5fd6064bf728910f551f87ab";
+  var SESSION_KEY = "offlife_sop_auth_token";
+
+  async function sha256(message) {
+    var msgBuffer = new TextEncoder().encode(message);
+    var hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    var hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(function(b) { return b.toString(16).padStart(2, '0'); }).join('');
+  }
+
+  window.verifyPasscode = async function() {
+    var input = document.getElementById('gateInputPass');
+    var err = document.getElementById('gateErrorMsg');
+    var btn = document.getElementById('btnUnlockGate');
+    var val = (input ? input.value : '').trim();
+    if (!val) {
+      if (err) err.textContent = 'Vui lòng nhập mật khẩu truy cập.';
+      return;
+    }
+    if (btn) { btn.disabled = true; btn.textContent = 'Đang kiểm tra...'; }
+    try {
+      var h = await sha256(val);
+      if (h === EXPECTED_HASH) {
+        sessionStorage.setItem(SESSION_KEY, h);
+        unlockScreen();
+      } else {
+        if (err) {
+          err.textContent = 'Mật khẩu không chính xác. Vui lòng kiểm tra lại!';
+          input.focus();
+          input.select();
+        }
+      }
+    } catch (e) {
+      // Fallback
+      if (val === 'Taiphamlacongi@n') {
+        sessionStorage.setItem(SESSION_KEY, EXPECTED_HASH);
+        unlockScreen();
+      } else {
+        if (err) err.textContent = 'Mật khẩu không chính xác.';
+      }
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = 'Mở khóa Truy cập'; }
+    }
+  };
+
+  window.togglePassVisibility = function() {
+    var inp = document.getElementById('gateInputPass');
+    var s = document.getElementById('eyeShow');
+    var h = document.getElementById('eyeHide');
+    if (!inp) return;
+    if (inp.type === 'password') {
+      inp.type = 'text';
+      if (s) s.style.display = 'none';
+      if (h) h.style.display = 'inline';
+    } else {
+      inp.type = 'password';
+      if (s) s.style.display = 'inline';
+      if (h) h.style.display = 'none';
+    }
+  };
+
+  function unlockScreen() {
+    var overlay = document.getElementById('authGateOverlay');
+    if (overlay) {
+      overlay.classList.add('unlocked');
+      setTimeout(function() {
+        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+      }, 400);
+    }
+  }
+
+  // Auto-check on load
+  if (sessionStorage.getItem(SESSION_KEY) === EXPECTED_HASH) {
+    var overlay = document.getElementById('authGateOverlay');
+    if (overlay && overlay.parentNode) {
+      overlay.parentNode.removeChild(overlay);
+    }
+  }
+})();
+
+</script>
+</body></html>');
   w.document.close();
   w.focus();
   setTimeout(function() { w.print(); }, 250);
