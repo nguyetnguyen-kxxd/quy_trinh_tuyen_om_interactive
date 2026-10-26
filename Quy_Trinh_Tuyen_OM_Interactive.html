@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" data-theme="light">
+<html lang="vi" data-theme="light" class="sop-locked">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -317,28 +317,48 @@ th{font-size:var(--fs-2sm);}
 .formula .eqno,.eqno{font-size:var(--fs-2sm);}
 .badge.mono{background:var(--mono);color:var(--mono-foreground);border-color:var(--mono);}
 
-/* ===== SECURITY GATE MODAL (OFFLIFE AUTH) ===== */
-#authGateOverlay {
-  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-  background: radial-gradient(circle at 50% 30%, #1e293b, #0f172a);
-  z-index: 999999; display: flex; align-items: center; justify-content: center;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  padding: 1.25rem; transition: opacity .35s ease, visibility .35s ease;
+
+/* ===== AIRTIGHT SECURITY GATE SYSTEM ===== */
+html.sop-locked, body.sop-locked {
+  overflow: hidden !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  position: relative !important;
 }
-#authGateOverlay.unlocked {
-  opacity: 0; visibility: hidden; pointer-events: none;
+.sop-locked #appMainWrapper {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+#authGateOverlay {
+  position: fixed !important;
+  top: 0 !important; left: 0 !important;
+  width: 100vw !important; height: 100vh !important;
+  background: radial-gradient(circle at 50% 30%, #1e293b, #0f172a) !important;
+  z-index: 2147483647 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  padding: 1.25rem !important;
+  box-sizing: border-box !important;
+  overflow-y: auto !important;
 }
 .auth-box {
-  background: rgba(30, 41, 59, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 1.25rem;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  background: rgba(30, 41, 59, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.05);
   max-width: 440px; width: 100%; padding: 2.5rem 2.25rem; text-align: center; color: #f8fafc;
+  margin: auto;
 }
 .auth-icon {
   width: 68px; height: 68px; margin: 0 auto 1.5rem; border-radius: 50%;
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.2), rgba(16, 185, 129, 0.2));
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.25), rgba(16, 185, 129, 0.25));
   border: 1px solid rgba(59, 130, 246, 0.4); display: flex; align-items: center; justify-content: center;
-  color: #60a5fa; box-shadow: 0 0 24px rgba(37, 99, 235, 0.25);
+  color: #60a5fa; box-shadow: 0 0 24px rgba(37, 99, 235, 0.3);
 }
 .auth-box h2 {
   font-size: 1.35rem; font-weight: 700; margin: 0 0 .5rem; letter-spacing: -0.01em; color: #ffffff;
@@ -357,9 +377,9 @@ th{font-size:var(--fs-2sm);}
   position: relative; display: flex; align-items: center;
 }
 .auth-input {
-  width: 100%; background: rgba(15, 23, 42, 0.7); border: 1.5px solid rgba(148, 163, 184, 0.25);
+  width: 100%; background: rgba(15, 23, 42, 0.8); border: 1.5px solid rgba(148, 163, 184, 0.25);
   border-radius: .75rem; padding: .85rem 3rem .85rem 1rem; color: #f8fafc; font-size: 1rem;
-  outline: none; transition: border-color .2s, box-shadow .2s;
+  outline: none; transition: border-color .2s, box-shadow .2s; box-sizing: border-box;
 }
 .auth-input:focus {
   border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
@@ -373,7 +393,7 @@ th{font-size:var(--fs-2sm);}
   width: 100%; background: linear-gradient(135deg, #2563eb, #1d4ed8);
   border: none; border-radius: .75rem; padding: .85rem 1.5rem; color: #ffffff;
   font-weight: 600; font-size: .95rem; cursor: pointer; transition: transform .15s, box-shadow .15s;
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4); box-sizing: border-box;
 }
 .auth-btn:hover {
   transform: translateY(-1px); box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
@@ -390,7 +410,8 @@ th{font-size:var(--fs-2sm);}
 
 </style>
 </head>
-<body>
+<body class="sop-locked">
+
 
 <!-- ============ SECURITY GATE OVERLAY ============ -->
 <div id="authGateOverlay">
@@ -414,7 +435,7 @@ th{font-size:var(--fs-2sm);}
         <div class="auth-input-wrapper">
           <input type="password" id="gateInputPass" class="auth-input" placeholder="Nhập mật khẩu được cấp..." autocomplete="current-password" autofocus required>
           <button type="button" class="auth-toggle-pwd" id="gateToggleEye" onclick="togglePassVisibility()" title="Ẩn/Hiện mật khẩu">
-            <svg id="eyeShow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            <svg id="eyeShow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
             <svg id="eyeHide" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
           </button>
         </div>
@@ -425,7 +446,7 @@ th{font-size:var(--fs-2sm);}
   </div>
 </div>
 
-
+<div id="appMainWrapper">
 <div class="progress-bar" id="progressBar"></div>
 
 <!-- ============ HEADER ============ -->
@@ -2040,6 +2061,8 @@ HỘI ĐỒNG CHUYÊN MÔN &amp; BAN QUẢN TRỊ DỰ ÁN OFFLIFE
 
 
 
+
+<!-- End appMainWrapper --></div>
 <script>
 
 function decodeB64Utf8(str) {
@@ -2290,7 +2313,10 @@ function printCurrentFormContent() {
   w.document.write(escapeHtml(body));
   w.document.write('<script>
 
-// ===== SECURITY GATE AUTHENTICATION SCRIPT =====
+
+
+<script>
+// ===== AIRTIGHT SECURITY GATE AUTHENTICATION SCRIPT =====
 (function() {
   var EXPECTED_HASH = "ac3e22bf2aac7efebf2cb80b01ea668bfc1bec5b5fd6064bf728910f551f87ab";
   var SESSION_KEY = "offlife_sop_auth_token";
@@ -2354,25 +2380,35 @@ function printCurrentFormContent() {
   };
 
   function unlockScreen() {
+    document.documentElement.classList.remove('sop-locked');
+    document.body.classList.remove('sop-locked');
     var overlay = document.getElementById('authGateOverlay');
     if (overlay) {
-      overlay.classList.add('unlocked');
+      overlay.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
+      overlay.style.opacity = '0';
+      overlay.style.visibility = 'hidden';
       setTimeout(function() {
         if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
-      }, 400);
+      }, 350);
     }
+    // Trigger scroll spy & layout refreshes
+    window.dispatchEvent(new Event('scroll'));
   }
 
-  // Auto-check on load
-  if (sessionStorage.getItem(SESSION_KEY) === EXPECTED_HASH) {
-    var overlay = document.getElementById('authGateOverlay');
-    if (overlay && overlay.parentNode) {
-      overlay.parentNode.removeChild(overlay);
+  // Auto-check on load: nếu đã đăng nhập trước đó thì mở luôn
+  try {
+    if (sessionStorage.getItem(SESSION_KEY) === EXPECTED_HASH) {
+      document.documentElement.classList.remove('sop-locked');
+      document.body.classList.remove('sop-locked');
+      var overlay = document.getElementById('authGateOverlay');
+      if (overlay && overlay.parentNode) {
+        overlay.parentNode.removeChild(overlay);
+      }
     }
-  }
+  } catch (e) {}
 })();
-
 </script>
+
 </body></html>');
   w.document.close();
   w.focus();
