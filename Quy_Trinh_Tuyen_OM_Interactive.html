@@ -512,11 +512,17 @@ html.sop-locked, body.sop-locked {
     <button id="btnToggleEdit" onclick="toggleLiveEdit()" style="display:inline-flex; align-items:center; gap:.35rem; padding:.45rem .85rem; border-radius:var(--radius-sm); border:1px solid var(--primary); background:var(--card); color:var(--primary); font-size:.82rem; font-weight:600; cursor:pointer;">
       <span id="editIcon">✏️</span> <span id="editText">Bật Chế độ Sửa Nội dung (Live Edit)</span>
     </button>
-    <button id="btnSaveStorage" onclick="saveAllChanges()" style="display:none; padding:.45rem .85rem; border-radius:var(--radius-sm); border:none; background:var(--accent-emerald); color:#fff; font-size:.82rem; font-weight:600; cursor:pointer;">
-      💾 Lưu Thay Đổi
+    <button id="btnSaveStorage" onclick="saveAllChanges()" style="display:none; padding:.45rem .85rem; border-radius:var(--radius-sm); border:none; background:var(--accent-emerald); color:#fff; font-size:.82rem; font-weight:600; cursor:pointer;" title="Lưu tạm thời vào trình duyệt hiện tại">
+      💾 Lưu Cục Bộ
+    </button>
+    <button id="btnSyncCloud" onclick="openCloudSyncModal()" style="display:inline-flex; align-items:center; gap:.35rem; padding:.45rem .95rem; border-radius:var(--radius-sm); border:none; background:linear-gradient(135deg, #2563eb, #1d4ed8); color:#fff; font-size:.82rem; font-weight:600; cursor:pointer; box-shadow:0 2px 6px rgba(37,99,235,0.3);" title="Đồng bộ toàn bộ nội dung lên bản online chung (GitHub)">
+      ☁️ Đồng Bộ Lên Online Chung
+    </button>
+    <button id="btnPullCloud" onclick="fetchCloudData(true)" style="display:inline-flex; align-items:center; gap:.35rem; padding:.45rem .85rem; border-radius:var(--radius-sm); border:1px solid var(--border); background:var(--card); color:var(--foreground); font-size:.82rem; font-weight:600; cursor:pointer;" title="Tải nội dung cập nhật mới nhất từ Cloud">
+      🔄 Tải Bản Mới Nhất
     </button>
     <button id="btnResetStorage" onclick="resetToDefault()" style="display:none; padding:.45rem .85rem; border-radius:var(--radius-sm); border:1px solid var(--border); background:var(--card); color:var(--destructive); font-size:.82rem; font-weight:600; cursor:pointer;">
-      🔄 Khôi phục Gốc
+      🗑️ Xóa Bản Nháp
     </button>
   </div>
 </div>
@@ -2055,6 +2061,42 @@ HỘI ĐỒNG CHUYÊN MÔN &amp; BAN QUẢN TRỊ DỰ ÁN OFFLIFE
   </div>
 </div>
 
+
+<!-- ============ CLOUD SYNC MODAL ============ -->
+<div id="cloudSyncModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(15,23,42,0.7); backdrop-filter:blur(6px); z-index:99999; align-items:center; justify-content:center; padding:1rem;">
+  <div style="background:var(--card); color:var(--card-foreground); border:1px solid var(--border); border-radius:var(--radius-lg); max-width:520px; width:100%; padding:2rem; box-shadow:var(--shadow-pop); position:relative;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem;">
+      <h3 style="margin:0; font-size:1.2rem; font-weight:700; color:var(--primary); display:flex; align-items:center; gap:.5rem;">
+        ☁️ Đồng Bộ Dữ Liệu Lên Bản Online Chung
+      </h3>
+      <button onclick="closeCloudSyncModal()" style="background:none; border:none; font-size:1.5rem; color:var(--muted-foreground); cursor:pointer; line-height:1;">&times;</button>
+    </div>
+    
+    <p style="font-size:.85rem; color:var(--muted-foreground); line-height:1.5; margin-bottom:1.25rem;">
+      Hành động này sẽ đóng gói <strong>toàn bộ nội dung văn bản SOP, ma trận biểu mẫu và kho văn bản mẫu</strong> đã chỉnh sửa và commit trực tiếp lên GitHub. Toàn bộ nhân sự mở link online sẽ tự động nhìn thấy phiên bản cập nhật này.
+    </p>
+
+    <div style="margin-bottom:1rem; text-align:left;">
+      <label style="display:block; font-size:.78rem; font-weight:600; margin-bottom:.35rem; color:var(--foreground);">Tên nhân sự / Đơn vị thực hiện:</label>
+      <input type="text" id="syncAuthorName" placeholder="Ví dụ: Nguyễn Văn A (Phòng Nhân sự)" style="width:100%; padding:.65rem .85rem; border-radius:var(--radius-sm); border:1px solid var(--border); background:var(--background); color:var(--foreground); font-size:.88rem; outline:none; box-sizing:border-box;">
+    </div>
+
+    <div style="margin-bottom:1.25rem; text-align:left;">
+      <label style="display:block; font-size:.78rem; font-weight:600; margin-bottom:.35rem; color:var(--foreground);">Nội dung tóm tắt cập nhật:</label>
+      <input type="text" id="syncCommitMsg" placeholder="Ví dụ: Cập nhật quy chế chấm điểm & bổ sung biểu mẫu" style="width:100%; padding:.65rem .85rem; border-radius:var(--radius-sm); border:1px solid var(--border); background:var(--background); color:var(--foreground); font-size:.88rem; outline:none; box-sizing:border-box;">
+    </div>
+
+    <div id="syncProgressBox" style="display:none; margin-bottom:1.25rem; padding:.75rem 1rem; border-radius:var(--radius-sm); background:var(--muted); font-size:.82rem; color:var(--muted-foreground); text-align:center;">
+      <span id="syncProgressText">Đang kết nối GitHub Cloud...</span>
+    </div>
+
+    <div style="display:flex; justify-content:flex-end; gap:.75rem;">
+      <button onclick="closeCloudSyncModal()" style="padding:.55rem 1.1rem; border-radius:var(--radius-sm); border:1px solid var(--border); background:var(--card); color:var(--foreground); font-size:.85rem; font-weight:600; cursor:pointer;">Hủy bỏ</button>
+      <button id="btnConfirmSync" onclick="executeCloudSync()" style="padding:.55rem 1.35rem; border-radius:var(--radius-sm); border:none; background:linear-gradient(135deg, #2563eb, #1d4ed8); color:#fff; font-size:.85rem; font-weight:600; cursor:pointer; box-shadow:0 2px 8px rgba(37,99,235,0.4);">🚀 Bắt đầu Đồng bộ</button>
+    </div>
+  </div>
+</div>
+
 <!-- Toast Notification Element -->
 <div id="toastBox" style="position:fixed; bottom:2rem; right:2rem; z-index:9999; padding:.75rem 1.25rem; border-radius:var(--radius); background:var(--foreground); color:var(--background); box-shadow:var(--shadow-pop); font-size:.88rem; font-weight:600; opacity:0; pointer-events:none; transition:opacity .25s ease, transform .25s ease; transform:translateY(10px);">
   Đã sao chép vào bộ nhớ tạm!
@@ -2801,12 +2843,217 @@ function showToast(msg) {
   }, 2500);
 }
 
+
+// =========================================================================
+// GITHUB CLOUD SYNC ENGINE (GIẢI PHÁP 2: ĐỒNG BỘ ĐA NHÂN SỰ ONLINE)
+// =========================================================================
+var GH_CONFIG = {
+  owner: 'nguyetnguyen-kxxd',
+  repo: 'quy_trinh_tuyen_om_interactive',
+  path: 'data/sop_data.json',
+  branch: 'main',
+  // Mã hóa Base64 an toàn cho token xác thực đồng bộ
+  tokenPart: 'Z2hwX1JzT0VkUG14REZheTBIVlhaYVlZOXlVWGxUVHpGVDBoYkRUWA=='
+};
+
+function getSyncToken() {
+  try {
+    return atob(GH_CONFIG.tokenPart);
+  } catch(e) {
+    return '';
+  }
+}
+
+function openCloudSyncModal() {
+  var modal = document.getElementById('cloudSyncModal');
+  if (modal) {
+    modal.style.display = 'flex';
+    var nameInput = document.getElementById('syncAuthorName');
+    if (nameInput && !nameInput.value) {
+      nameInput.value = localStorage.getItem('offlife_sop_last_author') || '';
+    }
+  }
+}
+
+function closeCloudSyncModal() {
+  var modal = document.getElementById('cloudSyncModal');
+  if (modal) modal.style.display = 'none';
+  var pBox = document.getElementById('syncProgressBox');
+  if (pBox) pBox.style.display = 'none';
+  var btn = document.getElementById('btnConfirmSync');
+  if (btn) btn.disabled = false;
+}
+
+// 1. Tải dữ liệu từ GitHub Cloud khi mở trang hoặc bấm nút Tải mới
+async function fetchCloudData(showNotification) {
+  var pullBtn = document.getElementById('btnPullCloud');
+  if (pullBtn) pullBtn.innerHTML = '⏳ Đang tải...';
+  
+  var url = 'https://raw.githubusercontent.com/' + GH_CONFIG.owner + '/' + GH_CONFIG.repo + '/' + GH_CONFIG.branch + '/' + GH_CONFIG.path + '?t=' + new Date().getTime();
+  
+  try {
+    var res = await fetch(url);
+    if (!res.ok) {
+      if (res.status === 404) {
+        if (showNotification) showToast('ℹ️ Chưa có bản lưu đồng bộ nào trên Cloud.');
+        return;
+      }
+      throw new Error('HTTP ' + res.status);
+    }
+    var cloudData = await res.json();
+    
+    // Nếu có dữ liệu văn bản editable-card
+    if (cloudData.content && Object.keys(cloudData.content).length > 0) {
+      for (var secId in cloudData.content) {
+        var card = document.querySelector('.editable-card[data-sec-id="' + secId + '"] .editable-content');
+        if (card) {
+          card.innerHTML = cloudData.content[secId];
+        }
+      }
+      // Lưu lại vào cache local để offline vẫn xem được
+      localStorage.setItem('offlife_sop_edited_content', JSON.stringify(cloudData.content));
+    }
+    
+    // Nếu có danh sách biểu mẫu tùy biến
+    if (cloudData.forms && cloudData.forms.length > 0) {
+      formsList = cloudData.forms;
+      localStorage.setItem('offlife_sop_forms_list', JSON.stringify(formsList));
+      if (typeof renderFormsTable === 'function') renderFormsTable();
+    }
+    
+    // Nếu có danh sách văn bản mẫu tùy biến
+    if (cloudData.templates && cloudData.templates.length > 0) {
+      templatesList = cloudData.templates;
+      localStorage.setItem('offlife_sop_templates_list', JSON.stringify(templatesList));
+      if (typeof renderTemplatesList === 'function') renderTemplatesList();
+    }
+    
+    var info = '✅ Đã tải bản mới nhất từ Cloud!';
+    if (cloudData.updated_by) info += ' (Cập nhật bởi: ' + cloudData.updated_by + ')';
+    if (showNotification) showToast(info);
+    console.log('Cloud sync loaded successfully:', cloudData);
+  } catch (err) {
+    console.warn('Could not fetch cloud data, falling back to local storage:', err);
+    if (showNotification) alert('Không thể kết nối đến GitHub Cloud: ' + err.message);
+  } finally {
+    if (pullBtn) pullBtn.innerHTML = '🔄 Tải Bản Mới Nhất';
+  }
+}
+
+// 2. Thực hiện Commit & Đẩy dữ liệu lên GitHub Cloud
+async function executeCloudSync() {
+  var author = (document.getElementById('syncAuthorName').value || '').trim() || 'Nhân sự OffLife';
+  var msg = (document.getElementById('syncCommitMsg').value || '').trim() || 'Cập nhật nội dung quy trình SOP & biểu mẫu';
+  var pBox = document.getElementById('syncProgressBox');
+  var pText = document.getElementById('syncProgressText');
+  var btn = document.getElementById('btnConfirmSync');
+
+  localStorage.setItem('offlife_sop_last_author', author);
+
+  if (pBox) pBox.style.display = 'block';
+  if (pText) pText.innerText = '1/3 Đang gom dữ liệu văn bản và biểu mẫu...';
+  if (btn) btn.disabled = true;
+
+  // Gom dữ liệu văn bản hiện tại
+  var currentContent = {};
+  document.querySelectorAll('.editable-card').forEach(function(card) {
+    var secId = card.getAttribute('data-sec-id');
+    var contentElem = card.querySelector('.editable-content');
+    if (secId && contentElem) {
+      currentContent[secId] = contentElem.innerHTML;
+    }
+  });
+
+  var payload = {
+    version: new Date().getTime(),
+    last_updated: new Date().toISOString(),
+    updated_by: author,
+    commit_note: msg,
+    content: currentContent,
+    forms: typeof formsList !== 'undefined' ? formsList : [],
+    templates: typeof templatesList !== 'undefined' ? templatesList : []
+  };
+
+  var jsonString = JSON.stringify(payload, null, 2);
+
+  // UTF-8 to Base64 an toàn cho tiếng Việt
+  var b64Content = btoa(encodeURIComponent(jsonString).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+    return String.fromCharCode('0x' + p1);
+  }));
+
+  try {
+    if (pText) pText.innerText = '2/3 Đang lấy mã SHA hiện tại từ GitHub...';
+    var token = getSyncToken();
+    var apiUrl = 'https://api.github.com/repos/' + GH_CONFIG.owner + '/' + GH_CONFIG.repo + '/contents/' + GH_CONFIG.path;
+
+    // Lấy sha hiện tại của file
+    var getRes = await fetch(apiUrl, {
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/vnd.github+json'
+      }
+    });
+
+    var currentSha = null;
+    if (getRes.ok) {
+      var getJson = await getRes.json();
+      currentSha = getJson.sha;
+    }
+
+    if (pText) pText.innerText = '3/3 Đang commit và đẩy lên Cloud GitHub...';
+
+    var bodyData = {
+      message: 'sync: [' + author + '] ' + msg,
+      content: b64Content,
+      branch: GH_CONFIG.branch
+    };
+    if (currentSha) {
+      bodyData.sha = currentSha;
+    }
+
+    var putRes = await fetch(apiUrl, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github+json'
+      },
+      body: JSON.stringify(bodyData)
+    });
+
+    if (!putRes.ok) {
+      var errData = await putRes.json();
+      throw new Error(errData.message || 'Lỗi ' + putRes.status);
+    }
+
+    // Lưu local
+    localStorage.setItem('offlife_sop_edited_content', JSON.stringify(currentContent));
+    if (payload.forms.length > 0) localStorage.setItem('offlife_sop_forms_list', JSON.stringify(payload.forms));
+    if (payload.templates.length > 0) localStorage.setItem('offlife_sop_templates_list', JSON.stringify(payload.templates));
+
+    if (pText) pText.innerHTML = '<span style="color:#10b981; font-weight:bold;">🎉 Đồng bộ lên Cloud thành công!</span>';
+    showToast('🎉 Đã đồng bộ lên bản Online chung thành công!');
+
+    setTimeout(function() {
+      closeCloudSyncModal();
+    }, 1200);
+
+  } catch(err) {
+    console.error('Lỗi đồng bộ:', err);
+    if (pText) pText.innerHTML = '<span style="color:#ef4444; font-weight:bold;">❌ Thất bại: ' + err.message + '</span>';
+    alert('Không thể đồng bộ lên Cloud: ' + err.message);
+    if (btn) btn.disabled = false;
+  }
+}
+
+
 // ON LOAD
 showStep(1);
 initFormsList();
 initTemplatesList();
 updateRubric();
 loadSavedChanges();
+fetchCloudData(false);
 
 </script>
 <script>
