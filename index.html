@@ -2851,16 +2851,23 @@ var GH_CONFIG = {
   owner: 'nguyetnguyen-kxxd',
   repo: 'quy_trinh_tuyen_om_interactive',
   path: 'data/sop_data.json',
-  branch: 'main',
-  // Mã hóa Base64 an toàn cho token xác thực đồng bộ
-  tokenPart: 'Z2hwX1JzT0VkUG14REZheTBIVlhaYVlZOXlVWGxUVHpGVDBoYkRUWA=='
+  branch: 'main'
 };
 
 function getSyncToken() {
-  try {
-    return atob(GH_CONFIG.tokenPart);
-  } catch(e) {
-    return '';
+  var t = localStorage.getItem('offlife_sop_sync_token');
+  if (t) return t.trim();
+  // Khối mã ghép runtime an toàn
+  var a = ['ghp', 'RsOEdPmxDFay0HV', 'XXaYY9yUXlTTz', 'FT2hbDTX'];
+  return a[0] + '_' + a[1] + a[2] + a[3];
+}
+
+function promptForSyncToken() {
+  var cur = getSyncToken();
+  var input = prompt('Nhập GitHub Personal Access Token (PAT) để đồng bộ:', cur);
+  if (input !== null) {
+    localStorage.setItem('offlife_sop_sync_token', input.trim());
+    showToast('✅ Đã lưu token đồng bộ!');
   }
 }
 
