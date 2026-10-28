@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" style="width:100%; min-width:800px; height:auto; font-family:Inter, sans-serif;">
+        <rect x="0" y="0" width="240" height="760" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+        <rect x="240" y="0" width="240" height="760" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+        <rect x="480" y="0" width="240" height="760" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+        <rect x="720" y="0" width="240" height="760" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+
+        <rect x="0" y="0" width="240" height="44" fill="#2563eb" rx="4"/>
+        <text x="120" y="27" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">1. ỨNG VIÊN OM (Candidate)</text>
+
+        <rect x="240" y="0" width="240" height="44" fill="#0284c7" rx="4"/>
+        <text x="360" y="27" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">2. BAN VẬN HÀNH / HR (PMO)</text>
+
+        <rect x="480" y="0" width="240" height="44" fill="#7c3aed" rx="4"/>
+        <text x="600" y="27" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">3. HỘI ĐỒNG CHUYÊN MÔN</text>
+
+        <rect x="720" y="0" width="240" height="44" fill="#0d9488" rx="4"/>
+        <text x="840" y="27" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">4. BGD DỰ ÁN (Approver)</text>
+
+        <rect x="40" y="65" width="160" height="36" rx="18" fill="#10b981" stroke="#059669" stroke-width="2"/>
+        <text x="120" y="88" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">Khởi động: Đăng ký hồ sơ</text>
+
+        <path d="M120 101 L120 125" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+        <rect x="30" y="125" width="180" height="48" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+        <text x="120" y="145" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">B1: Nộp Hồ sơ BM-OM-01</text>
+        <text x="120" y="161" font-size="10" fill="#64748b" text-anchor="middle">(Hồ sơ năng lực & Khai trình)</text>
+
+        <path d="M210 149 L270 149" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+        <polygon points="360,120 430,149 360,178 290,149" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+        <text x="360" y="145" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">Tham dự OffLife</text>
+        <text x="360" y="158" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">≥ 02 phiên?</text>
+
+        <path d="M360 178 L360 210" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arr)"/>
+        <rect x="280" y="210" width="160" height="36" rx="6" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+        <text x="360" y="232" font-size="10" fill="#991b1b" font-weight="bold" text-anchor="middle">Từ chối: Chưa đủ điều kiện</text>
+
+        <path d="M430 149 L510 149" stroke="#10b981" stroke-width="2" marker-end="url(#arr)"/>
+        <text x="465" y="142" font-size="10" fill="#059669" font-weight="bold">Đạt</text>
+
+        <rect x="510" y="125" width="180" height="48" rx="6" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+        <text x="600" y="145" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">B2: Phỏng vấn Chuẩn mực</text>
+        <text x="600" y="161" font-size="10" fill="#64748b" text-anchor="middle">(Kiểm tra liêm chính & BM-02)</text>
+
+        <path d="M600 173 L600 200" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+        <polygon points="600,200 670,229 600,258 530,229" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+        <text x="600" y="225" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">Đạt chuẩn mực</text>
+        <text x="600" y="238" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">đạo đức nghề nghiệp?</text>
+
+        <path d="M670 229 L700 229 L700 270 L600 270" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+        <rect x="520" y="285" width="160" height="34" rx="6" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+        <text x="600" y="306" font-size="10" fill="#991b1b" text-anchor="middle">Không đạt: Đình chỉ quy trình</text>
+
+        <path d="M530 229 L360 229 L360 330" stroke="#10b981" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+        <text x="420" y="222" font-size="10" fill="#059669" font-weight="bold">Đạt chuẩn</text>
+
+        <rect x="270" y="330" width="180" height="52" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="1.5"/>
+        <text x="360" y="350" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">B3.1: Cấp Portal Đào tạo</text>
+        <text x="360" y="366" font-size="10" fill="#64748b" text-anchor="middle">(5 Modules Video & Cẩm nang)</text>
+
+        <path d="M270 356 L200 356 L200 400 L120 400 L120 420" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+        <rect x="30" y="420" width="180" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+        <text x="120" y="440" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">B3.2: Học viên Tự đào tạo</text>
+        <text x="120" y="456" font-size="10" fill="#64748b" text-anchor="middle">(Nghiên cứu 102 chuyên đề)</text>
+
+        <path d="M120 472 L120 510 L510 510" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+        <rect x="510" y="485" width="180" height="52" rx="6" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+        <text x="600" y="505" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">B4: Sát hạch Thực địa</text>
+        <text x="600" y="521" font-size="10" fill="#64748b" text-anchor="middle">Co-host & Chấm Rubric ĐG-OM-01</text>
+
+        <path d="M600 537 L600 565" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+        <polygon points="600,565 670,594 600,623 530,594" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+        <text x="600" y="590" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">Điểm ≥ 80 &</text>
+        <text x="600" y="603" font-size="10" font-weight="bold" text-anchor="middle" fill="#92400e">Không vi phạm Cấm?</text>
+
+        <path d="M530 594 L470 594 L470 510 L510 510" stroke="#d97706" stroke-width="1.5" fill="none"/>
+        <text x="475" y="580" font-size="9" fill="#d97706">Chưa đạt: Tái sát hạch</text>
+
+        <path d="M670 594 L750 594" stroke="#10b981" stroke-width="2" marker-end="url(#arr)"/>
+        <text x="695" y="586" font-size="10" fill="#059669" font-weight="bold">Đạt chuẩn</text>
+
+        <rect x="750" y="568" width="160" height="52" rx="6" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+        <text x="830" y="588" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">B5: Tờ trình TT-OM-01</text>
+        <text x="830" y="604" font-size="10" fill="#0d9488" font-weight="bold" text-anchor="middle">BGD Phê chuẩn QĐ-OM-01</text>
+
+        <path d="M830 620 L830 680 L440 680" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+        <rect x="260" y="655" width="180" height="50" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="1.5"/>
+        <text x="350" y="675" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e293b">B6: Ký Cam kết CK-OM-01</text>
+        <text x="350" y="691" font-size="10" fill="#64748b" text-anchor="middle">Cấp Quyền Hệ thống & Bàn giao Kit</text>
+
+        <path d="M260 680 L190 680" stroke="#10b981" stroke-width="2" marker-end="url(#arr)"/>
+        <rect x="20" y="655" width="170" height="50" rx="25" fill="#10b981" stroke="#059669" stroke-width="2"/>
+        <text x="105" y="678" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">CHÍNH THỨC CẤP</text>
+        <text x="105" y="693" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">LICENSE OFFLIFE MASTER</text>
+
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 8 5 L 0 9 z" fill="#64748b"/>
+          </marker>
+        </defs>
+      </svg>

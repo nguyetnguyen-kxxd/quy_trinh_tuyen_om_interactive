@@ -1,31 +1,38 @@
 # QUY TRÌNH TIÊU CHUẨN (SOP): TUYỂN CHỌN, ĐÀO TẠO & CẤP QUYỀN HOẠT ĐỘNG OFFLIFE MASTER (OM)
-**Mã hiệu văn bản:** SOP-OM-01 | **Phiên bản:** 2.5 (Interactive Cloud Edition) | **Ngày ban hành:** 28/10/2026  
-**Đơn vị ban hành:** Ban Quản lý Dự án Giáo dục OffLife  
-**Căn cứ pháp lý & Tài liệu viện dẫn:**
-- Nghị định số 30/2020/NĐ-CP ngày 05/03/2020 của Chính phủ về công tác văn thư;
-- Luật An toàn thông tin mạng & Nghị định 13/2023/NĐ-CP về Bảo vệ dữ liệu cá nhân (DPA);
-- Kế hoạch Phát triển Mạng lưới Điều phối viên Dự án OffLife giai đoạn 2025 - 2026;
-- Tài liệu Đào tạo OffLife Master v3.0 (Quy chế lưu hành nội bộ);
-- Khung Danh mục 102 Chuyên đề Quản trị Thực tế OnLife.
+
+> **Mã hiệu văn bản:** `SOP-OM-01` | **Phiên bản:** `2.0 (Chuẩn hóa Pháp lý & Vận hành)` | **Ngày ban hành:** `28/10/2026`  
+> **Căn cứ pháp lý:** Nghị định số 30/2020/NĐ-CP của Chính phủ về công tác văn thư; Nghị định số 13/2023/NĐ-CP về Bảo vệ dữ liệu cá nhân (DPA); Tài liệu Đào tạo OffLife Master v3.0; Khung Danh mục 102 Chuyên đề Quản trị Thực tế OnLife.  
+> **Tài liệu tham chiếu trực tuyến:** [Ứng dụng Tương tác SOP Online](https://nguyetnguyen-kxxd.github.io/quy_trinh_tuyen_om_interactive/)
 
 ---
 
-## PHẦN I: TỔNG QUAN MỤC ĐÍCH, PHẠM VI & PHÂN ĐỊNH RANH GIỚI NGHỀ NGHIỆP OM
+## MỤC LỤC TỔNG QUAN
 
-### 1. Mục Đích Ban Hành
+1. [Mục Đích, Phạm Vi & Phân Định Trách Nhiệm Nghề Nghiệp (5W1H & RACI)](#1-mục-đích-phạm-vi--phân-định-trách-nhiệm-nghề-nghiệp-5w1h--raci)
+2. [Quy Trình 7 Bước Tuyển Chọn, Đào Tạo & Cấp Phép OM](#2-quy-trình-7-bước-tuyển-chọn-đào-tạo--cấp-phép-om)
+3. [Sơ Đồ Điều Hành Phân Làn (Swimlane Flowchart)](#3-sơ-đồ-điều-hành-phân-làn-swimlane-flowchart)
+4. [Ma Trận 11 Biểu Mẫu & Tra Cứu Nghiệp Vụ (Document Matrix)](#4-ma-trận-11-biểu-mẫu--tra-cứu-nghiệp-vụ-document-matrix)
+5. [Trình Sát Hạch Đánh Giá Năng Lực Thực Hành Trực Tuyến (Rubric ĐG-OM-01)](#5-trình-sát-hạch-đánh-giá-năng-lực-thực-hành-trực-tuyến-rubric-đg-om-01)
+6. [Kho Biểu Mẫu & Toàn Văn 11 Văn Bản Quản Trị Chuẩn Hóa](#6-kho-biểu-mẫu--toàn-văn-11-văn-bản-quản-trị-chuẩn-hóa)
+
+---
+
+## 1. MỤC ĐÍCH, PHẠM VI & PHÂN ĐỊNH TRÁCH NHIỆM NGHỀ NGHIỆP (5W1H & RACI)
+
+### 1.1. Mục Đích Ban Hành
 Quy trình này quy định trình tự thủ tục, tiêu chí đánh giá định lượng và thẩm quyền phê duyệt đối với công tác tuyển chọn, bồi dưỡng nghiệp vụ tập trung và cấp Giấy phép điều phối (License) cho chức danh **OffLife Master (OM)** trực thuộc Dự án OffLife.
 
 > [!NOTE]
 > **HAI TRỤ CỘT NĂNG LỰC CHUẨN HÓA CỦA VỊ TRÍ OFFLIFE MASTER (OM):**
-> 1. **Năng lực Chuyên môn (Professional Competency):** Làm chủ hệ thống thông số mô phỏng (tương tác định lượng 3 nguồn lực Tiền - Sức khỏe - Trí tuệ); điều phối chính xác 7 bước vòng chơi hàng năm; quản trị các biến cố tài chính, vỡ nợ, đột tử và kiểm soát thời lượng phiên chơi (40 năm trong 180 phút).
+> 1. **Năng lực Chuyên môn (Professional Competency):** Làm chủ hệ thống thông số mô phỏng (tương tác định lượng 3 nguồn lực Tiền - Sức khỏe - Trí tuệ); điều phối chính xác 7 bước vòng chơi hàng năm; quản trị các biến cố tài chính, vỡ nợ, đột tử và kiểm soát thời lượng phiên chơi (40 năm mô phỏng trong 180 phút).
 > 2. **Tuân thủ Chuẩn mực Đạo đức & Liêm chính (Ethical Compliance & Integrity):** Tuyệt đối giữ tính khách quan; kiểm soát xung đột lợi ích; bảo vệ dữ liệu cá nhân của người tham gia; không đưa ra lời khuyên đầu tư tài chính cá nhân ngoài đời thực.
 
-### 2. Phạm Vi Điều Chỉnh & Lộ Trình Phân Cấp Chức Danh
-- **Phạm vi điều chỉnh:** Áp dụng trên toàn hệ thống Dự án OffLife đối với mọi hoạt động tuyển chọn, đào tạo, cấp mới, duy trì, nâng hạng và thu hồi quyền điều phối.
-- **Lộ trình thăng tiến nghề nghiệp điều phối:**
+### 1.2. Phạm Vi Điều Chỉnh & Lộ Trình Phân Cấp Chức Danh
+- **Phạm vi điều chỉnh:** Áp dụng trên toàn hệ thống Dự án OffLife đối với mọi hoạt động tuyển chọn, bồi dưỡng chuyên môn, cấp mới, duy trì, nâng hạng và thu hồi quyền điều phối viên.
+- **Lộ trình phân cấp chức danh điều phối:**
   $$\text{Người tham gia (Player)} \longrightarrow \text{OM Tập sự (Apprentice OM)} \longrightarrow \text{OM Đạt chuẩn (Certified OM)} \longrightarrow \text{OM Cao cấp (Senior Lead OM)}$$
 
-### 3. Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên
+### 1.3. Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên
 
 | Tiêu chí so sánh | Người dẫn chương trình (MC) | Giảng viên đào tạo (Trainer) | Điều phối viên OffLife Master (OM) |
 | :--- | :--- | :--- | :--- |
@@ -33,11 +40,11 @@ Quy trình này quy định trình tự thủ tục, tiêu chí đánh giá đ�
 | **Phương thức tương tác** | Khuấy động không khí, tương tác bề nổi | Thuyết giảng, yêu cầu ghi nhớ nội dung | **Đặt câu hỏi gợi mở truy vấn bài học; để đối tượng tự quyết định và tự chịu trách nhiệm** |
 | **Phạm vi kiểm soát rủi ro** | Kiểm soát thời lượng và kịch bản sự kiện | Kiểm soát tính chính xác của bài giảng | **Kiểm soát tính khách quan, bảo mật dữ liệu và kiểm soát xung đột lợi ích** |
 
-### 4. Hệ Thống 3 Nguyên Tắc Hoạt Động & Quy Chế Không Khoan Nhượng (Zero Tolerance)
+### 1.4. Hệ Thống 3 Nguyên Tắc Hoạt Động & Quy Chế Không Khoan Nhượng (Zero Tolerance)
 Căn cứ Phần I Tài liệu Đào tạo OffLife Master v3.0, nhân sự ứng tuyển và đang hành nghề phải tuân thủ nghiêm ngặt 3 nguyên tắc:
 1. **Nguyên tắc Phát triển liên tục:** Định kỳ cập nhật nghiệp vụ, tiếp nhận dữ liệu phản hồi sau mỗi phiên làm việc và đóng góp cải tiến hệ thống.
 2. **Nguyên tắc Hợp tác cùng có lợi (Win-Win):** Đặt hiệu quả nhận thức của người tham gia làm ưu tiên cao nhất; duy trì mô hình cung ứng dịch vụ minh bạch và bền vững.
-3. **Nguyên tắc Trung thực & Liêm chính:** Áp dụng chế tài Không khoan nhượng đối với các hành vi vi phạm đạo đức.
+3. **Nguyên tắc Trung thực & Liêm chính:** Thực thi chế tài Không khoan nhượng đối với 4 hành vi vi phạm đạo đức nghề nghiệp.
 
 > [!WARNING]
 > **4 HÀNH VI VI PHẠM NGHIÊM TRỌNG — THU HỒI TƯ CÁCH & QUYỀN SỬ DỤNG LICENSE NGAY LẬP TỨC:**
@@ -46,13 +53,13 @@ Căn cứ Phần I Tài liệu Đào tạo OffLife Master v3.0, nhân sự ứng
 > 3. **Thao túng (Undue Influence):** Sử dụng tình huống mô phỏng để gieo rắc định kiến hoặc áp lực nhằm định hướng người tham gia mua sản phẩm thương mại khác.
 > 4. **Lợi dụng (Data Exploitation):** Khai thác, phát tán hoặc thương mại hóa trái phép dữ liệu cá nhân và thông tin riêng tư của người tham gia.
 
-### 5. Giới Hạn Thẩm Quyền & Các Hành Vi Bị Nghiêm Cấm
-- Tuyệt đối **không đưa ra khuyến nghị hoặc tư vấn tài chính cá nhân cụ thể ngoài đời thực** (ví dụ: tư vấn mua mã cổ phiếu, vay thế chấp, lướt sóng bất động sản).
+### 1.5. Giới Hạn Thẩm Quyền & Các Hành Vi Bị Nghiêm Cấm
+- Tuyệt đối **không đưa ra khuyến nghị hoặc tư vấn tài chính cá nhân cụ thể ngoài đời thực** (ví dụ: tư vấn mua mã cổ phiếu cụ thể, vay thế chấp ngân hàng, lướt sóng bất động sản).
 - Không tiết lộ thông số thuật toán ngầm hoặc kịch bản thử thách của hệ thống trước và trong phiên mô phỏng.
 - Không tự ý sửa đổi quy tắc vận hành khi chưa có văn bản chấp thuận từ Ban Quản lý Dự án.
 - Không phán xét hay áp đặt định kiến cá nhân lên quyết định của người tham gia trong tiến trình mô phỏng.
 
-### 6. Ma Trận Phân Định Trách Nhiệm (RACI Matrix)
+### 1.6. Ma Trận Phân Định Trách Nhiệm (RACI Matrix)
 
 | Giai đoạn công việc | Ứng viên OM | Ban Vận hành / HR (Thu Hà) | Hội đồng Chuyên môn (Kim Thoa) | Ban Quản lý Dự án (Võ Duy Anh) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -64,233 +71,289 @@ Căn cứ Phần I Tài liệu Đào tạo OffLife Master v3.0, nhân sự ứng
 | 6. Ký Thỏa thuận Cam kết & Cấp License | **R** (Ký cam kết) | **R** (Lưu trữ HS) | **C** (Xác nhận) | **A** (Ký Quyết định) |
 | 7. Bàn giao Bộ Kit & Kiểm soát Chất lượng | **R** (Tiếp nhận) | **A / R** (Bàn giao Kit) | **C** (Kiểm tra) | **I** (Báo cáo định kỳ) |
 
-*Quy ước RACI: R = Responsible (Thực hiện trực tiếp); A = Accountable (Chịu trách nhiệm pháp lý / Phê duyệt); C = Consulted (Tham vấn chuyên môn); I = Informed (Thông báo kết quả).*
+*Ghi chú quy ước RACI:*  
+- **R - Responsible:** Chủ thể trực tiếp thực hiện hành động.  
+- **A - Accountable:** Chủ thể chịu trách nhiệm pháp lý cao nhất hoặc có thẩm quyền phê duyệt cuối cùng.  
+- **C - Consulted:** Chủ thể tham vấn chuyên môn, phối hợp đánh giá.  
+- **I - Informed:** Chủ thể nhận báo cáo hoặc thông báo kết quả.
 
 ---
 
-## PHẦN II: LƯU ĐỒ QUY TRÌNH PHÂN LÀN & TIẾN TRÌNH 7 BƯỚC TUYỂN CHỌN OM
+## 2. QUY TRÌNH 7 BƯỚC TUYỂN CHỌN, ĐÀO TẠO & CẤP PHÉP OM
 
-### 1. Lưu Đồ Quy Trình Phân Làn (Swimlane Flowchart)
+### 2.1. Bảng Tổng Hợp Trình Tự 7 Bước Nghiệp Vụ
 
-```mermaid
-flowchart TD
-    classDef startEnd fill:#10b981,stroke:#059669,stroke-width:2px,color:#fff;
-    classDef action fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af;
-    classDef decision fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e;
-
-    subgraph LANE_UV ["1. ỨNG VIÊN OM (Candidate)"]
-        UV_Start(["Bắt đầu: Đăng ký ứng tuyển"]) :::startEnd
-        UV_Submit["B1: Nộp Hồ sơ năng lực & Bản tự đánh giá (BM-OM-01)"] :::action
-        UV_Interview["B2.2: Tham gia Phỏng vấn Đánh giá Sự phù hợp"] :::action
-        UV_Learn["B3.2: Hoàn thành 5 Module Video & Cẩm nang v3.0"] :::action
-        UV_Mock["B4.1: Thực hành điều phối có giám sát (Co-host)"] :::action
-        UV_Commit["B6: Ký VBPL: Hợp đồng dịch vụ + NDA + DPA (CK-OM-01)"] :::action
-        UV_Official(["Chính thức được cấp License Hoạt động"]) :::startEnd
-    end
-
-    subgraph LANE_HR ["2. BAN VẬN HÀNH / NHÂN SỰ (PMO - Thu Hà)"]
-        HR_Receive["B1.2: Rà soát Điều kiện Tiên quyết (Tham dự ≥ 02 phiên)"] :::action
-        HR_Gate1{"Hồ sơ hợp lệ & Đạt tiên quyết?"} :::decision
-        HR_Reject1["Gửi Email Chưa Đạt (EM-OM-02) / Hướng dẫn tích lũy"] :::action
-        HR_Schedule["B2.1: Lập lịch phỏng vấn & Phổ biến quy chế sát hạch"] :::action
-        HR_Portal["B3.1: Phân quyền tài khoản đào tạo (Portal learn.html)"] :::action
-        HR_Contract["B6.2: Hoàn thiện Hồ sơ cấp phép & Cấp account manage.html"] :::action
-        HR_Kit["B7: Bàn giao Bộ Kit & Công cụ điều phối (BB-OM-01)"] :::action
-    end
-
-    subgraph LANE_LEAD ["3. HỘI ĐỒNG CHUYÊN MÔN (Lead OM - Kim Thoa)"]
-        LEAD_Interview["B2.3: Phỏng vấn 3 Trụ cột: Phát triển - Win-Win - Liêm chính"] :::action
-        LEAD_Gate2{"Đạt phỏng vấn chuẩn mực đạo đức?"} :::decision
-        LEAD_Reject2["Gửi Email Chưa Đạt (EM-OM-02): Không đạt chuẩn liêm chính"] :::action
-        LEAD_Observe["B4.2: Đánh giá Năng lực Sát hạch theo Rubric (ĐG-OM-01)"] :::action
-        LEAD_Gate3{"Điểm tổng ≥ 80 & Không vi phạm Zero Tolerance?"} :::decision
-        LEAD_ReTrain["Giao bài tập nghiệp vụ & Yêu cầu Co-host bổ sung"] :::action
-        LEAD_Report["B5.1: Lập Biên bản Sát hạch & Tờ trình Cấp License (TT-OM-01)"] :::action
-    end
-
-    subgraph LANE_BGD ["4. BAN QUẢN LÝ DỰ ÁN (Project Lead - Võ Duy Anh)"]
-        BGD_Approve{"B5.2: Thẩm tra & Phê chuẩn Tờ trình?"} :::decision
-        BGD_Reject["Yêu cầu phúc tra / Bổ sung tài liệu minh chứng"] :::action
-        BGD_Sign["Ký ban hành Quyết định Công nhận & Cấp License (QĐ-OM-01)"] :::action
-    end
-
-    %% Luồng liên kết
-    UV_Start --> UV_Submit
-    UV_Submit --> HR_Receive
-    HR_Receive --> HR_Gate1
-    HR_Gate1 -- "Không đạt" --> HR_Reject1
-    HR_Gate1 -- "Đạt chuẩn" --> HR_Schedule
-    HR_Schedule --> UV_Interview
-    UV_Interview --> LEAD_Interview
-    LEAD_Interview --> LEAD_Gate2
-    LEAD_Gate2 -- "Không đạt" --> LEAD_Reject2
-    LEAD_Gate2 -- "Đạt chuẩn" --> HR_Portal
-    HR_Portal --> UV_Learn
-    UV_Learn --> UV_Mock
-    UV_Mock --> LEAD_Observe
-    LEAD_Observe --> LEAD_Gate3
-    LEAD_Gate3 -- "Không đạt điểm" --> LEAD_ReTrain
-    LEAD_ReTrain --> UV_Mock
-    LEAD_Gate3 -- "Đạt chuẩn (≥ 80đ)" --> LEAD_Report
-    LEAD_Report --> BGD_Approve
-    BGD_Approve -- "Yêu cầu chỉnh sửa" --> BGD_Reject
-    BGD_Reject --> LEAD_Observe
-    BGD_Approve -- "Phê chuẩn" --> BGD_Sign
-    BGD_Sign --> HR_Contract
-    HR_Contract --> UV_Commit
-    UV_Commit --> HR_Kit
-    HR_Kit --> UV_Official
-```
+| Bước | Tên Bước Nghiệp Vụ | Thời Hạn (SLA) | Chủ Thể Phụ Trách (RACI) | Cổng Kiểm Soát (Gate) | Biểu Mẫu / Văn Bản Áp Dụng |
+| :---: | :--- | :---: | :--- | :--- | :---: |
+| **B1** | Tiếp nhận Đơn & Thẩm định Tiên quyết | 01 ngày | Ứng viên OM & Ban Vận hành PMO | Đã tham gia $\ge 02$ phiên OffLife thực tế | `BM-OM-01` |
+| **B2** | Phỏng vấn Đánh giá Năng lực & Tuân thủ | 02 ngày | Hội đồng Chuyên môn (Lead OM) | Điểm phỏng vấn $\ge 75/100$ & Không vi phạm liêm chính | `BM-OM-02` |
+| **B3** | Đào tạo Nghiệp vụ Hệ thống (Portal v3.0) | 05 ngày | Ứng viên OM & Ban Huấn luyện | Hoàn thành 100% video & Điểm lý thuyết $\ge 90/100$ | `BM-OM-03` |
+| **B4** | Sát hạch Thực hành Thực địa (Co-host) | 01 phiên (3h) | Ứng viên & Giám khảo Lead OM | Điểm Rubric $\ge 80/100$ & Không vi phạm Zero Tolerance | `ĐG-OM-01` |
+| **B5** | Thẩm định Hồ sơ & Lập Tờ trình Cấp phép | 01 ngày | Lead OM lập & Trưởng Dự án duyệt | Hồ sơ đủ 4 chứng từ hợp lệ theo Nghị định 30 | `TT-OM-01` |
+| **B6** | Ký Thỏa thuận Ràng buộc & Cấp Quyền | 0.5 ngày | Ứng viên & Ban Vận hành PMO | Ký hoàn tất Hợp đồng dịch vụ + NDA + DPA | `QĐ-OM-01`, `CK-OM-01` |
+| **B7** | Bàn giao Bộ Kit & Kiểm soát Chất lượng | 0.5 ngày | Bộ phận Kit & Kiểm soát Chất lượng | Điểm hài lòng khách hàng (CSAT) $\ge 4.5/5.0$ sao | `BB-OM-01`, `BM-OM-04` |
 
 
-### 2. Chi Tiết Toàn Bộ 7 Bước Quy Trình Tuyển Chọn & Đào Tạo OM
+### 2.2. Đặc Tả Chi Tiết 7 Bước Quy Trình Chuẩn Hóa
 
 #### Bước 1: Tiếp nhận Đơn & Thẩm định Tiên quyết
-- **Thời hạn giải quyết (SLA):** 01 ngày làm việc
-- **Chủ thể phụ trách (RACI):** Ứng viên OM & Bộ phận Vận hành PMO (Thu Hà)
-- **Hồ sơ đầu vào (Input):**
-  Phiếu đăng ký dự tuyển BM-OM-01, CCCD, Bằng cấp/Chứng chỉ, Dữ liệu tham gia tối thiểu 02 phiên chơi thực tế.
-- **Thao tác nghiệp vụ (Action):**
-  Ứng viên nộp hồ sơ. Bộ phận Vận hành đối soát dữ liệu tham gia, thẩm tra tính liêm chính và xác minh điều kiện tiên quyết. Kích hoạt giao thức email kết quả tương ứng.
-- **Tiêu chuẩn kiểm soát / Điểm chặn (Gate / Criteria):**
-  Bắt buộc có xác nhận tham dự đủ tối thiểu 02 phiên OffLife thực tế và không có tiền sử vi phạm đạo đức nghề nghiệp.
-- **Kết quả đầu ra (Output):**
-  • NẾU ĐẠT: Gửi Email EM-OM-01 thông báo ĐẠT thẩm định điều kiện tiên quyết + Thư mời phỏng vấn B2 (thời gian, hình thức, nội dung chuẩn bị).
-  • NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT + Nêu rõ lý do (chưa đủ 02 phiên trải nghiệm thực tế hoặc thiếu chứng từ) + Hướng dẫn tham gia các phiên cộng đồng để tích lũy và nộp lại hồ sơ sau.
+
+- **Thời hạn giải quyết (SLA):** `01 ngày làm việc`
+- **Chủ thể phụ trách (RACI):** `Ứng viên OM & Bộ phận Vận hành PMO (Thu Hà)`
+
+| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
+| :--- | :--- |
+| **Hồ sơ đầu vào (Input)** | Phiếu đăng ký dự tuyển BM-OM-01, CCCD, Bằng cấp/Chứng chỉ, Dữ liệu tham gia tối thiểu 02 phiên chơi thực tế. |
+| **Thao tác nghiệp vụ (Action)** | Ứng viên nộp hồ sơ. Bộ phận Vận hành đối soát dữ liệu tham gia, thẩm tra tính liêm chính và xác minh điều kiện tiên quyết. Kích hoạt giao thức email kết quả tương ứng. |
+| **Cổng kiểm soát (Gate / Criteria)** | **Bắt buộc có xác nhận tham dự đủ tối thiểu 02 phiên OffLife thực tế và không có tiền sử vi phạm đạo đức nghề nghiệp.** |
+| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 thông báo ĐẠT thẩm định điều kiện tiên quyết + Thư mời phỏng vấn B2 (thời gian, hình thức, nội dung chuẩn bị).<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT + Nêu rõ lý do (chưa đủ 02 phiên trải nghiệm thực tế hoặc thiếu chứng từ) + Hướng dẫn tham gia các phiên cộng đồng để tích lũy và nộp lại hồ sơ sau. |
 
 #### Bước 2: Phỏng vấn Đánh giá Năng lực & Tuân thủ
-- **Thời hạn giải quyết (SLA):** 02 ngày làm việc
-- **Chủ thể phụ trách (RACI):** Hội đồng Chuyên môn (Kim Thoa) chủ trì & Ứng viên OM
-- **Hồ sơ đầu vào (Input):**
-  Hồ sơ dự tuyển BM-OM-01 và Đề phỏng vấn tình huống chuẩn mực BM-OM-02.
-- **Thao tác nghiệp vụ (Action):**
-  Hội đồng phỏng vấn trực tiếp nhằm thẩm định động cơ, nhận diện vai trò độc lập, năng lực quản trị cảm xúc và phản xạ tuân thủ quy chế. Ghi nhận điểm số và gửi email kết quả chuẩn.
-- **Tiêu chuẩn kiểm soát / Điểm chặn (Gate / Criteria):**
-  Ứng viên phải đạt tối thiểu 75/100 điểm phỏng vấn và không có biểu hiện thương mại hóa hoặc trục lợi khách hàng (Zero Tolerance).
-- **Kết quả đầu ra (Output):**
-  • NẾU ĐẠT: Gửi Email EM-OM-01 thông báo ĐẠT phỏng vấn chuẩn mực + Hướng dẫn kích hoạt tài khoản Portal Learn & phổ biến lịch đào tạo tập trung B3.
-  • NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT (kèm điểm số và nhận xét chuyên môn của Hội đồng) + Chính sách bảo lưu hồ sơ và thời gian đăng ký xét tuyển lại (sau tối thiểu 03 tháng).
+
+- **Thời hạn giải quyết (SLA):** `02 ngày làm việc`
+- **Chủ thể phụ trách (RACI):** `Hội đồng Chuyên môn (Kim Thoa) chủ trì & Ứng viên OM`
+
+| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
+| :--- | :--- |
+| **Hồ sơ đầu vào (Input)** | Hồ sơ dự tuyển BM-OM-01 và Đề phỏng vấn tình huống chuẩn mực BM-OM-02. |
+| **Thao tác nghiệp vụ (Action)** | Hội đồng phỏng vấn trực tiếp nhằm thẩm định động cơ, nhận diện vai trò độc lập, năng lực quản trị cảm xúc và phản xạ tuân thủ quy chế. Ghi nhận điểm số và gửi email kết quả chuẩn. |
+| **Cổng kiểm soát (Gate / Criteria)** | **Ứng viên phải đạt tối thiểu 75/100 điểm phỏng vấn và không có biểu hiện thương mại hóa hoặc trục lợi khách hàng (Zero Tolerance).** |
+| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 thông báo ĐẠT phỏng vấn chuẩn mực + Hướng dẫn kích hoạt tài khoản Portal Learn & phổ biến lịch đào tạo tập trung B3.<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT (kèm điểm số và nhận xét chuyên môn của Hội đồng) + Chính sách bảo lưu hồ sơ và thời gian đăng ký xét tuyển lại (sau tối thiểu 03 tháng). |
 
 #### Bước 3: Đào tạo Nghiệp vụ Điều phối Hệ thống (Portal & Cẩm nang v3.0)
-- **Thời hạn giải quyết (SLA):** 05 ngày học tập trung
-- **Chủ thể phụ trách (RACI):** Ứng viên OM & Ban Huấn luyện Đào tạo
-- **Hồ sơ đầu vào (Input):**
-  Tài khoản Portal Learn (video bài giảng), Cẩm nang Đào tạo OffLife Master v3.0 (12 phần), Sổ tay bài tập tình huống BM-OM-03.
-- **Thao tác nghiệp vụ (Action):**
-  Học viên hoàn thành 5 module bài giảng video, nghiên cứu 102 chuyên đề thực tế OnLife, giải quyết 15 tình huống quản trị và vượt qua bài kiểm tra lý thuyết trực tuyến.
-- **Tiêu chuẩn kiểm soát / Điểm chặn (Gate / Criteria):**
-  Bắt buộc hoàn thành 100% thời lượng bài giảng và đạt điểm kiểm tra lý thuyết tổng hợp từ 90/100 điểm trở lên.
-- **Kết quả đầu ra (Output):**
-  • NẾU ĐẠT: Gửi Email EM-OM-01 xác nhận ĐẠT học phần lý thuyết + Thông báo lịch phân công bàn chơi sát hạch thực tế (Co-host) B4.
-  • NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT bài thi lý thuyết (kèm điểm số và danh mục module cần ôn tập) + Cấp quyền làm lại bài kiểm tra 01 lần duy nhất trong vòng 48 giờ.
+
+- **Thời hạn giải quyết (SLA):** `05 ngày học tập trung`
+- **Chủ thể phụ trách (RACI):** `Ứng viên OM & Ban Huấn luyện Đào tạo`
+
+| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
+| :--- | :--- |
+| **Hồ sơ đầu vào (Input)** | Tài khoản Portal Learn (video bài giảng), Cẩm nang Đào tạo OffLife Master v3.0 (12 phần), Sổ tay bài tập tình huống BM-OM-03. |
+| **Thao tác nghiệp vụ (Action)** | Học viên hoàn thành 5 module bài giảng video, nghiên cứu 102 chuyên đề thực tế OnLife, giải quyết 15 tình huống quản trị và vượt qua bài kiểm tra lý thuyết trực tuyến. |
+| **Cổng kiểm soát (Gate / Criteria)** | **Bắt buộc hoàn thành 100% thời lượng bài giảng và đạt điểm kiểm tra lý thuyết tổng hợp từ 90/100 điểm trở lên.** |
+| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 xác nhận ĐẠT học phần lý thuyết + Thông báo lịch phân công bàn chơi sát hạch thực tế (Co-host) B4.<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT bài thi lý thuyết (kèm điểm số và danh mục module cần ôn tập) + Cấp quyền làm lại bài kiểm tra 01 lần duy nhất trong vòng 48 giờ. |
 
 #### Bước 4: Sát hạch Thực hành Thực địa Bàn chơi (Co-host)
-- **Thời hạn giải quyết (SLA):** 01 phiên mô phỏng (180 phút)
-- **Chủ thể phụ trách (RACI):** Ứng viên OM thực hành & Giám khảo Hội đồng Chuyên môn (Lead OM)
-- **Hồ sơ đầu vào (Input):**
-  Bàn chơi thực tế có người tham gia, Bộ công cụ điều phối, Bảng tiêu chí chấm điểm Rubric ĐG-OM-01.
-- **Thao tác nghiệp vụ (Action):**
-  Học viên trực tiếp điều phối bàn chơi dưới sự giám sát độc lập của Lead OM. Giám khảo chấm điểm định lượng 4 nhóm tiêu chí và rà soát lỗi Zero Tolerance.
-- **Tiêu chuẩn kiểm soát / Điểm chặn (Gate / Criteria):**
-  Tổng điểm Rubric phải đạt ≥ 80/100 điểm và không vi phạm Zero Tolerance.
-- **Kết quả đầu ra (Output):**
-  • NẾU ĐẠT: Gửi Email EM-OM-01 chúc mừng ĐẠT sát hạch thực địa + Thông báo tiến trình thẩm định hồ sơ phê chuẩn B5.
-  • NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT (kèm bản phân tích điểm Rubric ĐG-OM-01): Nếu 70 - 79 điểm: Được phân công OM Mentor kèm cặp và đăng ký Co-host lại phiên 2 trong 14 ngày; Nếu < 70 điểm hoặc vi phạm Zero Tolerance: Dừng quy trình cấp phép.
+
+- **Thời hạn giải quyết (SLA):** `01 phiên mô phỏng (180 phút)`
+- **Chủ thể phụ trách (RACI):** `Ứng viên OM thực hành & Giám khảo Hội đồng Chuyên môn (Lead OM)`
+
+| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
+| :--- | :--- |
+| **Hồ sơ đầu vào (Input)** | Bàn chơi thực tế có người tham gia, Bộ công cụ điều phối, Bảng tiêu chí chấm điểm Rubric ĐG-OM-01. |
+| **Thao tác nghiệp vụ (Action)** | Học viên trực tiếp điều phối bàn chơi dưới sự giám sát độc lập của Lead OM. Giám khảo chấm điểm định lượng 4 nhóm tiêu chí và rà soát lỗi Zero Tolerance. |
+| **Cổng kiểm soát (Gate / Criteria)** | **Tổng điểm Rubric phải đạt ≥ 80/100 điểm và không vi phạm Zero Tolerance.** |
+| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 chúc mừng ĐẠT sát hạch thực địa + Thông báo tiến trình thẩm định hồ sơ phê chuẩn B5.<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo CHƯA ĐẠT (kèm bản phân tích điểm Rubric ĐG-OM-01): Nếu 70 - 79 điểm: Được phân công OM Mentor kèm cặp và đăng ký Co-host lại phiên 2 trong 14 ngày; Nếu < 70 điểm hoặc vi phạm Zero Tolerance: Dừng quy trình cấp phép. |
 
 #### Bước 5: Thẩm định Hồ sơ & Lập Tờ trình đề xuất Cấp phép
-- **Thời hạn giải quyết (SLA):** 01 ngày làm việc
-- **Chủ thể phụ trách (RACI):** Lead OM lập Tờ trình & Trưởng Dự án (Võ Duy Anh) phê chuẩn
-- **Hồ sơ đầu vào (Input):**
-  Hồ sơ sát hạch hoàn chỉnh gồm BM-01, BM-02, BM-03 và Bảng điểm ĐG-OM-01.
-- **Thao tác nghiệp vụ (Action):**
-  Hội đồng Chuyên môn tổng hợp kết quả, lập Tờ trình TT-OM-01 theo đúng thể thức Nghị định 30/2020/NĐ-CP trình Ban Quản lý Dự án xem xét và phê duyệt.
-- **Tiêu chuẩn kiểm soát / Điểm chặn (Gate / Criteria):**
-  Ban Quản lý Dự án thẩm tra tính pháp lý và tính đầy đủ của hồ sơ trước khi ban hành Quyết định phê duyệt QĐ-OM-01.
-- **Kết quả đầu ra (Output):**
-  • NẾU ĐẠT: Gửi Email EM-OM-01 thông báo Hồ sơ được phê duyệt bổ nhiệm + Gửi dự thảo VBPL: Hợp đồng dịch vụ+NDA+DPA (CK-OM-01) và thông báo lịch ký kết thỏa thuận B6.
-  • NẾU CẦN BỔ SUNG: Gửi Email EM-OM-02 thông báo tạm hoãn trình ký, nêu rõ các tài liệu hoặc giải trình cần bổ sung trước khi tái trình.
+
+- **Thời hạn giải quyết (SLA):** `01 ngày làm việc`
+- **Chủ thể phụ trách (RACI):** `Lead OM lập Tờ trình & Trưởng Dự án (Võ Duy Anh) phê chuẩn`
+
+| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
+| :--- | :--- |
+| **Hồ sơ đầu vào (Input)** | Hồ sơ sát hạch hoàn chỉnh gồm BM-01, BM-02, BM-03 và Bảng điểm ĐG-OM-01. |
+| **Thao tác nghiệp vụ (Action)** | Hội đồng Chuyên môn tổng hợp kết quả, lập Tờ trình TT-OM-01 theo đúng thể thức Nghị định 30/2020/NĐ-CP trình Ban Quản lý Dự án xem xét và phê duyệt. |
+| **Cổng kiểm soát (Gate / Criteria)** | **Ban Quản lý Dự án thẩm tra tính pháp lý và tính đầy đủ của hồ sơ trước khi ban hành Quyết định phê duyệt QĐ-OM-01.** |
+| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 thông báo Hồ sơ được phê duyệt bổ nhiệm + Gửi dự thảo VBPL: Hợp đồng dịch vụ+NDA+DPA (CK-OM-01) và thông báo lịch ký kết thỏa thuận B6.<br>• NẾU CẦN BỔ SUNG: Gửi Email EM-OM-02 thông báo tạm hoãn trình ký, nêu rõ các tài liệu hoặc giải trình cần bổ sung trước khi tái trình. |
 
 #### Bước 6: Ký Thỏa thuận Ràng buộc & Cấp quyền Hệ thống
-- **Thời hạn giải quyết (SLA):** 0.5 ngày làm việc
-- **Chủ thể phụ trách (RACI):** Ứng viên OM & Ban Vận hành PMO (Thu Hà)
-- **Hồ sơ đầu vào (Input):**
-  Quyết định QĐ-OM-01, VBPL: Hợp đồng dịch vụ+NDA+DPA (CK-OM-01), Hợp đồng hợp tác điều phối.
-- **Thao tác nghiệp vụ (Action):**
-  Ứng viên ký kết VBPL: Hợp đồng dịch vụ+NDA+DPA. Ban Vận hành phân quyền tài khoản quản trị cá nhân (manage.html).
-- **Tiêu chuẩn kiểm soát / Điểm chặn (Gate / Criteria):**
-  Chỉ cấp tài khoản quản trị khi Thỏa thuận cam kết pháp lý đã được ký kết đầy đủ.
-- **Kết quả đầu ra (Output):**
-  • NẾU ĐẠT: Gửi Email EM-OM-01 Chào mừng Tân OM chính thức + Bàn giao tài khoản quản trị hệ thống (manage.html), Mã định danh cá nhân (OM-2026-xxxxx) và quy định bảo mật.
-  • NẾU CHƯA HOÀN TẤT KÝ: Gửi Email EM-OM-02 thông báo tạm dừng cấp License và khóa quyền truy cập cho đến khi hoàn thành nghĩa vụ cam kết pháp lý.
+
+- **Thời hạn giải quyết (SLA):** `0.5 ngày làm việc`
+- **Chủ thể phụ trách (RACI):** `Ứng viên OM & Ban Vận hành PMO (Thu Hà)`
+
+| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
+| :--- | :--- |
+| **Hồ sơ đầu vào (Input)** | Quyết định QĐ-OM-01, VBPL: Hợp đồng dịch vụ+NDA+DPA (CK-OM-01), Hợp đồng hợp tác điều phối. |
+| **Thao tác nghiệp vụ (Action)** | Ứng viên ký kết VBPL: Hợp đồng dịch vụ+NDA+DPA. Ban Vận hành phân quyền tài khoản quản trị cá nhân (manage.html). |
+| **Cổng kiểm soát (Gate / Criteria)** | **Chỉ cấp tài khoản quản trị khi Thỏa thuận cam kết pháp lý đã được ký kết đầy đủ.** |
+| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 Chào mừng Tân OM chính thức + Bàn giao tài khoản quản trị hệ thống (manage.html), Mã định danh cá nhân (OM-2026-xxxxx) và quy định bảo mật.<br>• NẾU CHƯA HOÀN TẤT KÝ: Gửi Email EM-OM-02 thông báo tạm dừng cấp License và khóa quyền truy cập cho đến khi hoàn thành nghĩa vụ cam kết pháp lý. |
 
 #### Bước 7: Bàn giao Công cụ Điều phối & Kiểm soát Chất lượng
-- **Thời hạn giải quyết (SLA):** 0.5 ngày bàn giao và giám sát định kỳ liên tục
-- **Chủ thể phụ trách (RACI):** Bộ phận Quản trị Kit & Bộ phận Kiểm soát Chất lượng PMO
-- **Hồ sơ đầu vào (Input):**
-  Biên bản bàn giao BB-OM-01; Bộ Kit tiêu chuẩn; Khảo sát BM-OM-04.
-- **Thao tác nghiệp vụ (Action):**
-  Bàn giao hiện vật công cụ. Sau mỗi phiên điều phối, người tham gia quét mã QR đánh giá chất lượng để hệ thống ghi nhận chỉ số tín nhiệm của OM.
-- **Tiêu chuẩn kiểm soát / Điểm chặn (Gate / Criteria):**
-  OM duy trì điểm số hài lòng của khách hàng ≥ 4.5/5 sao và không vi phạm quy chế để được gia hạn License thường niên.
-- **Kết quả đầu ra (Output):**
-  • ĐẠT CHUẨN ĐỊNH KỲ: Email EM-OM-01 tự động cập nhật chỉ số tín nhiệm (CSAT) tích cực và thông báo gia hạn License thường niên.
-  • CẢNH BÁO / CHƯA ĐẠT: Email EM-OM-02 thông báo phản hồi tiêu cực cần giải trình, kiểm chuẩn năng lực hoặc thông báo đình chỉ License nếu phát hiện vi phạm quy chế Zero Tolerance.
 
-### 3. Quy Chế Giao Thức Thông Báo Email Kết Quả Tại Từng Cổng Kiểm Soát (7 Bước)
+- **Thời hạn giải quyết (SLA):** `0.5 ngày bàn giao và giám sát định kỳ liên tục`
+- **Chủ thể phụ trách (RACI):** `Bộ phận Quản trị Kit & Bộ phận Kiểm soát Chất lượng PMO`
+
+| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
+| :--- | :--- |
+| **Hồ sơ đầu vào (Input)** | Biên bản bàn giao BB-OM-01; Bộ Kit tiêu chuẩn; Khảo sát BM-OM-04. |
+| **Thao tác nghiệp vụ (Action)** | Bàn giao hiện vật công cụ. Sau mỗi phiên điều phối, người tham gia quét mã QR đánh giá chất lượng để hệ thống ghi nhận chỉ số tín nhiệm của OM. |
+| **Cổng kiểm soát (Gate / Criteria)** | **OM duy trì điểm số hài lòng của khách hàng ≥ 4.5/5 sao và không vi phạm quy chế để được gia hạn License thường niên.** |
+| **Kết quả đầu ra & Giao thức Email** | • ĐẠT CHUẨN ĐỊNH KỲ: Email EM-OM-01 tự động cập nhật chỉ số tín nhiệm (CSAT) tích cực và thông báo gia hạn License thường niên.<br>• CẢNH BÁO / CHƯA ĐẠT: Email EM-OM-02 thông báo phản hồi tiêu cực cần giải trình, kiểm chuẩn năng lực hoặc thông báo đình chỉ License nếu phát hiện vi phạm quy chế Zero Tolerance. |
+
+### 2.3. Quy Chế Giao Thức Thông Báo Email Kết Quả Tại Từng Cổng Kiểm Soát
 Nhằm bảo đảm tính chuyên nghiệp, minh bạch và tôn trọng ứng viên, tại mỗi Cổng kiểm soát của quy trình 7 bước, Ban Tuyển chọn bắt buộc gửi thông báo điện tử qua email theo thời hạn SLA:
 
-1. **Kịch bản ĐẠT TIÊU CHUẨN (Áp dụng Biểu mẫu EM-OM-01):**
+1. **Kịch bản ĐẠT TIÊU CHUẨN (Áp dụng Biểu mẫu `EM-OM-01`):**
    - Xác nhận cụ thể tiêu chí / điểm số đã hoàn thành xuất sắc.
    - Hướng dẫn chi tiết bước kế tiếp (Next Steps): Hồ sơ tài liệu cần chuẩn bị, tài khoản/mật khẩu truy cập, lịch trình và thời hạn hoàn thành.
-2. **Kịch bản CHƯA ĐẠT / TỪ CHỐI (Áp dụng Biểu mẫu EM-OM-02):**
+2. **Kịch bản CHƯA ĐẠT / TỪ CHỐI (Áp dụng Biểu mẫu `EM-OM-02`):**
    - Thông báo kết luận khách quan, văn minh, bảo mật.
    - **Bắt buộc nêu rõ căn cứ lý do chưa đạt** theo đúng tiêu chuẩn của Cổng kiểm soát tương ứng (chưa đủ 02 phiên trải nghiệm, điểm phỏng vấn/điểm lý thuyết/điểm Co-host dưới ngưỡng quy định, hoặc vi phạm Zero Tolerance).
    - Nêu rõ **Phương án xử lý & Chính sách hỗ trợ bồi dưỡng**: Cấp quyền thực hành Co-host lại phiên thứ 2 (nếu điểm đạt từ 70 - 79 điểm hoặc trượt lý thuyết lần 1); chính sách bảo lưu hồ sơ và thời hạn đăng ký tái dự tuyển (tối thiểu sau 03 tháng).
 
 ---
 
-## PHẦN III: MA TRẬN 11 BIỂU MẪU & VĂN BẢN QUẢN TRỊ (DOCUMENT MATRIX)
+## 3. SƠ ĐỒ ĐIỀU HÀNH PHÂN LÀN (SWIMLANE FLOWCHART)
 
-| STT | Mã hiệu | Tên Biểu mẫu / Văn bản chuẩn hóa | Phân loại thể thức | Đơn vị lập (Maker) | Cấp phê duyệt (Approver) | Thời hạn (SLA) | Nội dung tóm tắt & Mô tả trường dữ liệu |
-| :---: | :---: | :--- | :--- | :--- | :--- | :---: | :--- |
+### 3.1. Sơ Đồ Vector Phân Làn Trực Quan (SVG Vector Diagram)
+*(Hiển thị tương tác chuẩn 4 phân làn trách nhiệm: Ứng viên OM, Ban Vận hành / HR, Hội đồng Chuyên môn, và Ban Quản lý Dự án)*
 
-| 1 | **BM-OM-01** | Phiếu Đăng ký Dự tuyển & Khai trình Năng lực OM | Tuyển chọn | Ứng viên OM | Điều phối viên PMO | 01 ngày | Bao gồm các trường dữ liệu tiêu chuẩn: Thông tin định danh cá nhân, Lịch sử tham dự phiên OffLife (tối thiểu 02 phiên, ngày tham gia, OM điều phối), Khai trình kinh nghiệm điều phối / quản trị, Bản tự đánh giá về năng lực kiểm soát nguồn lực định lượng. (Xem mẫu số 4 tại Mục 6). |
-| 2 | **BM-OM-02** | Biên bản Đánh giá Phỏng vấn Chuẩn mực Nghề nghiệp | Sát hạch chuyên môn | Chuyên viên phỏng vấn | Trưởng Ban ĐT | 02 ngày | Bao gồm 4 tình huống sát hạch chuẩn mực: 1) Xử lý khủng hoảng tâm lý của người tham gia khi vỡ nợ; 2) Phát hiện và ngăn chặn hành vi tiếp thị chéo; 3) Ứng xử khi người tham gia yêu cầu tư vấn đầu tư thực tế; 4) Cam kết bảo mật dữ liệu khách hàng. (Xem mẫu số 5 tại Mục 6). |
-| 3 | **BM-OM-03** | Sổ Theo dõi Tiến độ Đào tạo Portal & Cẩm nang v3.0 | Tuyển chọn | Ứng viên OM | Quản trị viên Portal | 05 ngày | Ghi nhận 5 Module học tập: 1) Triết lý & 3 Nguồn lực M/H/I; 2) Quy trình 7 bước điều phối vòng chơi; 3) Xử lý biến cố đột tử & vỡ nợ; 4) Kỹ năng đặt câu hỏi truy vấn OnLife; 5) Đạo đức nghề nghiệp & Bảo vệ dữ liệu. Điểm thi lý thuyết yêu cầu ≥ 90/100. (Xem mẫu số 6 tại Mục 6). |
-| 4 | **ĐG-OM-01** | Bảng Tiêu chí Chấm điểm Thực hành (Co-host Rubric) | Sát hạch chuyên môn | Lead OM (Giám khảo) | Hội đồng CM | 01 phiên | Thang điểm 100 phân bổ: Tuân thủ chuẩn mực liêm chính (30đ), Kiểm soát quy tắc & vận hành mô phỏng (25đ), Kỹ năng điều phối & Debriefing (25đ), Kết nối chuyên đề thực tế OnLife (20đ). Điểm đạt ≥ 80đ và không vi phạm Zero Tolerance. (Xem chi tiết tại Mục 5 và Mục 6). |
-| 5 | **TT-OM-01** | Tờ trình Đề xuất Bổ nhiệm & Cấp License OM | Hành chính (NĐ 30) | Trưởng Ban Đào tạo | Trưởng Dự án | 01 ngày | Soạn thảo theo thể thức Nghị định 30/2020/NĐ-CP: Báo cáo tổng hợp số lượng ứng viên tiếp nhận, tỷ lệ đạt điều kiện tiên quyết, kết quả đào tạo lý thuyết, bảng điểm sát hạch chi tiết từng ứng viên và kiến nghị phê chuẩn cấp chứng chỉ hoạt động. (Xem mẫu số 1 tại Mục 6). |
-| 6 | **QĐ-OM-01** | Quyết định Công nhận & Cấp Quyền Điều phối OM | Hành chính (NĐ 30) | Bộ phận Pháp chế | Trưởng Dự án ký | 01 ngày | Văn bản quy phạm nội bộ theo chuẩn Nghị định 30/2020/NĐ-CP: Điều 1: Danh sách nhân sự được cấp License; Điều 2: Quyền hạn, giới hạn thẩm quyền và nghĩa vụ tuân thủ cam kết theo VBPL: Hợp đồng dịch vụ+NDA+DPA (CK-OM-01); Điều 3: Hiệu lực thi hành (01 năm) và điều khoản trách nhiệm. (Xem mẫu số 2 tại Mục 6). |
-| 7 | **CK-OM-01** | VBPL: Hợp đồng dịch vụ+NDA+DPA | Pháp lý & Cam kết | Bộ phận pháp chế | Trưởng Dự án & OM ký | 0.5 ngày | Ràng buộc pháp lý bắt buộc: Cam kết không lừa dối, không gian lận ủy quyền, không thao túng, không trục lợi dữ liệu khách hàng; giới hạn chuyên môn không tư vấn đầu tư tài chính đời thực; bảo mật thông số hệ thống và chế tài thu hồi License ngay lập tức. (Xem mẫu số 3 tại Mục 6). |
-| 8 | **BB-OM-01** | Biên bản Bàn giao Bộ Kit & Trang thiết bị Điều phối | Tuyển chọn | Quản trị Kit PMO | OM tiếp nhận | 0.5 ngày | Kiểm kê hiện vật bàn giao: Hộp trò chơi OffLife nguyên seal, 06 Bộ Player Sheets, Bảng Game Sheet A3, Xúc xắc tiêu chuẩn, Cẩm nang điều phối v3.0 gáy xoắn và Thẻ định danh OM khắc mã laser có QR định danh. (Xem mẫu số 7 tại Mục 6). |
-| 9 | **BM-OM-04** | Phiếu Khảo sát Đánh giá Mức độ Hài lòng Khách hàng | Sát hạch chuyên môn | Người tham gia | Hệ thống tự động | Thời gian thực | Khảo sát online 4 tiêu chí cốt lõi: 1) Không khí an toàn, tôn trọng; 2) Hướng dẫn luật minh bạch, chuẩn xác; 3) Bài học OnLife sâu sắc; 4) Không tiếp thị sản phẩm bên ngoài. Điểm trung bình yêu cầu ≥ 4.5/5 sao để xét gia hạn License hàng năm. (Xem mẫu số 8 tại Mục 6). |
-| 10 | **EM-OM-01** | Email Thông Báo Kết Quả ĐẠT & Hướng Dẫn Bước Tiếp Theo | Hành chính (NĐ 30) | Ban Tuyển chọn / PMO | Tự động / Trưởng Ban ĐT | Trong ngày | Biểu mẫu email chuẩn hóa gửi cho ứng viên khi ĐẠT bất kỳ bước nào trong quy trình (B1 đến B6): Gồm tiêu đề chuẩn, xác nhận kết quả đạt chuẩn, điểm số/quyết định phê duyệt, hướng dẫn chi tiết các việc cần làm ở bước tiếp theo, địa điểm/link tham gia và thời hạn hoàn thành (SLA). (Xem mẫu số 10 tại Mục 6). |
-| 11 | **EM-OM-02** | Email Thông Báo Kết Quả CHƯA ĐẠT & Phản Hồi Lý Do Chi Tiết | Hành chính (NĐ 30) | Hội đồng Chuyên môn / PMO | Tự động / Trưởng Ban ĐT | Trong ngày | Biểu mẫu email chuẩn hóa gửi cho ứng viên khi CHƯA ĐẠT hoặc BỊ TỪ CHỐI tại bất kỳ bước nào: Nêu rõ kết luận khách quan, phân tích cụ thể căn cứ lý do chưa đạt theo Cổng kiểm soát (thiếu phiên trải nghiệm, điểm thi dưới ngưỡng, hoặc vi phạm Zero Tolerance), kèm hướng xử lý ôn tập thi lại/Co-host lại phiên 2 hoặc chính sách bảo lưu tái ứng tuyển. (Xem mẫu số 11 tại Mục 6). |
+![Sơ đồ Điều hành Phân làn Tuyển chọn & Cấp phép OM](assets/swimlane_flowchart.svg)
 
 ---
 
-## PHẦN IV: KHUNG TIÊU CHÍ ĐÁNH GIÁ NĂNG LỰC SÁT HẠCH (RUBRIC ĐG-OM-01)
+### 3.2. Mã Nguồn Sơ Đồ Lưu Đồ Quy Trình (Mermaid Architecture)
+*(Chuẩn cú pháp Mermaid rendering độc lập trên mọi nền tảng mã nguồn)*
 
-Thang điểm chuẩn hóa: **100 điểm**.  
-**Tiêu chuẩn công nhận:** Tổng điểm đạt từ **$\ge 80 / 100$ điểm** và **không vi phạm bất kỳ tiêu chí nào thuộc quy chế Zero Tolerance**.
+```mermaid
+flowchart TD
+    classDef startEnd fill:#10b981,stroke:#059669,stroke-width:2px,color:#fff;
+    classDef action fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af;
+    classDef decision fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e;
+    classDef reject fill:#fee2e2,stroke:#ef4444,stroke-width:1.5px,color:#991b1b;
 
-| Nhóm Tiêu chí | Trọng số | Tiêu chí đánh giá chi tiết | Thang điểm |
-| :--- | :---: | :--- | :---: |
-| **1. Tuân thủ Chuẩn mực Nghề nghiệp & Liêm chính** | **30%** | - Giữ tính khách quan, thiết lập môi trường chiêm nghiệm an toàn, không chỉ trích quyết định của người tham gia.<br>- Thực hiện nguyên tắc minh bạch, không đưa ra các cam kết sai sự thật về hiệu quả tài chính ngoài đời thực.<br>- Tuyệt đối không thực hiện tiếp thị, chào bán sản phẩm dịch vụ tài chính/bảo hiểm cá nhân.<br>- Tuân thủ nghiêm ngặt quy chế kiểm soát xung đột lợi ích và bảo vệ dữ liệu cá nhân. | **/30 điểm** |
-| **2. Năng lực Kiểm soát Quy tắc Mô phỏng & Vận hành** | **25%** | - Làm chủ hệ thống tương tác định lượng giữa 3 nguồn lực: Tiền (M), Sức khỏe (H), Trí tuệ (I).<br>- Điều hành chuẩn xác trình tự 7 bước trong mỗi vòng mô phỏng hàng năm theo Phụ lục tài liệu v3.0.<br>- Xử lý chuẩn xác các tình huống giới hạn: Ngưỡng Độc lập tài chính, Đột tử (Health = 0), Vỡ nợ và Tái cơ cấu. | **/25 điểm** |
-| **3. Kỹ năng Điều phối & Quản trị Tiến trình** | **25%** | - Tuân thủ định vị chức danh: Tuyệt đối không chuyển hóa phiên làm việc thành chương trình giải trí hoặc thuyết giảng giáo điều.<br>- Vận dụng phương pháp đặt câu hỏi truy vấn bài học (Debriefing Questions) theo đúng chuẩn 12 Phần của Tài liệu v3.0.<br>- Quản trị tiến độ và thời lượng phiên làm việc chuẩn hóa (40 năm mô phỏng hoàn thành trong 180 phút). | **/25 điểm** |
-| **4. Năng lực Kết nối Chuyên đề Quản trị Thực tế** | **20%** | - Ánh xạ chuẩn xác biến cố mô phỏng với Danh mục 102 chuyên đề quản trị đời sống thực tiễn.<br>- Không đưa ra lời khuyên đầu tư cụ thể; tập trung vào khung tư duy quản trị xác suất và phân bổ nguồn lực.<br>- Hỗ trợ người tham gia xác lập tối thiểu 01 kế hoạch hành động cải thiện cuộc sống thực tế. | **/20 điểm** |
+    subgraph LANE_UV ["1. ỨNG VIÊN OM (Candidate)"]
+        UV_Start(["Bắt đầu: Đăng ký ứng tuyển"]):::startEnd
+        UV_Submit["B1: Nộp Hồ sơ năng lực BM-OM-01"]:::action
+        UV_Interview["B2: Tham gia Phỏng vấn Chuẩn mực"]:::action
+        UV_Learn["B3: Tự học Portal & Cẩm nang v3.0"]:::action
+        UV_Mock["B4: Thực hành Co-host bàn chơi"]:::action
+        UV_Commit["B6: Ký Thỏa thuận CK-OM-01 (NDA & DPA)"]:::action
+        UV_Official(["Chính thức nhận License OM"]):::startEnd
+    end
+
+    subgraph LANE_HR ["2. BAN VẬN HÀNH / PMO (Thu Hà)"]
+        HR_Receive["B1.2: Thẩm định Điều kiện Tiên quyết"]:::action
+        HR_Gate1{"Tham dự tối thiểu 02 phiên?"}:::decision
+        HR_Reject1["Từ chối: Gửi Email EM-OM-02"]:::reject
+        HR_Schedule["B2.1: Lên lịch phỏng vấn đạo đức"]:::action
+        HR_Portal["B3.1: Cấp quyền Portal Đào tạo"]:::action
+        HR_Contract["B6.2: Thủ tục ký kết & Cấp manage.html"]:::action
+        HR_Kit["B7: Bàn giao Kit BB-OM-01 & Giám sát"]:::action
+    end
+
+    subgraph LANE_LEAD ["3. HỘI ĐỒNG CHUYÊN MÔN (Kim Thoa)"]
+        LEAD_Interview["B2.3: Phỏng vấn 3 Trụ cột Chuẩn mực"]:::action
+        LEAD_Gate2{"Đạt chuẩn mực liêm chính?"}:::decision
+        LEAD_Reject2["Đình chỉ: Gửi Email EM-OM-02"]:::reject
+        LEAD_Observe["B4.2: Giám sát & Chấm Rubric ĐG-OM-01"]:::action
+        LEAD_Gate3{"Điểm >= 80 & Zero Tolerance?"}:::decision
+        LEAD_ReTrain["Chưa đạt: Bồi dưỡng & Co-host lại"]:::action
+        LEAD_Report["B5: Lập Tờ trình TT-OM-01"]:::action
+    end
+
+    subgraph LANE_BGD ["4. BAN QUẢN LÝ DỰ ÁN (Võ Duy Anh)"]
+        BGD_Approve{"B5.2: Thẩm tra & Phê duyệt Tờ trình?"}:::decision
+        BGD_Reject["Yêu cầu phúc tra / Bổ sung hồ sơ"]:::action
+        BGD_Sign["Ký ban hành Quyết định QĐ-OM-01"]:::action
+    end
+
+    UV_Start --> UV_Submit
+    UV_Submit --> HR_Receive
+    HR_Receive --> HR_Gate1
+    HR_Gate1 -->|Không đạt| HR_Reject1
+    HR_Gate1 -->|Đạt chuẩn| HR_Schedule
+    HR_Schedule --> UV_Interview
+    UV_Interview --> LEAD_Interview
+    LEAD_Interview --> LEAD_Gate2
+    LEAD_Gate2 -->|Không đạt| LEAD_Reject2
+    LEAD_Gate2 -->|Đạt chuẩn| HR_Portal
+    HR_Portal --> UV_Learn
+    UV_Learn --> UV_Mock
+    UV_Mock --> LEAD_Observe
+    LEAD_Observe --> LEAD_Gate3
+    LEAD_Gate3 -->|Chưa đạt| LEAD_ReTrain
+    LEAD_ReTrain --> UV_Mock
+    LEAD_Gate3 -->|Đạt chuẩn| LEAD_Report
+    LEAD_Report --> BGD_Approve
+    BGD_Approve -->|Yêu cầu bổ sung| BGD_Reject
+    BGD_Reject --> LEAD_Observe
+    BGD_Approve -->|Phê chuẩn| BGD_Sign
+    BGD_Sign --> HR_Contract
+    HR_Contract --> UV_Commit
+    UV_Commit --> HR_Kit
+    HR_Kit --> UV_Official
+```
+
+---
+
+## 4. MA TRẬN 11 BIỂU MẪU & TRA CỨU NGHIỆP VỤ (DOCUMENT MATRIX)
+
+### 4.1. Bảng Ma Trận Phân Quyền & Thời Hạn Xử Lý (SLA)
+
+| STT | Mã Hiệu | Tên Biểu Mẫu / Văn Bản Chuẩn Hóa | Phân Nhóm Thể Thức | Đơn Vị Lập (Maker) | Cấp Phê Duyệt (Approver) | Thời Hạn (SLA) |
+| :---: | :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | **BM-OM-01** | Phiếu Đăng ký Dự tuyển & Khai trình Năng lực OM | Tuyển chọn | Ứng viên OM | Điều phối viên PMO | 01 ngày |
+| 2 | **BM-OM-02** | Biên bản Đánh giá Phỏng vấn Chuẩn mực Nghề nghiệp | Sát hạch chuyên môn | Chuyên viên phỏng vấn | Trưởng Ban ĐT | 02 ngày |
+| 3 | **BM-OM-03** | Sổ Theo dõi Tiến độ Đào tạo Portal & Cẩm nang v3.0 | Tuyển chọn | Ứng viên OM | Quản trị viên Portal | 05 ngày |
+| 4 | **ĐG-OM-01** | Bảng Tiêu chí Chấm điểm Thực hành (Co-host Rubric) | Sát hạch chuyên môn | Lead OM (Giám khảo) | Hội đồng Chuyên môn | 01 phiên |
+| 5 | **TT-OM-01** | Tờ trình Đề xuất Bổ nhiệm & Cấp License OM | Hành chính (NĐ 30) | Trưởng Ban Đào tạo | Trưởng Ban Quản lý Dự án | 01 ngày |
+| 6 | **QĐ-OM-01** | Quyết định Công nhận & Cấp Quyền Điều phối OM | Hành chính (NĐ 30) | Bộ phận Pháp chế | Trưởng Dự án ký duyệt | 01 ngày |
+| 7 | **CK-OM-01** | VBPL: Hợp đồng dịch vụ + NDA + DPA | Pháp lý & Cam kết | Bộ phận Pháp chế | Trưởng Dự án & OM ký | 0.5 ngày |
+| 8 | **BB-OM-01** | Biên bản Bàn giao Bộ Kit & Trang thiết bị Điều phối | Quản trị tài sản | Quản trị Kit PMO | OM tiếp nhận | 0.5 ngày |
+| 9 | **BM-OM-04** | Phiếu Khảo sát Đánh giá Mức độ Hài lòng Khách hàng | Kiểm soát chất lượng | Người tham gia | Hệ thống tự động | Realtime |
+| 10 | **EM-OM-01** | Email Thông Báo Kết Quả ĐẠT & Hướng Dẫn Tiếp Theo | Thông báo điện tử | Ban Tuyển chọn / PMO | Hệ thống / Trưởng Ban ĐT | Trong ngày |
+| 11 | **EM-OM-02** | Email Thông Báo Kết Quả CHƯA ĐẠT & Phản Hồi Lý Do | Thông báo điện tử | Hội đồng CM / PMO | Hệ thống / Trưởng Ban ĐT | Trong ngày |
+
+### 4.2. Bảng Quy Chuẩn Nội Dung Dữ Liệu & Điểm Kiểm Soát Tương Ứng
+
+| Mã Hiệu | Cổng Quy Trình Áp Dụng | Thành Phần Trường Dữ Liệu Bắt Buộc | Điểm Kiểm Soát Trọng Tâm |
+| :---: | :---: | :--- | :--- |
+| **BM-OM-01** | Bước 1 (Tiên quyết) | Định danh cá nhân, CCCD, Lịch sử tham dự $\ge 02$ phiên, Bản tự đánh giá năng lực | Xác thực dữ liệu tham dự thực tế, phát hiện rủi ro thương mại hóa |
+| **BM-OM-02** | Bước 2 (Phỏng vấn) | 4 Tình huống sát hạch đạo đức, Thang điểm phỏng vấn, Đánh giá liêm chính | Điểm phỏng vấn $\ge 75/100$, không có tiền sử vi phạm Zero Tolerance |
+| **BM-OM-03** | Bước 3 (Portal) | 5 Module bài giảng video, 102 chuyên đề OnLife, 15 bài tập tình huống, Điểm thi lý thuyết | Hoàn thành 100% video bài giảng, điểm bài thi lý thuyết $\ge 90/100$ |
+| **ĐG-OM-01** | Bước 4 (Sát hạch) | Điểm 4 nhóm tiêu chí Rubric (100đ), Biên bản quan sát trực tiếp, Chữ ký Giám khảo Lead OM | Điểm tổng $\ge 80/100$ và không vi phạm bất kỳ tiêu chí Zero Tolerance nào |
+| **TT-OM-01** | Bước 5 (Tờ trình) | Thể thức Nghị định 30/2020/NĐ-CP, Báo cáo tiến trình tuyển chọn, Bảng điểm chi tiết từng ứng viên | Báo cáo trung thực, đầy đủ hồ sơ đính kèm trình Trưởng Dự án ký duyệt |
+| **QĐ-OM-01** | Bước 6 (Quyết định) | Chuẩn thể thức văn bản hành chính NĐ 30, Điều 1 Danh sách, Điều 2 Thẩm quyền, Điều 3 Hiệu lực | Hiệu lực 01 năm, quy định rõ điều kiện đình chỉ nếu vi phạm quy chế |
+| **CK-OM-01** | Bước 6 (Cam kết) | Hợp đồng dịch vụ điều phối + Thỏa thuận bảo mật thông tin (NDA) + Bảo vệ dữ liệu cá nhân (DPA) | Cam kết không tư vấn tài chính đời thực, không trục lợi dữ liệu, chế tài đền bù |
+| **BB-OM-01** | Bước 7 (Bàn giao) | Danh mục trang thiết bị: Hộp game OffLife seal, 6 Player Sheets, Game Sheet A3, Thẻ OM QR | Kiểm kê hiện trạng mới 100%, ghi nhận số seri và mã laser định danh |
+| **BM-OM-04** | Bước 7 (Định kỳ) | Đánh giá 4 tiêu chí CSAT (Môi trường an toàn, Hướng dẫn chuẩn, Bài học sâu sắc, Không tiếp thị) | Điểm trung bình CSAT $\ge 4.5/5.0$ sao làm điều kiện gia hạn License thường niên |
+| **EM-OM-01** | B1 đến B7 (Đạt) | Xác nhận điểm số đạt chuẩn, Thời gian, Địa điểm, Link truy cập, Hướng dẫn chuẩn bị bước sau | Gửi đúng hạn SLA, bảo đảm ứng viên nắm rõ lộ trình kế tiếp |
+| **EM-OM-02** | B1 đến B7 (Trượt) | Kết luận chưa đạt, Phân tích căn cứ lý do theo tiêu chuẩn cổng, Chính sách bồi dưỡng / thi lại | Phản hồi văn minh, bảo mật thông tin, giữ tinh thần cầu thị và xây dựng |
+
+---
+
+## 5. TRÌNH SÁT HẠCH ĐÁNH GIÁ NĂNG LỰC THỰC HÀNH TRỰC TUYẾN (RUBRIC ĐG-OM-01)
+
+### 5.1. Tiêu Chuẩn Công Nhận & Khung Điểm Chuẩn Hóa
+- **Thang điểm chuẩn hóa:** `100 điểm` (Phân bổ qua 4 nhóm tiêu chí trọng số).
+- **Điều kiện ĐẠT TIÊU CHUẨN CẤP LICENSE:**  
+  $$\text{Tổng Điểm Sát Hạch} \ge 80 / 100 \quad \text{VÀ} \quad \text{KHÔNG vi phạm bất kỳ tiêu chí Zero Tolerance nào}$$
+- **Chính sách phân loại sau sát hạch:**
+  * **Từ 80 đến 100 điểm:** ĐẠT TIÊU CHUẨN — Lập Tờ trình trình ký Quyết định cấp License OM chính thức.
+  * **Từ 70 đến 79 điểm:** CHƯA ĐẠT CHUẨN — Phân công Lead OM mentor kèm cặp chuyên môn và cấp quyền thực hành Co-host lại phiên thứ 2 trong vòng 14 ngày.
+  * **Dưới 70 điểm HOẶC Vi phạm Zero Tolerance:** KHÔNG ĐẠT — Dừng quy trình cấp phép, hủy bỏ quyền dự tuyển.
+
+---
+
+### 5.2. Bảng Tiêu Chí Chấm Điểm Lượng Hóa 4 Nhóm Năng Lực
+
+| STT | Nhóm Năng Lực & Trọng Số | Mốc 0 Điểm (Không Đạt) | Mốc Đạt Cơ Bản (50%) | Mốc Đạt Chuẩn (80%) | Mốc Xuất Sắc (100%) | Điểm Tối Đa |
+| :---: | :--- | :--- | :--- | :--- | :--- | :---: |
+| **1** | **Tuân thủ Chuẩn mực Nghề nghiệp & Liêm chính (30%)**<br>*Giữ tính khách quan, bảo mật dữ liệu, không phán xét, không chào bán tài chính ngoài đời.* | Vi phạm quy chuẩn, phán xét người chơi, tiếp thị sản phẩm | Thụ động, đôi lúc bộc lộ định kiến cá nhân | **Khách quan, bảo mật dữ liệu, tạo môi trường an toàn** | Chuẩn mực tuyệt đối, xử lý thấu đáo mọi tình huống nhạy cảm | **/ 30 đ** |
+| **2** | **Kiểm soát Quy tắc Mô phỏng & Vận hành (25%)**<br>*Điều phối chuẩn 7 bước vòng chơi; kiểm soát 3 nguồn lực M/H/I; xử lý đột tử & vỡ nợ.* | Sai sót luật chơi, tính sai số liệu nguồn lực | Nắm luật cơ bản nhưng thao tác còn lúng túng | **Vận hành chuẩn xác 7 bước, làm chủ tương tác 3 nguồn lực** | Nhuần nhuyễn, kiểm soát biến cố tài chính sắc sảo | **/ 25 đ** |
+| **3** | **Kỹ năng Điều phối & Quản trị Tiến trình (25%)**<br>*Đặt câu hỏi Debriefing chuẩn 12 phần; kiểm soát 40 năm trong 180 phút; không thuyết giảng.* | Áp đặt bài học, trễ tiến độ > 30 phút | Đặt câu hỏi đóng, tiến độ bị động | **Khơi gợi tốt, đúng tiến độ 180 phút, tuân thủ Debriefing** | Bậc thầy gợi mở, chạm đến nhận thức sâu sắc của đối tượng | **/ 25 đ** |
+| **4** | **Kết nối Chuyên đề Quản trị Thực tế (20%)**<br>*Ánh xạ dữ liệu mô phỏng với 102 chuyên đề OnLife; hỗ trợ lập kế hoạch hành động thực tế.* | Không liên hệ thực tế, sa đà vào lý thuyết | Liên hệ đại cương, thiếu tính ứng dụng | **Phân tích sâu sắc, ánh xạ chuẩn 102 chuyên đề OnLife** | Chuyển hóa hoàn hảo bài học thành kế hoạch thực tế khả thi | **/ 20 đ** |
+
+---
+
+### 5.3. Phiếu Rà Soát Quy Chế Không Khoan Nhượng (Zero Tolerance Checklist)
 
 > [!CAUTION]
-> **ĐIỀU KIỆN ĐÌNH CHỈ KHẨN CẤP TRONG PHIÊN SÁT HẠCH (ZERO TOLERANCE):**  
-> Nếu ứng viên có hành vi chào mời đầu tư tài chính, môi giới sản phẩm, xúc phạm người tham gia, hoặc thu thập dữ liệu trái phép trong phiên chơi, Giám khảo Lead OM có quyền lập tức đình chỉ phiên sát hạch, chấm **0 điểm** và đề xuất loại vĩnh viễn khỏi danh sách ứng viên.
+> **CHẾ TÀI ĐÌNH CHỈ KHẨN CẤP TẠI BÀN CHƠI:**  
+> Nếu Giám khảo Lead OM phát hiện ứng viên có bất kỳ hành vi nào dưới đây, phiên sát hạch bị **đình chỉ ngay lập tức**, ghi nhận **0 điểm** và lập biên bản loại vĩnh viễn:
+> - [ ] **Hành vi 1:** Chào mời, tiếp thị sản phẩm tài chính, bảo hiểm, bất động sản hoặc khóa học bên ngoài.
+> - [ ] **Hành vi 2:** Đưa ra lời khuyên đầu tư tài chính cá nhân cụ thể ngoài đời thực cho người tham gia.
+> - [ ] **Hành vi 3:** Có lời nói, thái độ xúc phạm, phán xét chỉ trích nặng nề đối với người tham gia.
+> - [ ] **Hành vi 4:** Thu thập trái phép thông tin cá nhân, chia sẻ bảo mật của người tham gia cho bên thứ ba.
 
 ---
 
-## PHẦN V: KHO BIỂU MẪU & TOÀN VĂN 11 VĂN BẢN QUẢN TRỊ NỘI BỘ
-*(Chuẩn hóa thể thức theo Nghị định số 30/2020/NĐ-CP và Pháp lý hợp đồng dịch vụ)*
+## 6. KHO BIỂU MẪU & TOÀN VĂN 11 VĂN BẢN QUẢN TRỊ CHUẨN HÓA
+*(Được chuẩn hóa toàn diện theo Nghị định số 30/2020/NĐ-CP của Chính phủ và Hệ thống Văn bản Cam kết Pháp lý)*
 
 
-### 1. Mẫu TT-OM-01: Tờ trình Đề nghị Công nhận & Cấp License OM (Chuẩn NĐ 30)
+### 6.1. Mẫu TT-OM-01: Tờ trình Đề nghị Công nhận & Cấp License OM (Chuẩn NĐ 30)
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -339,7 +402,7 @@ Nơi nhận:                                            TRƯỞNG BAN ĐÀO TẠ
 ```
 
 
-### 2. Mẫu QĐ-OM-01: Quyết định Công nhận & Cấp License Điều Phối Viên (Chuẩn NĐ 30)
+### 6.2. Mẫu QĐ-OM-01: Quyết định Công nhận & Cấp License Điều Phối Viên (Chuẩn NĐ 30)
 
 ```text
 DỰ ÁN OFFLIFE                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -378,7 +441,7 @@ Nơi nhận:                                                 TRƯỞNG BAN QUẢ
 ```
 
 
-### 3. Mẫu CK-OM-01: VBPL: Hợp đồng dịch vụ+NDA+DPA
+### 6.3. Mẫu CK-OM-01: VBPL: Hợp đồng dịch vụ+NDA+DPA
 
 ```text
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -419,7 +482,7 @@ Bản cam kết này có hiệu lực kể từ ngày ký và được lập th�
 ```
 
 
-### 4. Mẫu BM-OM-01: Phiếu Đăng Ký Dự Tuyển & Khai Trình Năng Lực OM
+### 6.4. Mẫu BM-OM-01: Phiếu Đăng Ký Dự Tuyển & Khai Trình Năng Lực OM
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -458,7 +521,7 @@ XÁC NHẬN CỦA BỘ PHẬN VẬN HÀNH                         NGƯỜI LẬP
 ```
 
 
-### 5. Mẫu BM-OM-02: Biên Bản Đánh Giá Phỏng Vấn Chuẩn Mực Nghề Nghiệp
+### 6.5. Mẫu BM-OM-02: Biên Bản Đánh Giá Phỏng Vấn Chuẩn Mực Nghề Nghiệp
 
 ```text
 DỰ ÁN OFFLIFE                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -493,7 +556,7 @@ CÁN BỘ CHỦ TRÌ PHỎNG VẤN                              ỨNG VIÊN DỰ
 ```
 
 
-### 6. Mẫu BM-OM-03: Sổ Theo Dõi Tiến Độ Đào Tạo Hệ Thống (Portal Learn)
+### 6.6. Mẫu BM-OM-03: Sổ Theo Dõi Tiến Độ Đào Tạo Hệ Thống (Portal Learn)
 
 ```text
 DỰ ÁN OFFLIFE
@@ -523,7 +586,7 @@ XÁC NHẬN CỦA QUẢN TRỊ VIÊN PORTAL                     TRƯỞNG BAN Đ
 ```
 
 
-### 7. Mẫu BB-OM-01: Biên Bản Bàn Giao Bộ Tài Liệu & Công Cụ Điều Phối (Kit OM)
+### 6.7. Mẫu BB-OM-01: Biên Bản Bàn Giao Bộ Tài Liệu & Công Cụ Điều Phối (Kit OM)
 
 ```text
 DỰ ÁN OFFLIFE                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -554,7 +617,7 @@ Hai bên đã kiểm tra đủ số lượng, đúng chủng loại. Bên nhận
 ```
 
 
-### 8. Mẫu BM-OM-04: Phiếu Khảo Sát Đánh Giá Mức Độ Hài Lòng Của Khách Hàng
+### 6.8. Mẫu BM-OM-04: Phiếu Khảo Sát Đánh Giá Mức Độ Hài Lòng Của Khách Hàng
 
 ```text
 KHẢO SÁT CHẤT LƯỢNG
@@ -582,7 +645,7 @@ Cảm ơn Anh/Chị đã tham gia và đồng hành cùng Dự án OffLife!
 ```
 
 
-### 9. Mẫu ĐG-OM-01: Biên Bản Sát Hạch Thực Hành Điều Phối Bàn Chơi (In Ấn Nghị Định 30)
+### 6.9. Mẫu ĐG-OM-01: Biên Bản Sát Hạch Thực Hành Điều Phối Bàn Chơi (In Ấn Nghị Định 30)
 
 ```text
 DỰ ÁN OFFLIFE                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -621,7 +684,7 @@ GIÁM KHẢO CHẤM THI                                    ỨNG VIÊN SÁT HẠ
 ```
 
 
-### 10. Mẫu EM-OM-01: Email Thông Báo Kết Quả ĐẠT & Hướng Dẫn Bước Tiếp Theo
+### 6.10. Mẫu EM-OM-01: Email Thông Báo Kết Quả ĐẠT & Hướng Dẫn Bước Tiếp Theo
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE
@@ -665,7 +728,7 @@ DỰ ÁN GIÁO DỤC OFFLIFE
 ```
 
 
-### 11. Mẫu EM-OM-02: Email Thông Báo Kết Quả CHƯA ĐẠT & Phản Hồi Lý Do Chi Tiết
+### 6.11. Mẫu EM-OM-02: Email Thông Báo Kết Quả CHƯA ĐẠT & Phản Hồi Lý Do Chi Tiết
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE
