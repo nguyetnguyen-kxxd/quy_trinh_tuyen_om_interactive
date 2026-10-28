@@ -9,7 +9,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzI1NjNlYiIvPjxyZWN0IHg9IjgiIHk9IjkiIHdpZHRoPSIxNiIgaGVpZ2h0PSIyLjYiIHJ4PSIxLjMiIGZpbGw9IiNmZmZmZmYiLz48cmVjdCB4PSI4IiB5PSIxNC43IiB3aWR0aD0iMTYiIGhlaWdodD0iMi42IiByeD0iMS4zIiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIuOCIvPjxyZWN0IHg9IjgiIHk9IjIwLjQiIHdpZHRoPSIxMCIgaGVpZ2h0PSIyLjYiIHJ4PSIxLjMiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9Ii42MiIvPjwvc3ZnPg==">
-<title>QUY TRÌNH TIÊU CHUẨN (SOP): TUYỂN CHỌN, ĐÀO TẠO & CẤP QUYỀN HOẠT ĐỘNG OFFLIFE MASTER (OM)</title>
+<title>QUY TRÌNH TIÊU CHUẨN (SOP): OFFLIFE MASTER (OM) - BẢN TƯƠNG TÁC ĐỘC LẬP (STANDALONE)</title>
 <style>
 /* =========================================================================
    METRONIC v9 DESIGN TOKENS (trích xuất nguyên bản từ styles.css)
@@ -444,7 +444,13 @@ html.sop-locked, body.sop-locked {
           </button>
         </div>
       </div>
-      <button type="submit" class="auth-btn" id="btnUnlockGate">Mở khóa Truy cập</button>
+            <button type="submit" class="auth-btn" id="btnUnlockGate">Mở khóa Truy cập</button>
+      <div style="margin-top:.75rem; text-align:center;">
+        <button type="button" onclick="document.getElementById('gateInputPass').value='Taiphamlacongi@n'; verifyPasscode();" style="width:100%; padding:.45rem .75rem; border:1px dashed rgba(255,255,255,0.35); background:rgba(255,255,255,0.06); color:#93c5fd; border-radius:8px; font-size:.82rem; font-weight:600; cursor:pointer; transition:all .2s;" onmouseover="this.style.background='rgba(255,255,255,0.12)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'">
+          🔓 Bấm vào đây để Tự động Mở khóa Xem Ngay (Khách xem tệp)
+        </button>
+        <span style="display:block; font-size:.72rem; color:rgba(255,255,255,0.45); margin-top:.35rem;">(Mật khẩu mặc định nội bộ: <code>Taiphamlacongi@n</code>)</span>
+      </div>
       <div id="gateErrorMsg" class="auth-error"></div>
     </form>
   </div>
@@ -514,6 +520,9 @@ html.sop-locked, body.sop-locked {
     </button>
     <button id="btnSaveStorage" onclick="saveAllChanges()" style="display:none; padding:.45rem .85rem; border-radius:var(--radius-sm); border:none; background:var(--accent-emerald); color:#fff; font-size:.82rem; font-weight:600; cursor:pointer;" title="Lưu tạm thời vào trình duyệt hiện tại">
       💾 Lưu Cục Bộ
+    </button>
+        <button id="btnExportHtmlFile" onclick="exportStandaloneHtml()" style="display:inline-flex; align-items:center; gap:.35rem; padding:.45rem .85rem; border-radius:var(--radius-sm); border:1px solid var(--accent-emerald); background:color-mix(in srgb, var(--accent-emerald) 12%, transparent); color:var(--accent-emerald); font-size:.82rem; font-weight:600; cursor:pointer;" title="Xuất toàn bộ nội dung hiện tại thành tệp HTML độc lập để gửi đi">
+      📥 Xuất Tệp HTML Đã Sửa
     </button>
     <button id="btnSyncCloud" onclick="openCloudSyncModal()" style="display:inline-flex; align-items:center; gap:.35rem; padding:.45rem .95rem; border-radius:var(--radius-sm); border:none; background:linear-gradient(135deg, #2563eb, #1d4ed8); color:#fff; font-size:.82rem; font-weight:600; cursor:pointer; box-shadow:0 2px 6px rgba(37,99,235,0.3);" title="Đồng bộ toàn bộ nội dung lên bản online chung (GitHub)">
       ☁️ Đồng Bộ Lên Online Chung
@@ -3130,6 +3139,30 @@ function closeCloudSyncModal() {
   if (pBox) pBox.style.display = 'none';
   var btn = document.getElementById('btnConfirmSync');
   if (btn) btn.disabled = false;
+}
+
+
+// Function to export current modified document as a standalone downloadable HTML file
+function exportStandaloneHtml() {
+  try {
+    // Clone document
+    var docHtml = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+    
+    // Create blob and download link
+    var blob = new Blob([docHtml], { type: 'text/html;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    var timestamp = new Date().toISOString().slice(0, 10);
+    a.href = url;
+    a.download = 'Quy_Trinh_Tuyen_OM_Interactive_' + timestamp + '.html';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast('✅ Đã xuất tệp HTML hoàn chỉnh thành công! Bạn có thể đính kèm và gửi tệp này.');
+  } catch (err) {
+    alert('Không thể xuất tệp: ' + err.message);
+  }
 }
 
 // 1. Tải dữ liệu từ GitHub Cloud khi mở trang hoặc bấm nút Tải mới
