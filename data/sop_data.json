@@ -1,8 +1,8 @@
 {
-  "version": "3.1.0",
-  "last_updated": "2026-10-28T19:20:00+07:00",
-  "updated_by": "Team OffLife (Chuẩn hóa 100% theo Training Program gốc)",
-  "commit_note": "Chuẩn hóa 100% mô hình 2 chủ thể Applicant -> Certified OM theo tài liệu gốc Training Program",
+  "version": "3.2.0",
+  "last_updated": "2026-10-28T19:42:00+07:00",
+  "updated_by": "Hội đồng Quản trị & Đào tạo OffLife",
+  "commit_note": "Hoàn thiện SOP_Quy_Trinh_Tuyen_OM.md đầy đủ quy trình, giai đoạn và khung văn bản lấy Quy_Trinh_Tuyen_OM_Interactive.html làm chuẩn",
   "content": {},
   "steps": {
     "1": {
