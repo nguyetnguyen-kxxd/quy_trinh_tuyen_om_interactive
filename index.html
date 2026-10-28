@@ -548,6 +548,161 @@ html.sop-locked, body.sop-locked {
       </div>
     </div>
 
+    
+    <!-- ============ LỘ TRÌNH PHÂN CẤP CHỨC DANH ĐIỀU PHỐI (4 CẤP BẬC) ============ -->
+    <h3>Lộ Trình Phân Cấp Chức Danh Điều Phối Viên (4 Cấp Bậc)</h3>
+    <p>Nhằm xác lập lộ trình phát triển nghề nghiệp minh bạch, bảo đảm chuẩn hóa chất lượng điều phối trên toàn hệ thống và tạo động lực cống hiến lâu dài, Dự án OffLife thiết lập <strong>Hệ thống 4 Cấp bậc Chức danh Điều phối viên</strong>:</p>
+
+    <div style="display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; justify-content:space-between; margin:1rem 0 1.25rem; padding:.85rem 1rem; background:var(--muted); border-radius:var(--radius); border:1px solid var(--border);">
+      <div style="display:flex; align-items:center; gap:.5rem;">
+        <span style="display:inline-flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:50%; background:#64748b; color:#fff; font-size:.78rem; font-weight:700;">0</span>
+        <div><strong style="font-size:.85rem;">Người tham gia</strong><div style="font-size:.72rem; color:var(--muted-foreground);">Player / Explorer</div></div>
+      </div>
+      <span style="color:var(--muted-foreground); font-weight:700;">⟶</span>
+      <div style="display:flex; align-items:center; gap:.5rem;">
+        <span style="display:inline-flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:50%; background:#0284c7; color:#fff; font-size:.78rem; font-weight:700;">1</span>
+        <div><strong style="font-size:.85rem; color:#0284c7;">OM Tập sự</strong><div style="font-size:.72rem; color:var(--muted-foreground);">Apprentice OM</div></div>
+      </div>
+      <span style="color:var(--muted-foreground); font-weight:700;">⟶</span>
+      <div style="display:flex; align-items:center; gap:.5rem;">
+        <span style="display:inline-flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:50%; background:#10b981; color:#fff; font-size:.78rem; font-weight:700;">2</span>
+        <div><strong style="font-size:.85rem; color:#10b981;">OM Đạt chuẩn</strong><div style="font-size:.72rem; color:var(--muted-foreground);">Certified OM (License)</div></div>
+      </div>
+      <span style="color:var(--muted-foreground); font-weight:700;">⟶</span>
+      <div style="display:flex; align-items:center; gap:.5rem;">
+        <span style="display:inline-flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:50%; background:#7c3aed; color:#fff; font-size:.78rem; font-weight:700;">3</span>
+        <div><strong style="font-size:.85rem; color:#7c3aed;">OM Cao cấp</strong><div style="font-size:.72rem; color:var(--muted-foreground);">Senior Lead OM</div></div>
+      </div>
+    </div>
+
+    <!-- 4 Tiers Grid -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
+      <!-- Tier 0 -->
+      <div style="padding:1rem; border:1px solid var(--border); border-radius:var(--radius-sm); background:var(--card);">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:.5rem;">
+          <strong style="font-size:.92rem; color:#64748b;">Cấp 0: Người Tham Gia (Player)</strong>
+          <span style="font-size:.7rem; padding:.15rem .45rem; border-radius:9999px; background:#f1f5f9; color:#475569; font-weight:600;">Khách hàng</span>
+        </div>
+        <ul style="font-size:.82rem; margin:0 0 0 1.1rem; line-height:1.5; color:var(--foreground);">
+          <li><strong>Định vị:</strong> Cá nhân trải nghiệm 40 năm cuộc đời mô phỏng để nhận thức về 3 nguồn lực Tiền - Sức khỏe - Trí tuệ.</li>
+          <li><strong>Quyền hạn:</strong> Nhận Player Sheet, đúc kết OnLife, thực hiện khảo sát CSAT.</li>
+          <li><strong>Điều kiện chuyển tiếp:</strong> Tham dự đủ tối thiểu <strong>02 phiên OffLife thực tế</strong> và nộp đơn dự tuyển BM-OM-01.</li>
+        </ul>
+      </div>
+
+      <!-- Tier 1 -->
+      <div style="padding:1rem; border:1px solid #bae6fd; border-radius:var(--radius-sm); background:#f0f9ff;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:.5rem;">
+          <strong style="font-size:.92rem; color:#0284c7;">Cấp 1: OM Tập Sự (Apprentice OM)</strong>
+          <span style="font-size:.7rem; padding:.15rem .45rem; border-radius:9999px; background:#e0f2fe; color:#0369a1; font-weight:600;">Tập sự 30 ngày</span>
+        </div>
+        <ul style="font-size:.82rem; margin:0 0 0 1.1rem; line-height:1.5; color:#0c4a6e;">
+          <li><strong>Tiêu chuẩn:</strong> Đạt phỏng vấn BM-OM-02 &ge; 75đ; học 5 module video Portal; thi lý thuyết &ge; 90/100đ.</li>
+          <li><strong>Thẩm quyền:</strong> Chỉ được làm <strong>Điều phối phụ (Co-host)</strong> có Lead OM kèm cặp; chưa mở bàn độc lập; chưa cấp tài khoản manage.html; không thu phí riêng.</li>
+          <li><strong>Điều kiện lên Cấp 2:</strong> Sát hạch Co-host đạt Rubric &ge; 80/100đ, không vi phạm Zero Tolerance, ký hợp đồng CK-OM-01.</li>
+        </ul>
+      </div>
+
+      <!-- Tier 2 -->
+      <div style="padding:1rem; border:1px solid #a7f3d0; border-radius:var(--radius-sm); background:#ecfdf5;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:.5rem;">
+          <strong style="font-size:.92rem; color:#059669;">Cấp 2: OM Đạt Chuẩn (Certified OM)</strong>
+          <span style="font-size:.7rem; padding:.15rem .45rem; border-radius:9999px; background:#d1fae5; color:#065f46; font-weight:600;">License 01 năm</span>
+        </div>
+        <ul style="font-size:.82rem; margin:0 0 0 1.1rem; line-height:1.5; color:#064e3b;">
+          <li><strong>Tiêu chuẩn:</strong> Ban hành Quyết định QĐ-OM-01; ký CK-OM-01 (Hợp đồng dịch vụ + NDA + DPA); nhận bàn giao Kit BB-OM-01; CSAT &ge; 4.5/5.0.</li>
+          <li><strong>Thẩm quyền:</strong> <strong>Toàn quyền độc lập tổ chức bàn chơi tiêu chuẩn</strong> (4 - 8 người/bàn); cấp tài khoản manage.html; hưởng thù lao điều phối & phân chia doanh thu.</li>
+          <li><strong>Duy trì:</strong> Tối thiểu 02 phiên/quý (hoặc 08 phiên/năm); cập nhật phiên bản 2 tuần/lần.</li>
+        </ul>
+      </div>
+
+      <!-- Tier 3 -->
+      <div style="padding:1rem; border:1px solid #ddd6fe; border-radius:var(--radius-sm); background:#f5f3ff;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:.5rem;">
+          <strong style="font-size:.92rem; color:#7c3aed;">Cấp 3: OM Cao Cấp (Senior Lead OM)</strong>
+          <span style="font-size:.7rem; padding:.15rem .45rem; border-radius:9999px; background:#ede9fe; color:#5b21b6; font-weight:600;">Hội đồng Chuyên môn</span>
+        </div>
+        <ul style="font-size:.82rem; margin:0 0 0 1.1rem; line-height:1.5; color:#4c1d95;">
+          <li><strong>Tiêu chuẩn:</strong> Thâm niên &ge; 06 tháng ở cấp 2; trực tiếp điều phối tích lũy &ge; 30 phiên đạt CSAT &ge; 4.8; am hiểu 102 chuyên đề OnLife.</li>
+          <li><strong>Thẩm quyền:</strong> Chủ trì đại sự kiện đa bàn (50 - 200 người); làm Giám khảo chấm thi Rubric; phỏng vấn ứng viên; Mentor kèm cặp Apprentice OM; tham gia R&D.</li>
+          <li><strong>Đãi ngộ:</strong> Thù lao chuyên gia cao cấp, phụ cấp công tác chấm thi, tỷ lệ phân chia sự kiện tối ưu.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tier Comparison Table -->
+    <div style="overflow-x:auto; margin-bottom:1.5rem;">
+      <table>
+        <thead>
+          <tr>
+            <th>Tiêu chí so sánh</th>
+            <th>Cấp 0: Người tham gia</th>
+            <th>Cấp 1: OM Tập sự</th>
+            <th style="color:#059669;">Cấp 2: OM Đạt chuẩn</th>
+            <th style="color:#7c3aed;">Cấp 3: OM Cao cấp (Lead)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Điều kiện đầu vào</strong></td>
+            <td>Đăng ký tham gia</td>
+            <td>Tham dự &ge; 02 phiên + Đạt PV &ge; 75đ</td>
+            <td>Hoàn thành ĐT + Rubric &ge; 80đ</td>
+            <td>Certified OM &ge; 06 tháng + &ge; 30 phiên + CSAT &ge; 4.8</td>
+          </tr>
+          <tr>
+            <td><strong>Trạng thái pháp lý</strong></td>
+            <td>Khách hàng trải nghiệm</td>
+            <td>Học viên đào tạo tập sự</td>
+            <td><strong>Cấp License chính thức (QĐ-OM-01)</strong></td>
+            <td><strong>Quyết định bổ nhiệm Chuyên gia Hội đồng CM</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Tài khoản hệ thống</strong></td>
+            <td>Không</td>
+            <td>Tài khoản Portal Learn</td>
+            <td><strong>Tài khoản quản trị riêng (manage.html)</strong></td>
+            <td><strong>Tài khoản Master Admin (Full quyền)</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Thẩm quyền bàn chơi</strong></td>
+            <td>Không</td>
+            <td>Chỉ Co-host phụ có giám sát</td>
+            <td><strong>Độc lập mở bàn tiêu chuẩn (4 - 8 người)</strong></td>
+            <td><strong>Chủ trì đại sự kiện đa bàn (50 - 200 người)</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Vai trò đào tạo & chấm thi</strong></td>
+            <td>Khảo sát CSAT</td>
+            <td>Tham gia sát hạch</td>
+            <td>Hướng dẫn luật cho người chơi</td>
+            <td><strong>Giám khảo chấm thi, Phỏng vấn, Mentor OM</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Chỉ số duy trì (KPI)</strong></td>
+            <td>Không</td>
+            <td>Hoàn thành khóa học trong 30 ngày</td>
+            <td><strong>Tối thiểu 08 phiên/năm + CSAT &ge; 4.5</strong></td>
+            <td><strong>Tối thiểu 20 phiên/năm + Đào tạo &ge; 03 OM mới</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- License Lifecycle Governance Callout -->
+    <div class="callout note" style="margin-bottom:1.5rem;">
+      <span class="ico">🔄</span>
+      <div class="body">
+        <strong>Cơ Chế Quản Trị Vòng Đời License (Thăng Cấp - Tái Cấp - Cảnh Báo - Thu Hồi):</strong>
+        <ul style="margin:.35rem 0 0 1.25rem;">
+          <li><strong>Thăng cấp (Promotion):</strong> Xét duyệt tự động khi hoàn thành các Cổng kiểm soát trong quy trình SOP-OM-01 và đạt mốc thực chiến quy định.</li>
+          <li><strong>Tái cấp thường niên (Renewal):** License có giá trị 01 năm. Trước 30 ngày hết hạn, hệ thống tự động gia hạn nếu đạt &ge; 08 phiên/năm và CSAT &ge; 4.5 sao.</li>
+          <li><strong>Cảnh báo & Tạm đình chỉ:</strong> Áp dụng khi CSAT &lt; 4.2 sao (Cảnh báo) hoặc CSAT &lt; 4.0 sao / không hoạt động 2 quý liên tiếp (Tạm khóa manage.html từ 30 - 90 ngày).</li>
+          <li><strong>Thu hồi vĩnh viễn (Revocation):</strong> Áp dụng ngay khi vi phạm <strong>Quy chế Zero Tolerance</strong> hoặc tư vấn tài chính đời thực. Khóa tài khoản vĩnh viễn và xử lý đền bù theo hợp đồng CK-OM-01.</li>
+        </ul>
+      </div>
+    </div>
+
     <h3>Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên</h3>
     <div style="overflow-x:auto;">
       <table>

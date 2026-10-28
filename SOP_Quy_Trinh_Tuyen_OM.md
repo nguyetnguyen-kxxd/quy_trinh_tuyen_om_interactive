@@ -9,6 +9,14 @@
 ## MỤC LỤC TỔNG QUAN
 
 1. [Mục Đích, Phạm Vi & Phân Định Trách Nhiệm Nghề Nghiệp (5W1H & RACI)](#1-mục-đích-phạm-vi--phân-định-trách-nhiệm-nghề-nghiệp-5w1h--raci)
+   - 1.1. Mục Đích Ban Hành & Hai Trụ Cột Năng Lực
+   - 1.2. Lộ Trình Phân Cấp Chức Danh Điều Phối Viên (4 Cấp Bậc)
+   - 1.3. Bảng Ma Trận So Sánh Toàn Diện 4 Cấp Bậc Chức Danh
+   - 1.4. Cơ Chế Quản Trị Vòng Đời License (Thăng Cấp, Duy Trì, Cảnh Báo & Thu Hồi)
+   - 1.5. Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên
+   - 1.6. Hệ Thống 3 Nguyên Tắc Hoạt Động & Quy Chế Zero Tolerance
+   - 1.7. Giới Hạn Thẩm Quyền & Các Hành Vi Bị Nghiêm Cấm
+   - 1.8. Ma Trận Phân Định Trách Nhiệm (RACI Matrix)
 2. [Quy Trình 7 Bước Tuyển Chọn, Đào Tạo & Cấp Phép OM](#2-quy-trình-7-bước-tuyển-chọn-đào-tạo--cấp-phép-om)
 3. [Sơ Đồ Điều Hành Phân Làn (Swimlane Flowchart)](#3-sơ-đồ-điều-hành-phân-làn-swimlane-flowchart)
 4. [Ma Trận 11 Biểu Mẫu & Tra Cứu Nghiệp Vụ (Document Matrix)](#4-ma-trận-11-biểu-mẫu--tra-cứu-nghiệp-vụ-document-matrix)
@@ -27,12 +35,118 @@ Quy trình này quy định trình tự thủ tục, tiêu chí đánh giá đ�
 > 1. **Năng lực Chuyên môn (Professional Competency):** Làm chủ hệ thống thông số mô phỏng (tương tác định lượng 3 nguồn lực Tiền - Sức khỏe - Trí tuệ); điều phối chính xác 7 bước vòng chơi hàng năm; quản trị các biến cố tài chính, vỡ nợ, đột tử và kiểm soát thời lượng phiên chơi (40 năm mô phỏng trong 180 phút).
 > 2. **Tuân thủ Chuẩn mực Đạo đức & Liêm chính (Ethical Compliance & Integrity):** Tuyệt đối giữ tính khách quan; kiểm soát xung đột lợi ích; bảo vệ dữ liệu cá nhân của người tham gia; không đưa ra lời khuyên đầu tư tài chính cá nhân ngoài đời thực.
 
-### 1.2. Phạm Vi Điều Chỉnh & Lộ Trình Phân Cấp Chức Danh
-- **Phạm vi điều chỉnh:** Áp dụng trên toàn hệ thống Dự án OffLife đối với mọi hoạt động tuyển chọn, bồi dưỡng chuyên môn, cấp mới, duy trì, nâng hạng và thu hồi quyền điều phối viên.
-- **Lộ trình phân cấp chức danh điều phối:**
-  $$\text{Người tham gia (Player)} \longrightarrow \text{OM Tập sự (Apprentice OM)} \longrightarrow \text{OM Đạt chuẩn (Certified OM)} \longrightarrow \text{OM Cao cấp (Senior Lead OM)}$$
+---
 
-### 1.3. Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên
+### 1.2. Lộ Trình Phân Cấp Chức Danh Điều Phối Viên (4 Cấp Bậc)
+
+Nhằm xác lập lộ trình phát triển nghề nghiệp minh bạch, bảo đảm chuẩn hóa chất lượng điều phối trên toàn hệ thống và tạo động lực cống hiến lâu dài, Dự án OffLife thiết lập **Hệ thống 4 Cấp bậc Chức danh Điều phối viên**:
+
+$$\text{Cấp 0: Người tham gia (Player)} \longrightarrow \text{Cấp 1: OM Tập sự (Apprentice OM)} \longrightarrow \text{Cấp 2: OM Đạt chuẩn (Certified OM)} \longrightarrow \text{Cấp 3: OM Cao cấp (Senior Lead OM)}$$
+
+#### 1. Cấp 0: Người Tham Gia (Player / Explorer)
+- **Định vị:** Cá nhân trải nghiệm tiến trình mô phỏng 40 năm cuộc đời (23 đến 62 tuổi) trong buổi workshop OffLife để nhận thức về quản trị cân bằng 3 nguồn lực Tiền - Sức khỏe - Trí tuệ.
+- **Tiêu chuẩn đầu vào:** Đăng ký tham gia sự kiện công khai hoặc sự kiện nội bộ do OM tổ chức.
+- **Quyền hạn & Quyền lợi:** 
+  * Được tham gia trọn vẹn phiên mô phỏng; nhận Bộ Phiếu ghi cá nhân (Player Sheet);
+  * Tham gia phiên đúc kết bài học OnLife cùng OM điều phối;
+  * Thực hiện khảo sát đánh giá chất lượng phục vụ của OM (`BM-OM-04`).
+- **Điều kiện chuyển tiếp lên Cấp 1 (OM Tập sự):**
+  * Tham dự trọn vẹn tối thiểu **02 phiên OffLife thực tế** (có xác nhận của Lead OM trong hồ sơ);
+  * Tự nguyện nộp Phiếu Đăng ký Dự tuyển & Khai trình Năng lực (`BM-OM-01`).
+
+#### 2. Cấp 1: OM Tập Sự (Apprentice OM / Trainee)
+- **Định vị:** Ứng viên đã vượt qua vòng thẩm định hồ sơ tiên quyết và phỏng vấn chuẩn mực đạo đức, đang trong giai đoạn đào tạo nghiệp vụ tập trung và sát hạch thực địa có giám sát.
+- **Tiêu chuẩn năng lực:**
+  * Vượt qua vòng phỏng vấn chuẩn mực đạo đức với Hội đồng Chuyên môn đạt điểm số $\ge 75/100$ (`BM-OM-02`);
+  * Hoàn thành 100% thời lượng 5 Module Video bài giảng trên Portal Learn (`BM-OM-03`);
+  * Nghiên cứu thấu đáo Tài liệu Đào tạo OffLife Master v3.0 (12 phần) và Khung 102 Chuyên đề OnLife;
+  * Đạt điểm bài kiểm tra lý thuyết trực tuyến tổng hợp từ $\ge 90/100$ điểm.
+- **Thẩm quyền & Giới hạn hoạt động:**
+  * **Chỉ được tham gia với tư cách Điều phối phụ (Co-host)** tại các bàn chơi dưới sự giám sát và hướng dẫn trực tiếp của Senior Lead OM;
+  * **Tuyệt đối chưa được tổ chức hoặc điều phối độc lập** bàn chơi khi chưa có Quyết định bổ nhiệm chính thức;
+  * Chưa được cấp tài khoản quản trị cá nhân (`manage.html`);
+  * Không được tự ý thu phí dịch vụ điều phối độc lập từ người tham gia;
+  * Thời hạn tập sự tối đa: **30 ngày** kể từ ngày thông báo kết quả phỏng vấn.
+- **Điều kiện thăng cấp lên Cấp 2 (Certified OM):**
+  * Thực hành điều phối có giám sát (Co-host) đạt điểm Rubric $\ge 80/100$ (`ĐG-OM-01`);
+  * Không vi phạm bất kỳ tiêu chí nào thuộc Quy chế Zero Tolerance;
+  * Được Hội đồng Chuyên môn lập Tờ trình đề xuất (`TT-OM-01`) và Ban Quản lý Dự án ký Quyết định phê chuẩn (`QĐ-OM-01`);
+  * Ký kết đầy đủ Thỏa thuận cam kết pháp lý (`CK-OM-01`: Hợp đồng dịch vụ + NDA + DPA).
+
+#### 3. Cấp 2: OM Đạt Chuẩn / Chính Thức (Certified OM)
+- **Định vị:** Điều phối viên chính thức được Dự án OffLife ủy quyền hành nghề độc lập, đại diện cho chuẩn mực chuyên môn và uy tín liêm chính của thương hiệu OffLife.
+- **Tiêu chuẩn năng lực:**
+  * Nắm giữ Giấy phép điều phối (License) chính thức có thời hạn hiệu lực **01 năm**;
+  * Đã ký kết hợp đồng dịch vụ và bản cam kết pháp lý bảo vệ dữ liệu (`CK-OM-01`);
+  * Tiếp nhận Bộ công cụ điều phối tiêu chuẩn nguyên seal (`BB-OM-01`);
+  * Làm chủ kỹ thuật điều hành 7 bước vòng chơi và phương pháp đặt câu hỏi truy vấn bài học (Debriefing) theo chuẩn 12 phần;
+  * Duy trì chỉ số hài lòng của khách hàng (CSAT) sau mỗi phiên chơi đạt trung bình $\ge 4.5/5.0$ sao (`BM-OM-04`).
+- **Thẩm quyền & Quyền lợi hoạt động:**
+  * **Toàn quyền độc lập tổ chức và điều phối bàn chơi tiêu chuẩn** (quy mô từ 4 đến 8 người chơi/bàn);
+  * Được cấp tài khoản quản trị cá nhân độc lập trên hệ thống số (`manage.html`);
+  * Được phép cung ứng dịch vụ điều phối workshop cho cộng đồng, doanh nghiệp, tổ chức giáo dục và câu lạc bộ theo khung giá quy định của Dự án;
+  * Được hưởng thù lao điều phối, cơ chế chia sẻ doanh thu và chính sách phân phối Bộ công cụ OffLife theo Quy chế Tài chính nội bộ;
+  * Được tham gia các chương trình đào tạo nâng cao, cập nhật tính năng mới định kỳ 2 tuần/lần từ đội ngũ R&D.
+- **Nghĩa vụ duy trì License thường niên:**
+  * Thực hiện tối thiểu **02 phiên điều phối/quý** (hoặc tối thiểu **08 phiên/năm**);
+  * Đảm bảo điểm đánh giá chất lượng CSAT trung bình $\ge 4.5/5.0$ sao và không nhận phản hồi tiêu cực về thái độ/liêm chính;
+  * Hoàn thành các kỳ kiểm chuẩn nghiệp vụ thường niên và cập nhật phiên bản quy tắc mới.
+- **Điều kiện thăng cấp lên Cấp 3 (Senior Lead OM):**
+  * Duy trì hoạt động ở cấp Certified OM liên tục tối thiểu **06 tháng**;
+  * Trực tiếp điều phối thành công tích lũy tối thiểu **30 phiên chơi** với điểm CSAT trung bình $\ge 4.8/5.0$ sao;
+  * Được tối thiểu 02 thành viên Hội đồng Chuyên môn đề cử và vượt qua kỳ sát hạch năng lực Cố vấn / Huấn luyện viên.
+
+#### 4. Cấp 3: OM Cao Cấp / Trưởng Nhóm Chuyên Môn (Senior Lead OM / Master Trainer)
+- **Định vị:** Chuyên gia điều phối kỳ cựu, Cố vấn phương pháp luận, Giám khảo sát hạch trực thuộc Hội đồng Chuyên môn và là Người dẫn đường (Mentor) cho các thế hệ OM kế cận.
+- **Tiêu chuẩn năng lực:**
+  * Có bề dày kinh nghiệm thực chiến xuất sắc ($\ge 30$ phiên điều phối, thâm niên $\ge 06$ tháng);
+  * Am hiểu sâu sắc bản chất khoa học hành vi, quản trị xác suất và ánh xạ nhuần nhuyễn 102 chuyên đề thực tiễn OnLife;
+  * Sở hữu kỹ năng xử lý khủng hoảng tâm lý người chơi vượt trội (xử lý tình huống vỡ nợ, đột tử, áp lực tài chính);
+  * Được Trưởng Ban Quản lý Dự án (Project Lead) ban hành Quyết định bổ nhiệm chức danh Senior Lead OM.
+- **Thẩm quyền & Trọng trách đặc thù:**
+  * **Chủ trì các sự kiện mô phỏng quy mô lớn:** Điều hành các phiên hội trường đa bàn chơi (từ 50 đến 200 người tham gia đồng thời);
+  * **Thành viên Hội đồng Chuyên môn:** Trực tiếp tham gia phỏng vấn ứng viên (`BM-OM-02`), giám sát các phiên Co-host, chấm điểm lượng hóa Rubric (`ĐG-OM-01`) và ký Tờ trình phê duyệt cấp phép (`TT-OM-01`);
+  * **Huấn luyện & Mentor:** Trực tiếp kèm cặp, hướng dẫn và truyền thụ kinh nghiệm cho các Apprentice OM trong giai đoạn tập sự;
+  * **Tham gia Ban Nghiên cứu & Cải tiến Sản phẩm (Product R&D):** Đóng góp ý kiến sửa đổi cơ chế trò chơi, thuật toán số phận/may mắn và biên soạn các chuyên đề OnLife mới;
+  * **Quyền lợi & Đãi ngộ cao cấp:** Hưởng thù lao chuyên gia cao cấp, phụ cấp công tác chấm thi sát hạch và tỷ lệ phân chia doanh thu sự kiện quy mô lớn tối ưu nhất.
+
+---
+
+### 1.3. Bảng Ma Trận So Sánh Toàn Diện 4 Cấp Bậc Chức Danh Điều Phối
+
+| Tiêu Chí So Sánh | Cấp 0: Người Tham Gia (Player) | Cấp 1: OM Tập Sự (Apprentice OM) | Cấp 2: OM Đạt Chuẩn (Certified OM) | Cấp 3: OM Cao Cấp (Senior Lead OM) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Đối tượng & Đầu vào** | Cá nhân đăng ký tham gia workshop | Người chơi tham gia $\ge 02$ phiên + Đạt phỏng vấn $\ge 75$đ | Hoàn thành đào tạo + Đạt Rubric Co-host $\ge 80$đ | Certified OM $\ge 06$ tháng + $\ge 30$ phiên + CSAT $\ge 4.8$ |
+| **Trạng thái Pháp lý** | Khách hàng trải nghiệm | Học viên đào tạo tập sự | **Được cấp License chính thức (QĐ-OM-01)** | **Quyết định bổ nhiệm Chuyên gia Hội đồng CM** |
+| **Tài khoản Hệ thống** | Không có | Tài khoản học tập Portal Learn | **Tài khoản quản trị riêng (`manage.html`)** | **Tài khoản Quản trị viên Master (Full Admin)** |
+| **Thẩm quyền Bàn chơi** | Không | Chỉ điều phối phụ (Co-host có giám sát) | **Độc lập mở bàn tiêu chuẩn (4 - 8 người/bàn)** | **Chủ trì đại sự kiện đa bàn (50 - 200 người)** |
+| **Vai trò Sát hạch & Đào tạo** | Đánh giá khảo sát CSAT | Tham gia sát hạch thực tế | Hướng dẫn luật chơi cho người tham gia | **Giám khảo chấm thi, Phỏng vấn, Mentor OM** |
+| **Quyền lợi Kinh tế** | Tiếp nhận giá trị bài học cuộc sống | Được hỗ trợ phụ cấp Co-host (nếu có) | **Thù lao điều phối + Phân chia doanh thu bàn** | **Thù lao chuyên gia + Phụ cấp giám khảo + R&D** |
+| **Chỉ số Duy trì (KPI)** | Không | Hoàn thành đào tạo trong vòng 30 ngày | **Tối thiểu 08 phiên/năm + CSAT $\ge 4.5/5.0$** | **Tối thiểu 20 phiên/năm + Đào tạo $\ge 03$ OM mới** |
+
+---
+
+### 1.4. Cơ Chế Quản Trị Vòng Đời License (Thăng Cấp, Duy Trì, Cảnh Báo & Thu Hồi)
+
+1. **Cơ chế Thăng cấp (Promotion Protocol):**
+   - *Từ Player lên Apprentice OM:* Tự động kích hoạt khi nộp `BM-OM-01` kèm xác nhận $\ge 02$ phiên tham dự và đạt phỏng vấn `BM-OM-02`.
+   - *Từ Apprentice OM lên Certified OM:* Hội đồng Chuyên môn lập Tờ trình `TT-OM-01` sau khi đạt điểm Rubric $\ge 80/100$, hoàn tất ký hợp đồng `CK-OM-01` và nhận License `QĐ-OM-01`.
+   - *Từ Certified OM lên Senior Lead OM:* Xét duyệt định kỳ 6 tháng/lần dựa trên hồ sơ chứng minh $\ge 30$ phiên điều phối, báo cáo điểm CSAT $\ge 4.8$ sao và bài đánh giá năng lực sư phạm/mentor.
+
+2. **Cơ chế Duy trì & Tái cấp License Thường niên (Renewal Protocol):**
+   - Giấy phép điều phối License có thời hạn hiệu lực **01 năm (12 tháng)** kể từ ngày ký Quyết định bổ nhiệm.
+   - Trước ngày hết hạn 30 ngày, hệ thống tự động trích xuất lịch sử điều phối:
+     * Nếu hoàn thành $\ge 08$ phiên/năm và điểm CSAT trung bình $\ge 4.5$ sao: **Tự động gia hạn License thêm 01 năm**.
+     * Nếu chưa đủ số phiên: OM phải tham gia phiên kiểm chuẩn cập nhật nghiệp vụ với Senior Lead OM để được xem xét gia hạn.
+
+3. **Cơ chế Chế tài, Cảnh Báo, Tạm Đình Chỉ & Thu Hồi Vĩnh Viễn (Disciplinary & Revocation):**
+   - **Mức 1 - Cảnh báo Chuyên môn (Warning):** Áp dụng khi điểm CSAT rơi xuống dưới 4.2 sao trong 2 phiên liên tiếp hoặc trễ nộp biên bản/dữ liệu phiên chơi. OM phải làm việc với Mentor để rà soát quy trình.
+   - **Mức 2 - Tạm đình chỉ License (Suspension từ 30 đến 90 ngày):** Áp dụng khi điểm CSAT dưới 4.0 sao, không tổ chức phiên chơi nào trong 02 quý liên tiếp, hoặc có tranh chấp dịch vụ chưa giải quyết. Khóa tạm thời quyền truy cập `manage.html`.
+   - **Mức 3 - Thu hồi Vĩnh viễn (Permanent Revocation):** Áp dụng ngay lập tức khi phát hiện hành vi vi phạm **Quy chế Zero Tolerance** (Lừa dối người tham gia, Gian lận ủy quyền tài khoản, Thao túng thương mại, Lợi dụng dữ liệu cá nhân) hoặc cung cấp dịch vụ tư vấn đầu tư tài chính đời thực. Thu hồi toàn bộ quyền License, khóa vĩnh viễn tài khoản quản trị và tiến hành các biện pháp chế tài bồi thường theo Hợp đồng cam kết pháp lý `CK-OM-01`.
+
+---
+
+### 1.5. Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên
 
 | Tiêu chí so sánh | Người dẫn chương trình (MC) | Giảng viên đào tạo (Trainer) | Điều phối viên OffLife Master (OM) |
 | :--- | :--- | :--- | :--- |
@@ -40,7 +154,9 @@ Quy trình này quy định trình tự thủ tục, tiêu chí đánh giá đ�
 | **Phương thức tương tác** | Khuấy động không khí, tương tác bề nổi | Thuyết giảng, yêu cầu ghi nhớ nội dung | **Đặt câu hỏi gợi mở truy vấn bài học; để đối tượng tự quyết định và tự chịu trách nhiệm** |
 | **Phạm vi kiểm soát rủi ro** | Kiểm soát thời lượng và kịch bản sự kiện | Kiểm soát tính chính xác của bài giảng | **Kiểm soát tính khách quan, bảo mật dữ liệu và kiểm soát xung đột lợi ích** |
 
-### 1.4. Hệ Thống 3 Nguyên Tắc Hoạt Động & Quy Chế Không Khoan Nhượng (Zero Tolerance)
+---
+
+### 1.6. Hệ Thống 3 Nguyên Tắc Hoạt Động & Quy Chế Không Khoan Nhượng (Zero Tolerance)
 Căn cứ Phần I Tài liệu Đào tạo OffLife Master v3.0, nhân sự ứng tuyển và đang hành nghề phải tuân thủ nghiêm ngặt 3 nguyên tắc:
 1. **Nguyên tắc Phát triển liên tục:** Định kỳ cập nhật nghiệp vụ, tiếp nhận dữ liệu phản hồi sau mỗi phiên làm việc và đóng góp cải tiến hệ thống.
 2. **Nguyên tắc Hợp tác cùng có lợi (Win-Win):** Đặt hiệu quả nhận thức của người tham gia làm ưu tiên cao nhất; duy trì mô hình cung ứng dịch vụ minh bạch và bền vững.
@@ -53,13 +169,17 @@ Căn cứ Phần I Tài liệu Đào tạo OffLife Master v3.0, nhân sự ứng
 > 3. **Thao túng (Undue Influence):** Sử dụng tình huống mô phỏng để gieo rắc định kiến hoặc áp lực nhằm định hướng người tham gia mua sản phẩm thương mại khác.
 > 4. **Lợi dụng (Data Exploitation):** Khai thác, phát tán hoặc thương mại hóa trái phép dữ liệu cá nhân và thông tin riêng tư của người tham gia.
 
-### 1.5. Giới Hạn Thẩm Quyền & Các Hành Vi Bị Nghiêm Cấm
+---
+
+### 1.7. Giới Hạn Thẩm Quyền & Các Hành Vi Bị Nghiêm Cấm
 - Tuyệt đối **không đưa ra khuyến nghị hoặc tư vấn tài chính cá nhân cụ thể ngoài đời thực** (ví dụ: tư vấn mua mã cổ phiếu cụ thể, vay thế chấp ngân hàng, lướt sóng bất động sản).
 - Không tiết lộ thông số thuật toán ngầm hoặc kịch bản thử thách của hệ thống trước và trong phiên mô phỏng.
 - Không tự ý sửa đổi quy tắc vận hành khi chưa có văn bản chấp thuận từ Ban Quản lý Dự án.
 - Không phán xét hay áp đặt định kiến cá nhân lên quyết định của người tham gia trong tiến trình mô phỏng.
 
-### 1.6. Ma Trận Phân Định Trách Nhiệm (RACI Matrix)
+---
+
+### 1.8. Ma Trận Phân Định Trách Nhiệm (RACI Matrix)
 
 | Giai đoạn công việc | Ứng viên OM | Ban Vận hành / HR (Thu Hà) | Hội đồng Chuyên môn (Kim Thoa) | Ban Quản lý Dự án (Võ Duy Anh) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -292,7 +412,7 @@ flowchart TD
 | 7 | **CK-OM-01** | VBPL: Hợp đồng dịch vụ + NDA + DPA | Pháp lý & Cam kết | Bộ phận Pháp chế | Trưởng Dự án & OM ký | 0.5 ngày |
 | 8 | **BB-OM-01** | Biên bản Bàn giao Bộ Kit & Trang thiết bị Điều phối | Quản trị tài sản | Quản trị Kit PMO | OM tiếp nhận | 0.5 ngày |
 | 9 | **BM-OM-04** | Phiếu Khảo sát Đánh giá Mức độ Hài lòng Khách hàng | Kiểm soát chất lượng | Người tham gia | Hệ thống tự động | Realtime |
-| 10 | **EM-OM-01** | Email Thông Báo Kết Quả ĐẠT & Hướng Dẫn Tiếp Theo | Thông báo điện tử | Ban Tuyển chọn / PMO | Hệ thống / Trưởng Ban ĐT | Trong ngày |
+| 10 | **EM-OM-01** | Email Thông Báo Kết QuẢ ĐẠT & Hướng Dẫn Tiếp Theo | Thông báo điện tử | Ban Tuyển chọn / PMO | Hệ thống / Trưởng Ban ĐT | Trong ngày |
 | 11 | **EM-OM-02** | Email Thông Báo Kết Quả CHƯA ĐẠT & Phản Hồi Lý Do | Thông báo điện tử | Hội đồng CM / PMO | Hệ thống / Trưởng Ban ĐT | Trong ngày |
 
 ### 4.2. Bảng Quy Chuẩn Nội Dung Dữ Liệu & Điểm Kiểm Soát Tương Ứng
