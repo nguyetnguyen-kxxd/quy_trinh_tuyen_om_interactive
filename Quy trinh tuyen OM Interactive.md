@@ -246,123 +246,163 @@ xuất HĐĐT, nhắc gia hạn 30 ngày"]
 
 ## 4. MA TRẬN BIỂU MẪU & TRA CỨU NGHIỆP VỤ (HỆ THỐNG TÙY BIẾN)
 
-Hệ thống biểu mẫu hành chính theo Nghị định 30/2020/NĐ-CP, Thỏa thuận pháp lý và Biểu mẫu nghiệp vụ tương ứng 100% với tệp chuẩn tương tác:
+Hệ thống hỗ trợ tra cứu, lọc, xem chi tiết và **thêm mới / chỉnh sửa / xóa** số lượng biểu mẫu trực tiếp trên giao diện:
 
-| STT | Mã Hiệu | Tên Biểu Mẫu / Văn Bản Quản Trị | Phân Nhóm Nghiệp Vụ | Người Lập / Chủ Trì | Cấp Phê Duyệt | Thời Hạn (SLA) |
-| :---: | :--- | :--- | :--- | :--- | :--- | :---: |
-
-| 01 | `BM-OM-01` | **Phiếu Đăng ký Dự tuyển & Quét Năng lực Ứng viên (Profile Scanning)** | Tuyển chọn | Ứng viên OM | Team OffLife / PMO | 07 ngày |
-| 02 | `BM-OM-02` | **Bảng Theo dõi Tiến độ Đào tạo Online & Quản trị Tài khoản Dùng thử** | Đào tạo | Ứng viên OM & Team OffLife | Ban Huấn luyện | 04 tuần |
-| 03 | `BM-OM-03` | **Đề thi Tự luận & Phiếu Chấm Kỳ thi Viết Năng lực (Written Test Scoresheet)** | Sát hạch chuyên môn | Giám khảo Hội đồng CM | Hội đồng Chuyên môn | 180 phút |
-| 04 | `ĐG-OM-01` | **Bảng Tiêu chí Chấm điểm Thực tế Demo Event (Live Event Scoring Rubric)** | Sát hạch chuyên môn | Examiner của OffLife | Hội đồng Chuyên môn | 01 phiên (180p) |
-| 05 | `BM-OM-04` | **Biên bản Phỏng vấn Định hướng & Động lực Cá nhân (Final Interview Rubric)** | Sát hạch chuyên môn | Hội đồng Phỏng vấn | Hội đồng Chuyên môn | 20–30 phút |
-| 06 | `TT-OM-01` | **Tờ trình Đề xuất Công nhận Certified OM & Cấp Quyền Hoạt Động (Chuẩn NĐ 30)** | Hành chính (NĐ 30) | Hội đồng Chuyên môn | Trưởng Ban Quản lý Dự án | 01 ngày |
-| 07 | `QĐ-OM-01` | **Quyết định Công nhận Chức danh Certified OffLife Master (Chuẩn NĐ 30)** | Hành chính (NĐ 30) | Bộ phận Pháp chế | Trưởng Dự án (Project Lead) | 01 ngày |
-| 08 | `CK-OM-01` | **Hợp đồng Dịch vụ Phần mềm (Subscription) + Thỏa thuận Bảo mật (NDA) + DPA** | Pháp lý & Cam kết | Bộ phận Pháp chế | Project Lead & OM ký | 0.5 ngày |
-| 09 | `BB-OM-01` | **Biên bản Bàn giao Bộ Kit Điều Phối & Kích hoạt Tài khoản Quản trị Subscription** | Quản trị tài sản | Quản trị Kit & Tài khoản | OM tiếp nhận | 0.5 ngày |
-| 10 | `EM-OM-01` | **Hệ thống Email Thông Báo Kết Quả ĐẠT (Tích hợp 5 Cổng Kiểm Soát GĐ 1-5)** | Thông báo điện tử | Team Tuyển chọn / PMO | Hệ thống tự động / Lead | Trong ngày |
-| 11 | `EM-OM-02` | **Hệ thống Email Thông Báo CHƯA ĐẠT & Phản Hồi Lý Do (Tích hợp 5 Cổng Kiểm Soát)** | Thông báo điện tử | Hội đồng Chuyên môn / PMO | Hệ thống tự động / Lead | Trong ngày |
+**Công cụ quản trị:** `[➕ Thêm Biểu mẫu / Văn bản Mới]` | `[🔄 Khôi phục Mẫu Gốc]`  
+**Thanh tìm kiếm:** `🔍 Nhập mã văn bản, tên biểu mẫu, chủ thể lập...`  
+**Bộ lọc phân loại (Filter Chips):** `[Tất cả (11)]` | `[Tuyển chọn]` | `[Đào tạo]` | `[Sát hạch chuyên môn]` | `[Hành chính (NĐ 30)]` | `[Pháp lý & Cam kết]` | `[Quản trị tài sản]` | `[Thông báo điện tử]`
 
 ---
 
-### Chi Tiết Căn Cứ & Nội Dung Nghiệp Vụ Từng Biểu Mẫu:
+### BẢNG MA TRẬN BIỂU MẪU / VĂN BẢN CHUẨN HÓA
+
+| Mã | Tên Biểu mẫu / Văn bản chuẩn hóa | Phân loại | Đơn vị lập | Phê duyệt | SLA | Thao tác |
+| :--- | :--- | :---: | :--- | :--- | :---: | :---: |
+| `BM-OM-01` | **Phiếu Đăng ký Dự tuyển & Quét Năng lực Ứng viên (Profile Scanning)** | `Tuyển chọn` | Ứng viên OM | Team OffLife / PMO | **07 ngày** | [👁️ Xem quy cách](#mẫu-01-bm-om-01) \| ✏️ \| 🗑️ |
+| `BM-OM-02` | **Bảng Theo dõi Tiến độ Đào tạo Online & Quản trị Tài khoản Dùng thử** | `Đào tạo` | Ứng viên OM & Team OffLife | Ban Huấn luyện | **04 tuần** | [👁️ Xem quy cách](#mẫu-02-bm-om-02) \| ✏️ \| 🗑️ |
+| `BM-OM-03` | **Đề thi Tự luận & Phiếu Chấm Kỳ thi Viết Năng lực (Written Test Scoresheet)** | `Sát hạch chuyên môn` | Giám khảo Hội đồng CM | Hội đồng Chuyên môn | **180 phút** | [👁️ Xem quy cách](#mẫu-03-bm-om-03) \| ✏️ \| 🗑️ |
+| `ĐG-OM-01` | **Bảng Tiêu chí Chấm điểm Thực tế Demo Event (Live Event Scoring Rubric)** | `Sát hạch chuyên môn` | Examiner của OffLife | Hội đồng Chuyên môn | **01 phiên (180p)** | [👁️ Xem quy cách](#mẫu-04-đg-om-01) \| ✏️ \| 🗑️ |
+| `BM-OM-04` | **Biên bản Phỏng vấn Định hướng & Động lực Cá nhân (Final Interview Rubric)** | `Sát hạch chuyên môn` | Hội đồng Phỏng vấn | Hội đồng Chuyên môn | **20–30 phút** | [👁️ Xem quy cách](#mẫu-05-bm-om-04) \| ✏️ \| 🗑️ |
+| `TT-OM-01` | **Tờ trình Đề xuất Công nhận Certified OM & Cấp Quyền Hoạt Động (Chuẩn NĐ 30)** | `Hành chính (NĐ 30)` | Hội đồng Chuyên môn | Trưởng Ban Quản lý Dự án | **01 ngày** | [👁️ Xem quy cách](#mẫu-06-tt-om-01) \| ✏️ \| 🗑️ |
+| `QĐ-OM-01` | **Quyết định Công nhận Chức danh Certified OffLife Master (Chuẩn NĐ 30)** | `Hành chính (NĐ 30)` | Bộ phận Pháp chế | Trưởng Dự án (Project Lead) | **01 ngày** | [👁️ Xem quy cách](#mẫu-07-qđ-om-01) \| ✏️ \| 🗑️ |
+| `CK-OM-01` | **Hợp đồng Dịch vụ Phần mềm (Subscription) + Thỏa thuận Bảo mật (NDA) + DPA** | `Pháp lý & Cam kết` | Bộ phận Pháp chế | Project Lead & OM ký | **0.5 ngày** | [👁️ Xem quy cách](#mẫu-08-ck-om-01) \| ✏️ \| 🗑️ |
+| `BB-OM-01` | **Biên bản Bàn giao Bộ Kit Điều Phối & Kích hoạt Tài khoản Quản trị Subscription** | `Quản trị tài sản` | Quản trị Kit & Tài khoản | OM tiếp nhận | **0.5 ngày** | [👁️ Xem quy cách](#mẫu-09-bb-om-01) \| ✏️ \| 🗑️ |
+| `EM-OM-01` | **Hệ thống Email Thông Báo Kết Quả ĐẠT (Tích hợp 5 Cổng Kiểm Soát GĐ 1-5)** | `Thông báo điện tử` | Team Tuyển chọn / PMO | Hệ thống tự động / Lead | **Trong ngày** | [👁️ Xem quy cách](#mẫu-10-em-om-01) \| ✏️ \| 🗑️ |
+| `EM-OM-02` | **Hệ thống Email Thông Báo CHƯA ĐẠT & Phản Hồi Lý Do (Tích hợp 5 Cổng Kiểm Soát)** | `Thông báo điện tử` | Hội đồng Chuyên môn / PMO | Hệ thống tự động / Lead | **Trong ngày** | [👁️ Xem quy cách](#mẫu-11-em-om-02) \| ✏️ \| 🗑️ |
+
+---
+
+### QUY CHUẨN CHI TIẾT TỪNG BIỂU MẪU (QUY CÁCH NGHIỆP VỤ & NỘI DUNG)
 
 #### 01. Biểu mẫu `BM-OM-01`: Phiếu Đăng ký Dự tuyển & Quét Năng lực Ứng viên (Profile Scanning)
-- **Phân loại danh mục:** Tuyển chọn
-- **Chủ thể lập:** Ứng viên OM
-- **Cấp duyệt / Ký kết:** Team OffLife / PMO
+- **Mã văn bản:** `BM-OM-01`
+- **Phân loại danh mục:** `Tuyển chọn`
+- **Đơn vị lập:** Ứng viên OM
+- **Cấp phê duyệt:** Team OffLife / PMO
 - **Thời hạn giải quyết (SLA):** `07 ngày`
-- **Nội dung quy chuẩn:** Bao gồm thông tin định danh cá nhân, CCCD, thông tin OM giới thiệu (bắt buộc), lịch sử tham dự ≥ 02 phiên OffLife thực tế, bản tự đánh giá năng lực và xác nhận tick đồng ý 3 tài liệu pháp lý trực tuyến (Điều khoản tham gia, HĐ phần mềm dự thảo, Thông báo DPA). Chấm theo Rubric Profile 10 điểm (yêu cầu > 6/10 và Năng lực tổ chức > 1).
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Bao gồm thông tin định danh cá nhân, CCCD, thông tin OM giới thiệu (bắt buộc), lịch sử tham dự ≥ 02 phiên OffLife thực tế, bản tự đánh giá năng lực và xác nhận tick đồng ý 3 tài liệu pháp lý trực tuyến (Điều khoản tham gia, HĐ phần mềm dự thảo, Thông báo DPA). Chấm theo Rubric Profile 10 điểm (yêu cầu > 6/10 và Năng lực tổ chức > 1).
+- **Văn bản mẫu tham chiếu:** [Mẫu 01 (BM-OM-01)](#mẫu-01-bm-om-01)
 
 ---
 
 #### 02. Biểu mẫu `BM-OM-02`: Bảng Theo dõi Tiến độ Đào tạo Online & Quản trị Tài khoản Dùng thử
-- **Phân loại danh mục:** Đào tạo
-- **Chủ thể lập:** Ứng viên OM & Team OffLife
-- **Cấp duyệt / Ký kết:** Ban Huấn luyện
+- **Mã văn bản:** `BM-OM-02`
+- **Phân loại danh mục:** `Đào tạo`
+- **Đơn vị lập:** Ứng viên OM & Team OffLife
+- **Cấp phê duyệt:** Ban Huấn luyện
 - **Thời hạn giải quyết (SLA):** `04 tuần`
-- **Nội dung quy chuẩn:** Theo dõi 4 tiêu chí bắt buộc của giai đoạn tự học: (1) Hoàn thành 10 Video bài học OM Academy (Module 0-9) & Cẩm nang v3.0; (2) Thực hành tạo kịch bản với Tool giả lập; (3) Xác nhận tham gia hỗ trợ ít nhất 1 session thật; (4) Phiếu gửi câu hỏi trước và xác nhận tham dự buổi TA Q&A trực tiếp (2 tiếng). Ghi nhận thời hạn tài khoản dùng thử trên Sheet Account List.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Theo dõi 4 tiêu chí bắt buộc của giai đoạn tự học: (1) Hoàn thành 10 Video bài học OM Academy (Module 0-9) & Cẩm nang v3.0; (2) Thực hành tạo kịch bản với Tool giả lập; (3) Xác nhận tham gia hỗ trợ ít nhất 1 session thật; (4) Phiếu gửi câu hỏi trước và xác nhận tham dự buổi TA Q&A trực tiếp (2 tiếng). Ghi nhận thời hạn tài khoản dùng thử trên Sheet Account List.
+- **Văn bản mẫu tham chiếu:** [Mẫu 02 (BM-OM-02)](#mẫu-02-bm-om-02)
 
 ---
 
 #### 03. Biểu mẫu `BM-OM-03`: Đề thi Tự luận & Phiếu Chấm Kỳ thi Viết Năng lực (Written Test Scoresheet)
-- **Phân loại danh mục:** Sát hạch chuyên môn
-- **Chủ thể lập:** Giám khảo Hội đồng CM
-- **Cấp duyệt / Ký kết:** Hội đồng Chuyên môn
+- **Mã văn bản:** `BM-OM-03`
+- **Phân loại danh mục:** `Sát hạch chuyên môn`
+- **Đơn vị lập:** Giám khảo Hội đồng CM
+- **Cấp phê duyệt:** Hội đồng Chuyên môn
 - **Thời hạn giải quyết (SLA):** `180 phút`
-- **Nội dung quy chuẩn:** Đề thi in 9 câu tự luận rút từ Question Bank 65 câu: Part A gồm 6 câu kỹ thuật mô phỏng (Nguyên tắc nền tảng, Core model 3 nguồn lực M/H/I, Metrics tài chính, Session flow); Part B gồm 3 câu mở cá nhân (Động lực, bài học cá nhân, tầm nhìn, giá trị & compliance). Chấm theo thang điểm 10, yêu cầu đạt từ 6.5/10 điểm trở lên.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Đề thi in 9 câu tự luận rút từ Question Bank 65 câu: Part A gồm 6 câu kỹ thuật mô phỏng (Nguyên tắc nền tảng, Core model 3 nguồn lực M/H/I, Metrics tài chính, Session flow); Part B gồm 3 câu mở cá nhân (Động lực, bài học cá nhân, tầm nhìn, giá trị & compliance). Chấm theo thang điểm 10, yêu cầu đạt từ 6.5/10 điểm trở lên.
+- **Văn bản mẫu tham chiếu:** [Mẫu 03 (BM-OM-03)](#mẫu-03-bm-om-03)
 
 ---
 
 #### 04. Biểu mẫu `ĐG-OM-01`: Bảng Tiêu chí Chấm điểm Thực tế Demo Event (Live Event Scoring Rubric)
-- **Phân loại danh mục:** Sát hạch chuyên môn
-- **Chủ thể lập:** Examiner của OffLife
-- **Cấp duyệt / Ký kết:** Hội đồng Chuyên môn
+- **Mã văn bản:** `ĐG-OM-01`
+- **Phân loại danh mục:** `Sát hạch chuyên môn`
+- **Đơn vị lập:** Examiner của OffLife
+- **Cấp phê duyệt:** Hội đồng Chuyên môn
 - **Thời hạn giải quyết (SLA):** `01 phiên (180p)`
-- **Nội dung quy chuẩn:** Thang điểm 100 (+10 thưởng) chấm trực tiếp tại Demo Event: Kết quả chính (60đ: Hài lòng người chơi 20đ, Độ trơn tru 6 phases 20đ, Insight OffLife→OnLife 20đ) + Yếu tố khác (40đ: Năng lượng OM 10đ, Năng lượng người chơi 10đ, Độ chính xác truyền đạt 10đ - điểm chặn ≥ 6, Mức độ tin cậy 10đ - điểm chặn ≥ 6). Yêu cầu đạt: Tổng ≥ 65/100, 2 điểm chặn ≥ 6 và không vi phạm Zero Tolerance.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Thang điểm 100 (+10 thưởng) chấm trực tiếp tại Demo Event: Kết quả chính (60đ: Hài lòng người chơi 20đ, Độ trơn tru 6 phases 20đ, Insight OffLife→OnLife 20đ) + Yếu tố khác (40đ: Năng lượng OM 10đ, Năng lượng người chơi 10đ, Độ chính xác truyền đạt 10đ - điểm chặn ≥ 6, Mức độ tin cậy 10đ - điểm chặn ≥ 6). Yêu cầu đạt: Tổng ≥ 65/100, 2 điểm chặn ≥ 6 và không vi phạm Zero Tolerance.
+- **Văn bản mẫu tham chiếu:** [Mẫu 04 (ĐG-OM-01)](#mẫu-04-đg-om-01)
 
 ---
 
 #### 05. Biểu mẫu `BM-OM-04`: Biên bản Phỏng vấn Định hướng & Động lực Cá nhân (Final Interview Rubric)
-- **Phân loại danh mục:** Sát hạch chuyên môn
-- **Chủ thể lập:** Hội đồng Phỏng vấn
-- **Cấp duyệt / Ký kết:** Hội đồng Chuyên môn
+- **Mã văn bản:** `BM-OM-04`
+- **Phân loại danh mục:** `Sát hạch chuyên môn`
+- **Đơn vị lập:** Hội đồng Phỏng vấn
+- **Cấp phê duyệt:** Hội đồng Chuyên môn
 - **Thời hạn giải quyết (SLA):** `20–30 phút`
-- **Nội dung quy chuẩn:** Biên bản đánh giá phỏng vấn cuối cùng sau khi hoàn thành Demo Event: Đánh giá con người và định hướng cá nhân. Rubric chấm điểm 10 điểm gồm: Động lực đúng đắn (0-7 điểm) + Định hướng nghề nghiệp 5 năm (0-3 điểm). Điểm đạt yêu cầu từ 6.5/10 điểm trở lên và không có dấu hiệu vi phạm Code of Conduct.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Biên bản đánh giá phỏng vấn cuối cùng sau khi hoàn thành Demo Event: Đánh giá con người và định hướng cá nhân. Rubric chấm điểm 10 điểm gồm: Động lực đúng đắn (0-7 điểm) + Định hướng nghề nghiệp 5 năm (0-3 điểm). Điểm đạt yêu cầu từ 6.5/10 điểm trở lên và không có dấu hiệu vi phạm Code of Conduct.
+- **Văn bản mẫu tham chiếu:** [Mẫu 05 (BM-OM-04)](#mẫu-05-bm-om-04)
 
 ---
 
 #### 06. Biểu mẫu `TT-OM-01`: Tờ trình Đề xuất Công nhận Certified OM & Cấp Quyền Hoạt Động (Chuẩn NĐ 30)
-- **Phân loại danh mục:** Hành chính (NĐ 30)
-- **Chủ thể lập:** Hội đồng Chuyên môn
-- **Cấp duyệt / Ký kết:** Trưởng Ban Quản lý Dự án
+- **Mã văn bản:** `TT-OM-01`
+- **Phân loại danh mục:** `Hành chính (NĐ 30)`
+- **Đơn vị lập:** Hội đồng Chuyên môn
+- **Cấp phê duyệt:** Trưởng Ban Quản lý Dự án
 - **Thời hạn giải quyết (SLA):** `01 ngày`
-- **Nội dung quy chuẩn:** Soạn thảo theo thể thức Nghị định 30/2020/NĐ-CP: Báo cáo tổng hợp kết quả của ứng viên qua trọn vẹn 5 giai đoạn (Profile Scanning, Online Training, Written Test, Demo Event, Final Interview); đính kèm bảng điểm chi tiết và đề xuất Project Lead ký Quyết định công nhận đạt chuẩn Certified OffLife Master.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Soạn thảo theo thể thức Nghị định 30/2020/NĐ-CP: Báo cáo tổng hợp kết quả của ứng viên qua trọn vẹn 5 giai đoạn (Profile Scanning, Online Training, Written Test, Demo Event, Final Interview); đính kèm bảng điểm chi tiết và đề xuất Project Lead ký Quyết định công nhận đạt chuẩn Certified OffLife Master.
+- **Văn bản mẫu tham chiếu:** [Mẫu 06 (TT-OM-01)](#mẫu-06-tt-om-01)
 
 ---
 
 #### 07. Biểu mẫu `QĐ-OM-01`: Quyết định Công nhận Chức danh Certified OffLife Master (Chuẩn NĐ 30)
-- **Phân loại danh mục:** Hành chính (NĐ 30)
-- **Chủ thể lập:** Bộ phận Pháp chế
-- **Cấp duyệt / Ký kết:** Trưởng Dự án (Project Lead)
+- **Mã văn bản:** `QĐ-OM-01`
+- **Phân loại danh mục:** `Hành chính (NĐ 30)`
+- **Đơn vị lập:** Bộ phận Pháp chế
+- **Cấp phê duyệt:** Trưởng Dự án (Project Lead)
 - **Thời hạn giải quyết (SLA):** `01 ngày`
-- **Nội dung quy chuẩn:** Văn bản hành chính chuẩn Nghị định 30/2020/NĐ-CP: Điều 1: Công nhận danh hiệu Certified OffLife Master (OM); Điều 2: Quyền hạn được tự tổ chức event và mua gói Subscription phần mềm; Điều 3: Trách nhiệm tuân thủ Hợp đồng và Quy chế Zero Tolerance; Điều 4: Hiệu lực thi hành 01 năm kể từ ngày ký.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Văn bản hành chính chuẩn Nghị định 30/2020/NĐ-CP: Điều 1: Công nhận danh hiệu Certified OffLife Master (OM); Điều 2: Quyền hạn được tự tổ chức event và mua gói Subscription phần mềm; Điều 3: Trách nhiệm tuân thủ Hợp đồng và Quy chế Zero Tolerance; Điều 4: Hiệu lực thi hành 01 năm kể từ ngày ký.
+- **Văn bản mẫu tham chiếu:** [Mẫu 07 (QĐ-OM-01)](#mẫu-07-qđ-om-01)
 
 ---
 
 #### 08. Biểu mẫu `CK-OM-01`: Hợp đồng Dịch vụ Phần mềm (Subscription) + Thỏa thuận Bảo mật (NDA) + DPA
-- **Phân loại danh mục:** Pháp lý & Cam kết
-- **Chủ thể lập:** Bộ phận Pháp chế
-- **Cấp duyệt / Ký kết:** Project Lead & OM ký
+- **Mã văn bản:** `CK-OM-01`
+- **Phân loại danh mục:** `Pháp lý & Cam kết`
+- **Đơn vị lập:** Bộ phận Pháp chế
+- **Cấp phê duyệt:** Project Lead & OM ký
 - **Thời hạn giải quyết (SLA):** `0.5 ngày`
-- **Nội dung quy chuẩn:** Bộ văn bản pháp lý ràng buộc 3 trong 1: (1) Hợp đồng cung cấp dịch vụ phần mềm OffLife (gói subscription tự tổ chức event); (2) Thỏa thuận bảo mật thông tin (NDA) về thuật toán, thông số kịch bản; (3) Thỏa thuận xử lý dữ liệu cá nhân (DPA) bảo vệ tuyệt đối thông tin người tham gia theo Nghị định 13/2023/NĐ-CP; cam kết không tư vấn tài chính ngoài đời thực.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Bộ văn bản pháp lý ràng buộc 3 trong 1: (1) Hợp đồng cung cấp dịch vụ phần mềm OffLife (gói subscription tự tổ chức event); (2) Thỏa thuận bảo mật thông tin (NDA) về thuật toán, thông số kịch bản; (3) Thỏa thuận xử lý dữ liệu cá nhân (DPA) bảo vệ tuyệt đối thông tin người tham gia theo Nghị định 13/2023/NĐ-CP; cam kết không tư vấn tài chính ngoài đời thực.
+- **Văn bản mẫu tham chiếu:** [Mẫu 08 (CK-OM-01)](#mẫu-08-ck-om-01)
 
 ---
 
 #### 09. Biểu mẫu `BB-OM-01`: Biên bản Bàn giao Bộ Kit Điều Phối & Kích hoạt Tài khoản Quản trị Subscription
-- **Phân loại danh mục:** Quản trị tài sản
-- **Chủ thể lập:** Quản trị Kit & Tài khoản
-- **Cấp duyệt / Ký kết:** OM tiếp nhận
+- **Mã văn bản:** `BB-OM-01`
+- **Phân loại danh mục:** `Quản trị tài sản`
+- **Đơn vị lập:** Quản trị Kit & Tài khoản
+- **Cấp phê duyệt:** OM tiếp nhận
 - **Thời hạn giải quyết (SLA):** `0.5 ngày`
-- **Nội dung quy chuẩn:** Kiểm kê hiện vật bàn giao: Hộp trò chơi OffLife nguyên seal, 06 Bộ Player Sheets, Bảng Game Sheet A3, Thẻ định danh OM có QR code; ghi nhận thông tin kích hoạt tài khoản Subscription chính thức trên manage.html, thu hồi tài khoản dùng thử và xuất hóa đơn điện tử.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Kiểm kê hiện vật bàn giao: Hộp trò chơi OffLife nguyên seal, 06 Bộ Player Sheets, Bảng Game Sheet A3, Thẻ định danh OM có QR code; ghi nhận thông tin kích hoạt tài khoản Subscription chính thức trên manage.html, thu hồi tài khoản dùng thử và xuất hóa đơn điện tử.
+- **Văn bản mẫu tham chiếu:** [Mẫu 09 (BB-OM-01)](#mẫu-09-bb-om-01)
 
 ---
 
 #### 10. Biểu mẫu `EM-OM-01`: Hệ thống Email Thông Báo Kết Quả ĐẠT (Tích hợp 5 Cổng Kiểm Soát GĐ 1-5)
-- **Phân loại danh mục:** Thông báo điện tử
-- **Chủ thể lập:** Team Tuyển chọn / PMO
-- **Cấp duyệt / Ký kết:** Hệ thống tự động / Lead
+- **Mã văn bản:** `EM-OM-01`
+- **Phân loại danh mục:** `Thông báo điện tử`
+- **Đơn vị lập:** Team Tuyển chọn / PMO
+- **Cấp phê duyệt:** Hệ thống tự động / Lead
 - **Thời hạn giải quyết (SLA):** `Trong ngày`
-- **Nội dung quy chuẩn:** Mẫu email chuẩn hóa gửi cho ứng viên khi ĐẠT bất kỳ giai đoạn nào trong 5 giai đoạn: Xác nhận điểm số đạt chuẩn, cung cấp link/tài liệu bước kế tiếp, cấp tài khoản dùng thử (GĐ 1), mời thi viết (GĐ 2), mời đăng ký Demo Event (GĐ 3), mời phỏng vấn (GĐ 4), và chúc mừng công nhận Certified OM + hướng dẫn mua subscription (GĐ 5).
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Mẫu email chuẩn hóa gửi cho ứng viên khi ĐẠT bất kỳ giai đoạn nào trong 5 giai đoạn: Xác nhận điểm số đạt chuẩn, cung cấp link/tài liệu bước kế tiếp, cấp tài khoản dùng thử (GĐ 1), mời thi viết (GĐ 2), mời đăng ký Demo Event (GĐ 3), mời phỏng vấn (GĐ 4), và chúc mừng công nhận Certified OM + hướng dẫn mua subscription (GĐ 5).
+- **Văn bản mẫu tham chiếu:** [Mẫu 10 (EM-OM-01)](#mẫu-10-em-om-01)
 
 ---
 
 #### 11. Biểu mẫu `EM-OM-02`: Hệ thống Email Thông Báo CHƯA ĐẠT & Phản Hồi Lý Do (Tích hợp 5 Cổng Kiểm Soát)
-- **Phân loại danh mục:** Thông báo điện tử
-- **Chủ thể lập:** Hội đồng Chuyên môn / PMO
-- **Cấp duyệt / Ký kết:** Hệ thống tự động / Lead
+- **Mã văn bản:** `EM-OM-02`
+- **Phân loại danh mục:** `Thông báo điện tử`
+- **Đơn vị lập:** Hội đồng Chuyên môn / PMO
+- **Cấp phê duyệt:** Hệ thống tự động / Lead
 - **Thời hạn giải quyết (SLA):** `Trong ngày`
-- **Nội dung quy chuẩn:** Mẫu email chuẩn hóa gửi khi ứng viên CHƯA ĐẠT tại bất kỳ giai đoạn nào: Thông báo kết luận văn minh, bảo mật, bắt buộc phân tích rõ căn cứ lý do chưa đạt theo tiêu chuẩn của từng Cổng; nêu rõ chính sách thi lại/demo lại (GĐ 3, GĐ 4 được làm lại 1 lần) hoặc chính sách bảo lưu hồ sơ và hẹn tái dự tuyển.
+- **Nội dung quy chuẩn nghiệp vụ:**  
+  Mẫu email chuẩn hóa gửi khi ứng viên CHƯA ĐẠT tại bất kỳ giai đoạn nào: Thông báo kết luận văn minh, bảo mật, bắt buộc phân tích rõ căn cứ lý do chưa đạt theo tiêu chuẩn của từng Cổng; nêu rõ chính sách thi lại/demo lại (GĐ 3, GĐ 4 được làm lại 1 lần) hoặc chính sách bảo lưu hồ sơ và hẹn tái dự tuyển.
+- **Văn bản mẫu tham chiếu:** [Mẫu 11 (EM-OM-02)](#mẫu-11-em-om-02)
 
 ---
 
@@ -376,7 +416,8 @@ Công cụ hỗ trợ Giám khảo (OffLife Examiner) chấm điểm trực ti�
 | :--- | :---: | :--- | :---: | :--- |
 | **A. Kết Quả Chính (60 điểm)** | 1 | **Mức độ hài lòng của người chơi (CSAT)** | 20 | Căn cứ phiếu khảo sát CSAT, cảm xúc và phản hồi chân thực của người tham gia sau phiên chơi. |
 | | 2 | **Độ trơn tru của event - Chấm từng phase OffLife flow** | 20 | Vận hành đầy đủ và liền mạch 6 phase từ Pre-OffLife đến Feedback Collection, không bị đứt đoạn giáo án. |
-| | 3 | **Insight của người chơi - Chuyển hóa OffLife $ightarrow$ OnLife** | 20 | Khơi gợi bài học sâu sắc, giúp người chơi nhìn nhận lại cuộc sống thực và định hình kế hoạch hành động. |
+| | 3 | **Insight của người chơi - Chuyển hóa OffLife $
+ightarrow$ OnLife** | 20 | Khơi gợi bài học sâu sắc, giúp người chơi nhìn nhận lại cuộc sống thực và định hình kế hoạch hành động. |
 | **B. Yếu Tố Khác (40 điểm)** | 4 | **Năng lượng của OM** | 10 | Thần thái tự tin, tích cực, giọng nói truyền cảm, giữ nhịp độ cuốn hút. |
 | | 5 | **Năng lượng của người chơi** | 10 | Người chơi tập trung, chủ động tương tác, hào hứng thảo luận và không khí bàn chơi sôi nổi. |
 | | 6 | **Độ chính xác của thông tin truyền đạt** | 10 | **[BẮT BUỘC $\ge 6$Đ - LIỆT NẾU < 6]** Giải thích luật chuẩn xác, tính toán số liệu tài chính đúng nguyên tắc. |
