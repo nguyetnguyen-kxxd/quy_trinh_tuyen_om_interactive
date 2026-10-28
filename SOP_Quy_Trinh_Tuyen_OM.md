@@ -1,490 +1,218 @@
-# QUY TRÌNH TIÊU CHUẨN (SOP): TUYỂN CHỌN, ĐÀO TẠO & CẤP QUYỀN HOẠT ĐỘNG OFFLIFE MASTER (OM)
+# QUY TRÌNH CHUẨN (SOP) ĐÀO TẠO, SÁT HẠCH & CẤP CHỨNG NHẬN ĐIỀU PHỐI VIÊN OFFLIFE MASTER (CERTIFIED OM)
 
-> **Mã hiệu văn bản:** `SOP-OM-01` | **Phiên bản:** `3.0 (Harmonized Training & Governance Edition)` | **Ngày ban hành:** `28/10/2026`  
-> **Căn cứ pháp lý & Chuẩn mực:** 
-> - Nghị định số 30/2020/NĐ-CP của Chính phủ về công tác văn thư;
-> - Nghị định số 13/2023/NĐ-CP về Bảo vệ dữ liệu cá nhân (DPA);
-> - Chương trình Đào tạo Thực tế OffLife Master Training Program (Lộ trình 5 Giai đoạn 6–10 tuần);
-> - Tài liệu Đào tạo OffLife Master v3.0 (12 phần) và Khung 102 Chuyên đề Quản trị Thực tế OnLife.  
-> **Tài liệu tham chiếu trực tuyến:** [Ứng dụng Tương tác SOP Online](https://nguyetnguyen-kxxd.github.io/quy_trinh_tuyen_om_interactive/)
+> **Mã quy trình:** SOP-OM-2026  
+> **Phiên bản:** 3.1.0 (Chuẩn hóa đồng bộ 100% theo OffLife Master Training Program)  
+> **Cơ quan ban hành:** Ban Quản lý Dự án & Đào tạo OffLife  
+> **Phạm vi áp dụng:** Toàn bộ ứng viên dự tuyển, người điều phối chính thức (Certified OM), Trợ giảng (TA), Giám khảo (Examiner) và Team Vận hành OffLife  
+> **Thời gian đào tạo & cấp chứng nhận:** 6 – 10 tuần  
 
 ---
 
-## MỤC LỤC TỔNG QUAN
+## PHẦN 1: MỤC TIÊU, NGUYÊN TẮC VÀ HỆ THỐNG VAI TRÒ VẬN HÀNH
 
-1. [Mục Đích, Phạm Vi & Phân Định Trách Nhiệm Nghề Nghiệp (5W1H & RACI)](#1-mục-đích-phạm-vi--phân-định-trách-nhiệm-nghề-nghiệp-5w1h--raci)
-   - 1.1. Mục Đích Ban Hành & Hai Trụ Cột Năng Lực
-   - 1.2. Lộ Trình Phân Cấp Chức Danh Điều Phối Viên (4 Cấp Bậc)
-   - 1.3. Bảng Ma Trận So Sánh Toàn Diện 4 Cấp Bậc Chức Danh
-   - 1.4. Cơ Chế Quản Trị Vòng Đời License (Thăng Cấp, Duy Trì, Cảnh Báo & Thu Hồi)
-   - 1.5. Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên
-   - 1.6. Hệ Thống 3 Nguyên Tắc Hoạt Động & Quy Chế Zero Tolerance
-   - 1.7. Giới Hạn Thẩm Quyền & Các Hành Vi Bị Nghiêm Cấm
-   - 1.8. Ma Trận Phân Định Trách Nhiệm (RACI Matrix)
-2. [Quy Trình 5 Giai Đoạn Tuyển Chọn, Đào Tạo & Cấp Phép OM (Harmonized SOP Flow)](#2-quy-trình-5-giai-đoạn-tuyển-chọn-đào-tạo--cấp-phép-om)
-   - 2.1. Bảng Tổng Hợp 5 Giai Đoạn Tuyển Chọn & Đào Tạo
-   - 2.2. Đặc Tả Chi Tiết 5 Giai Đoạn Chuẩn Hóa (GĐ 1 đến GĐ 5)
-   - 2.3. Quy Chế Giao Thức Email Kết Quả Tại 5 Cổng Kiểm Soát
-3. [Sơ Đồ Điều Hành Phân Làn (Swimlane Flowchart)](#3-sơ-đồ-điều-hành-phân-làn-swimlane-flowchart)
-   - 3.1. Sơ Đồ Vector Phân Làn Trực Quan (SVG Vector Diagram)
-   - 3.2. Mã Nguồn Sơ Đồ Lưu Đồ Quy Trình (Mermaid Architecture)
-4. [Ma Trận 11 Biểu Mẫu & Tra Cứu Nghiệp Vụ (Document Matrix)](#4-ma-trận-11-biểu-mẫu--tra-cứu-nghiệp-vụ-document-matrix)
-   - 4.1. Bảng Ma Trận Phân Quyền & Thời Hạn Xử Lý (SLA)
-   - 4.2. Bảng Quy Chuẩn Nội Dung Dữ Liệu & Điểm Kiểm Soát
-5. [Hệ Thống Tiêu Chí Đánh Giá Năng Lực Định Lượng (Rubrics ĐG-OM)](#5-hệ-thống-tiêu-chí-đánh-giá-năng-lực-định-lượng-rubrics-đg-om)
-   - 5.1. Rubric Profile Scanning 10 Điểm (Giai đoạn 1)
-   - 5.2. Rubric Written Test Đánh Giá Năng Lực Viết (Giai đoạn 3)
-   - 5.3. Live Event Scoring Rubric 100 Điểm Thực Hành Demo Event (Giai đoạn 4)
-   - 5.4. Rubric Final Interview Phỏng Vấn Định Hướng 10 Điểm (Giai đoạn 5)
-   - 5.5. Phiếu Rà Soát Quy Chế Zero Tolerance Checklist
-6. [Kho Biểu Mẫu & Toàn Văn 11 Văn Bản Quản Trị Chuẩn Hóa](#6-kho-biểu-mẫu--toàn-văn-11-văn-bản-quản-trị-chuẩn-hóa)
+### 1.1. Mục Tiêu & Phạm Vi Chương Trình
+1. **Mục tiêu:** Đào tạo và chuẩn hóa ứng viên hiểu thấu đáo triết lý OffLife, dẫn dắt được một phiên mô phỏng hoàn chỉnh (từ Pre-OffLife đến Feedback Collection) và đại diện chuẩn mực cho giá trị cốt lõi của OffLife.
+2. **Đối tượng tuyển sinh:** Cá nhân hoặc tổ chức đã trải nghiệm workshop OffLife, **bắt buộc có Certified OM giới thiệu**, có nền tảng về tài chính, giáo dục, coaching, tâm lý học hoặc hoạt động cộng đồng.
+3. **Hình thức:** Kết hợp Online tự học (khoảng 1 tháng) và Trực tiếp (hỏi đáp TA Q&A, thi viết Written Test, tổ chức Demo Event, phỏng vấn Final Interview).
+4. **Đầu ra:** Được Dự án OffLife công nhận tư cách **Certified OffLife Master (OM)** và được quyền đăng ký gói Subscription để sử dụng phần mềm điều phối chuyên dụng.
+5. **Cơ quan phụ trách:** Team OffLife.
 
 ---
 
-## 1. MỤC ĐÍCH, PHẠM VI & PHÂN ĐỊNH TRÁCH NHIỆM NGHỀ NGHIỆP (5W1H & RACI)
-
-### 1.1. Mục Đích Ban Hành
-Quy trình này quy định trình tự thủ tục, tiêu chí đánh giá định lượng và thẩm quyền phê duyệt đối với công tác tuyển chọn, bồi dưỡng nghiệp vụ tập trung và cấp quyền hoạt động (Certified OM & Quyền mua Subscription phần mềm) cho chức danh **OffLife Master (OM)** trực thuộc Dự án OffLife.
-
-> [!NOTE]
-> **HAI TRỤ CỘT NĂNG LỰC CHUẨN HÓA CỦA VỊ TRÍ OFFLIFE MASTER (OM):**
-> 1. **Năng lực Chuyên môn (Professional Competency):** Làm chủ hệ thống thông số mô phỏng (tương tác định lượng 3 nguồn lực Tiền - Sức khỏe - Trí tuệ); điều phối chính xác 7 bước vòng chơi hàng năm; quản trị các biến cố tài chính, vỡ nợ, đột tử và kiểm soát thời lượng phiên chơi (40 năm mô phỏng trong 180 phút).
-> 2. **Tuân thủ Chuẩn mực Đạo đức & Liêm chính (Ethical Compliance & Integrity):** Tuyệt đối giữ tính khách quan; kiểm soát xung đột lợi ích; bảo vệ dữ liệu cá nhân của người tham gia; không đưa ra lời khuyên đầu tư tài chính cá nhân ngoài đời thực.
-
----
-
-### 1.2. Lộ Trình Phân Cấp Chức Danh Điều Phối Viên (4 Cấp Bậc)
-
-Nhằm xác lập lộ trình phát triển nghề nghiệp minh bạch, bảo đảm chuẩn hóa chất lượng điều phối trên toàn hệ thống và tạo động lực cống hiến lâu dài, Dự án OffLife thiết lập **Hệ thống 4 Cấp bậc Chức danh Điều phối viên**:
-
-$$\text{Cấp 0: Người tham gia (Player)} \longrightarrow \text{Cấp 1: OM Tập sự (Apprentice OM)} \longrightarrow \text{Cấp 2: OM Đạt chuẩn (Certified OM)} \longrightarrow \text{Cấp 3: OM Cao cấp (Senior Lead OM)}$$
-
-#### 1. Cấp 0: Người Tham Gia (Player / Explorer)
-- **Định vị:** Cá nhân trải nghiệm tiến trình mô phỏng 40 năm cuộc đời (23 đến 62 tuổi) trong buổi workshop OffLife để nhận thức về quản trị cân bằng 3 nguồn lực Tiền - Sức khỏe - Trí tuệ.
-- **Tiêu chuẩn đầu vào:** Đăng ký tham gia sự kiện công khai hoặc sự kiện nội bộ do OM tổ chức.
-- **Quyền hạn & Quyền lợi:** 
-  * Được tham gia trọn vẹn phiên mô phỏng; nhận Bộ Phiếu ghi cá nhân (Player Sheet);
-  * Tham gia phiên đúc kết bài học OnLife cùng OM điều phối;
-  * Thực hiện khảo sát đánh giá chất lượng phục vụ của OM.
-- **Điều kiện chuyển tiếp lên Cấp 1 (OM Tập sự):**
-  * Tham dự trọn vẹn tối thiểu **02 phiên OffLife thực tế** (có xác nhận của OM điều phối trong hồ sơ);
-  * **Bắt buộc có OM chính thức giới thiệu** và nộp Phiếu Đăng ký Dự tuyển `BM-OM-01`.
-
-#### 2. Cấp 1: OM Tập Sự (Apprentice OM / Trainee)
-- **Định vị:** Ứng viên đã vượt qua vòng thẩm định hồ sơ tiên quyết (Profile Scanning > 6/10đ), đang trong giai đoạn đào tạo nghiệp vụ tự học 4 tuần và sát hạch chuyên môn.
-- **Tiêu chuẩn năng lực:**
-  * Hoàn thành 100% thời lượng 10 Video bài giảng OM Academy trên Portal Learn (`BM-OM-02`);
-  * Nghiên cứu thấu đáo Tài liệu Đào tạo OffLife Master v3.0 (12 phần) và Luật đầy đủ;
-  * Thực hành tạo kịch bản với Tool giả lập trên `offlife.vn/sessions/new`;
-  * Tham gia hỗ trợ tổ chức ít nhất 01 session thật cùng OM đi trước;
-  * Gửi câu hỏi trước và tham gia trọn vẹn buổi TA Q&A trực tiếp (2 tiếng).
-- **Thẩm quyền & Giới hạn hoạt động:**
-  * Được cấp **Tài khoản dùng thử (Trial Account) 1 tháng** (ghi nhận trong Sheet Account List);
-  * **Chỉ được tham gia với tư cách Trợ giảng / Điều phối phụ (Co-host)** tại các bàn chơi;
-  * **Tuyệt đối chưa được tổ chức hoặc điều phối độc lập** bàn chơi khi chưa công nhận Certified OM;
-  * Chưa được cấp tài khoản quản trị chính thức (`manage.html`); không được tự ý thu phí dịch vụ điều phối độc lập;
-  * Thời hạn tập sự tối đa: **6–10 tuần** hoàn thành toàn bộ lộ trình.
-- **Điều kiện thăng cấp lên Cấp 2 (Certified OM):**
-  * Vượt qua Kỳ thi viết độc lập 180 phút (Written Test đạt điểm $\ge 6.5/10$);
-  * Tự tổ chức Demo Event thực tế $\ge 5$ người chơi đạt Live Event Scoring Rubric $\ge 65/100$ (kèm 2 điểm chặn Độ chính xác $\ge 6$ và Tin cậy $\ge 6$);
-  * Vượt qua buổi Phỏng vấn cuối cùng (Final Interview) đạt điểm $\ge 6.5/10$ và không có dấu hiệu vi phạm Code of Conduct;
-  * Hoàn tất ký kết Thỏa thuận Hợp đồng dịch vụ phần mềm/subscription + NDA + DPA (`CK-OM-01`).
-
-#### 3. Cấp 2: OM Đạt Chuẩn / Chính Thức (Certified OM)
-- **Định vị:** Điều phối viên chính thức được Dự án OffLife công nhận đủ điều kiện tự tổ chức và dẫn dắt các sự kiện OffLife độc lập, đại diện cho chuẩn mực chuyên môn và uy tín thương hiệu OffLife.
-- **Tiêu chuẩn năng lực & Pháp lý:**
-  * Được ghi danh chính thức vào Danh sách Certified OM của OffLife theo Quyết định `QĐ-OM-01`;
-  * Giao kết Hợp đồng cung cấp dịch vụ phần mềm (Subscription), Thỏa thuận bảo mật (NDA) và Xử lý dữ liệu cá nhân (DPA) (`CK-OM-01`);
-  * Tiếp nhận Bộ công cụ điều phối vật lý tiêu chuẩn nguyên seal (`BB-OM-01`);
-  * Kích hoạt Tài khoản Subscription phần mềm quản trị chính thức (`manage.html`);
-  * Làm chủ kỹ thuật điều hành 6 phase sự kiện và phương pháp Debriefing 12 phần; duy trì điểm CSAT trung bình $\ge 4.5/5.0$ sao.
-- **Thẩm quyền & Quyền lợi hoạt động:**
-  * **Toàn quyền độc lập tổ chức và điều phối bàn chơi tiêu chuẩn** (từ 4 đến 8 người chơi/bàn);
-  * Quyền mua gói Subscription phần mềm OffLife để sử dụng cho các sự kiện tự tổ chức;
-  * Quyền giới thiệu ứng viên mới (Applicant) tham gia chương trình đào tạo OM;
-  * Được phép cung ứng dịch vụ điều phối workshop cho cộng đồng, doanh nghiệp, trường học theo khung giá của Dự án;
-  * Hưởng thù lao điều phối, cơ chế chia sẻ doanh thu và chính sách phân phối Bộ công cụ OffLife theo Quy chế Tài chính;
-  * Được tham gia các chương trình đào tạo cập nhật tính năng mới định kỳ 2 tuần/lần từ đội ngũ R&D.
-- **Nghĩa vụ duy trì License thường niên:**
-  * Thực hiện tối thiểu **02 phiên điều phối/quý** (hoặc tối thiểu **08 phiên/năm**);
-  * Đảm bảo điểm CSAT trung bình $\ge 4.5/5.0$ sao và không nhận phản hồi tiêu cực về liêm chính;
-  * Gia hạn gói Subscription trước ngày hết hạn 30 ngày để duy trì tài khoản quản trị.
-- **Điều kiện thăng cấp lên Cấp 3 (Senior Lead OM):**
-  * Duy trì hoạt động ở cấp Certified OM liên tục tối thiểu **06 tháng**;
-  * Trực tiếp điều phối thành công tích lũy tối thiểu **30 phiên chơi** với điểm CSAT trung bình $\ge 4.8/5.0$ sao;
-  * Được tối thiểu 02 thành viên Hội đồng Chuyên môn đề cử và vượt qua kỳ sát hạch năng lực Cố vấn / Huấn luyện viên.
-
-#### 4. Cấp 3: OM Cao Cấp / Trưởng Nhóm Chuyên Môn (Senior Lead OM / Master Trainer)
-- **Định vị:** Chuyên gia điều phối kỳ cựu, Cố vấn phương pháp luận, Giám khảo sát hạch trực thuộc Hội đồng Chuyên môn và là Người dẫn đường (Mentor) cho các thế hệ OM kế cận.
-- **Tiêu chuẩn năng lực:**
-  * Bề dày kinh nghiệm thực chiến xuất sắc ($\ge 30$ phiên điều phối, thâm niên $\ge 06$ tháng);
-  * Am hiểu sâu sắc bản chất khoa học hành vi, quản trị xác suất và ánh xạ nhuần nhuyễn 102 chuyên đề thực tiễn OnLife;
-  * Sở hữu kỹ năng xử lý khủng hoảng tâm lý người chơi vượt trội (xử lý tình huống vỡ nợ, đột tử, áp lực tài chính);
-  * Được Trưởng Ban Quản lý Dự án (Project Lead) ban hành Quyết định bổ nhiệm chức danh Senior Lead OM.
-- **Thẩm quyền & Trọng trách đặc thù:**
-  * **Chủ trì các sự kiện mô phỏng quy mô lớn:** Điều hành các phiên hội trường đa bàn chơi (từ 50 đến 200 người tham gia đồng thời);
-  * **Thành viên Hội đồng Chuyên môn & Examiner:** Trực tiếp tham gia phỏng vấn Final Interview, giám sát chấm thi Demo Event, chấm bài Written Test và ký Tờ trình đề xuất `TT-OM-01`;
-  * **Huấn luyện & Mentor:** Trực tiếp kèm cặp, tổ chức các buổi TA Q&A và truyền thụ kinh nghiệm cho các Apprentice OM;
-  * **Tham gia Ban Nghiên cứu & Cải tiến Sản phẩm (Product R&D):** Đóng góp ý kiến sửa đổi cơ chế trò chơi, thuật toán số phận/may mắn và biên soạn các chuyên đề OnLife mới;
-  * **Quyền lợi & Đãi ngộ cao cấp:** Hưởng thù lao chuyên gia cao cấp, phụ cấp công tác chấm thi sát hạch và tỷ lệ phân chia doanh thu sự kiện quy mô lớn tối ưu nhất.
-
----
-
-### 1.3. Bảng Ma Trận So Sánh Toàn Diện 4 Cấp Bậc Chức Danh Điều Phối
-
-| Tiêu Chí So Sánh | Cấp 0: Người Tham Gia (Player) | Cấp 1: OM Tập Sự (Apprentice OM) | Cấp 2: OM Đạt Chuẩn (Certified OM) | Cấp 3: OM Cao Cấp (Senior Lead OM) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Đối tượng & Đầu vào** | Cá nhân đăng ký tham gia workshop | Người chơi tham gia $\ge 02$ phiên + Có OM giới thiệu | Vượt qua 5 Giai đoạn đào tạo & Sát hạch | Certified OM $\ge 06$ tháng + $\ge 30$ phiên + CSAT $\ge 4.8$ |
-| **Trạng thái Pháp lý** | Khách hàng trải nghiệm | Học viên đào tạo tập sự (6–10 tuần) | **QĐ Công nhận Certified OM + HĐ Subscription** | **Quyết định bổ nhiệm Chuyên gia Hội đồng CM** |
-| **Tài khoản Hệ thống** | Không có | Tài khoản dùng thử 1 tháng (Trial Account) | **Tài khoản quản trị chính thức (`manage.html`)** | **Tài khoản Quản trị viên Master (Full Admin)** |
-| **Thẩm quyền Bàn chơi** | Không | Chỉ điều phối phụ (Co-host có giám sát) | **Độc lập mở bàn tiêu chuẩn (4 - 8 người)** | **Chủ trì đại sự kiện đa bàn (50 - 200 người)** |
-| **Vai trò Sát hạch & Đào tạo** | Đánh giá khảo sát CSAT | Tham gia tự học, thi viết, tự làm Demo Event | Hướng dẫn luật chơi cho người tham gia | **Giám khảo Examiner chấm thi, Phỏng vấn, Mentor OM** |
-| **Quyền lợi Kinh tế** | Nhận bài học chiêm nghiệm cuộc sống | Phụ cấp trợ giảng Co-host (nếu có) | **Thù lao điều phối + Phân chia doanh thu bàn** | **Thù lao chuyên gia + Phụ cấp giám khảo + R&D** |
-| **Chỉ số Duy trì (KPI)** | Không | Hoàn thành đào tạo trong vòng 6–10 tuần | **Tối thiểu 08 phiên/năm + CSAT $\ge 4.5/5.0$** | **Tối thiểu 20 phiên/năm + Đào tạo $\ge 03$ OM mới** |
-
----
-
-### 1.4. Cơ Chế Quản Trị Vòng Đời License (Thăng Cấp, Duy Trì, Cảnh Báo & Thu Hồi)
-
-1. **Cơ chế Thăng cấp (Promotion Protocol):**
-   - *Từ Player lên Apprentice OM:* Tự động kích hoạt khi nộp `BM-OM-01` có xác nhận từ OM giới thiệu và đạt điểm Rubric Profile Scanning $> 6.0/10$.
-   - *Từ Apprentice OM lên Certified OM:* Hội đồng Chuyên môn lập Tờ trình `TT-OM-01` sau khi hoàn thành xuất sắc GĐ 3 (Written Test $\ge 6.5$), GĐ 4 (Demo Event $\ge 65/100$) và GĐ 5 (Final Interview $\ge 6.5$), hoàn tất ký hợp đồng `CK-OM-01` và nhận License `QĐ-OM-01`.
-   - *Từ Certified OM lên Senior Lead OM:* Xét duyệt định kỳ 6 tháng/lần dựa trên hồ sơ chứng minh $\ge 30$ phiên điều phối, báo cáo điểm CSAT $\ge 4.8$ sao và bài đánh giá năng lực sư phạm/mentor.
-
-2. **Cơ chế Duy trì & Tái cấp License Thường niên (Renewal Protocol):**
-   - Danh hiệu Certified OM và Hợp đồng dịch vụ phần mềm Subscription có thời hạn hiệu lực theo gói dịch vụ (thường niên 01 năm).
-   - Trước ngày hết hạn 30 ngày, hệ thống tự động gửi thông báo nhắc gia hạn:
-     * Nếu hoàn thành $\ge 08$ phiên/năm và điểm CSAT trung bình $\ge 4.5$ sao: **Được quyền ưu tiên gia hạn Subscription thêm 01 năm**.
-     * Nếu chưa đủ số phiên: OM phải tham gia phiên kiểm chuẩn cập nhật nghiệp vụ với Senior Lead OM để được xem xét gia hạn.
-
-3. **Cơ chế Chế tài, Cảnh Báo, Tạm Đình Chỉ & Thu Hồi Vĩnh Viễn (Disciplinary & Revocation):**
-   - **Mức 1 - Cảnh báo Chuyên môn (Warning):** Áp dụng khi điểm CSAT rơi xuống dưới 4.2 sao trong 2 phiên liên tiếp hoặc trễ nộp biên bản/dữ liệu phiên chơi. OM phải làm việc với Mentor để rà soát quy trình.
-   - **Mức 2 - Tạm đình chỉ License (Suspension từ 30 đến 90 ngày):** Áp dụng khi điểm CSAT dưới 4.0 sao, không tổ chức phiên chơi nào trong 02 quý liên tiếp, hoặc có tranh chấp dịch vụ chưa giải quyết. Khóa tạm thời quyền truy cập `manage.html`.
-   - **Mức 3 - Thu hồi Vĩnh viễn (Permanent Revocation):** Áp dụng ngay lập tức khi phát hiện hành vi vi phạm **Quy chế Zero Tolerance** (Lừa dối người tham gia, Gian lận ủy quyền tài khoản, Thao túng thương mại, Lợi dụng dữ liệu cá nhân) hoặc cung cấp dịch vụ tư vấn đầu tư tài chính đời thực. Thu hồi toàn bộ quyền Certified OM, khóa vĩnh viễn tài khoản quản trị và tiến hành các biện pháp chế tài bồi thường theo Hợp đồng cam kết pháp lý `CK-OM-01`.
-
----
-
-### 1.5. Phân Định Ranh Giới Trách Nhiệm: OM vs MC vs Giảng Viên
-
-| Tiêu chí so sánh | Người dẫn chương trình (MC) | Giảng viên đào tạo (Trainer) | Điều phối viên OffLife Master (OM) |
-| :--- | :--- | :--- | :--- |
-| **Bản chất chức năng** | Điều phối sự kiện, giữ nhịp truyền thông | Truyền đạt kiến thức lý thuyết đơn chiều | **Điều phối tiến trình mô phỏng, thiết lập môi trường phân tích an toàn** |
-| **Phương thức tương tác** | Khuấy động không khí, tương tác bề nổi | Thuyết giảng, yêu cầu ghi nhớ nội dung | **Đặt câu hỏi gợi mở truy vấn bài học; để đối tượng tự quyết định và tự chịu trách nhiệm** |
-| **Phạm vi kiểm soát rủi ro** | Kiểm soát thời lượng và kịch bản sự kiện | Kiểm soát tính chính xác của bài giảng | **Kiểm soát tính khách quan, bảo mật dữ liệu và kiểm soát xung đột lợi ích** |
-
----
-
-### 1.6. Hệ Thống 3 Nguyên Tắc Hoạt Động & Quy Chế Không Khoan Nhượng (Zero Tolerance)
-Căn cứ Phần I Tài liệu Đào tạo OffLife Master v3.0, nhân sự ứng tuyển và đang hành nghề phải tuân thủ nghiêm ngặt 3 nguyên tắc:
-1. **Nguyên tắc Phát triển liên tục:** Định kỳ cập nhật nghiệp vụ, tiếp nhận dữ liệu phản hồi sau mỗi phiên làm việc và đóng góp cải tiến hệ thống.
-2. **Nguyên tắc Hợp tác cùng có lợi (Win-Win):** Đặt hiệu quả nhận thức của người tham gia làm ưu tiên cao nhất; duy trì mô hình cung ứng dịch vụ minh bạch và bền vững.
-3. **Nguyên tắc Trung thực & Liêm chính:** Thực thi chế tài Không khoan nhượng đối với 4 hành vi vi phạm đạo đức nghề nghiệp.
-
-> [!WARNING]
-> **4 HÀNH VI VI PHẠM NGHIÊM TRỌNG — THU HỒI TƯ CÁCH & QUYỀN SỬ DỤNG LICENSE NGAY LẬP TỨC:**
-> 1. **Lừa dối (Misrepresentation):** Cam kết sai sự thật về hiệu quả kinh tế hoặc giới thiệu công cụ mô phỏng như một kênh tư vấn / môi giới đầu tư sinh lời ngoài đời thực.
-> 2. **Gian lận (Fraud / Unauthorized Delegation):** Chuyển nhượng, chia sẻ tài khoản quản trị (`manage.html`) hoặc để cá nhân chưa được cấp License điều hành phiên chơi.
-> 3. **Thao túng (Undue Influence):** Sử dụng tình huống mô phỏng để gieo rắc định kiến hoặc áp lực nhằm định hướng người tham gia mua sản phẩm thương mại khác.
-> 4. **Lợi dụng (Data Exploitation):** Khai thác, phát tán hoặc thương mại hóa trái phép dữ liệu cá nhân và thông tin riêng tư của người tham gia.
-
----
-
-### 1.7. Giới Hạn Thẩm Quyền & Các Hành Vi Bị Nghiêm Cấm
-- Tuyệt đối **không đưa ra khuyến nghị hoặc tư vấn tài chính cá nhân cụ thể ngoài đời thực** (ví dụ: tư vấn mua mã cổ phiếu cụ thể, vay thế chấp ngân hàng, lướt sóng bất động sản).
-- Không tiết lộ thông số thuật toán ngầm hoặc kịch bản thử thách của hệ thống trước và trong phiên mô phỏng.
-- Không tự ý sửa đổi quy tắc vận hành khi chưa có văn bản chấp thuận từ Ban Quản lý Dự án.
-- Không phán xét hay áp đặt định kiến cá nhân lên quyết định của người tham gia trong tiến trình mô phỏng.
-
----
-
-### 1.8. Ma Trận Phân Định Trách Nhiệm (RACI Matrix)
-
-| Giai đoạn công việc | Ứng viên OM | Ban Vận hành / PMO (Thu Hà) | Hội đồng Chuyên môn (Kim Thoa) | Ban Quản lý Dự án (Võ Duy Anh) |
-| :--- | :---: | :---: | :---: | :---: |
-| GĐ 1: Profile Scanning | **R** (Nộp đơn) | **A / R** (Chấm hồ sơ) | **C** (Tham vấn) | **I** (Thông báo) |
-| GĐ 2: Online Training | **R** (Tự học & Hỗ trợ) | **R** (Cấp Trial) | **A / R** (Chủ trì TA Q&A) | **I** (Theo dõi) |
-| GĐ 3: Written Test | **R** (Làm bài thi) | **C** (Hỗ trợ coi thi) | **A / R** (Ra đề & Chấm) | **I** (Nhận điểm) |
-| GĐ 4: Demo Event | **R** (Tự tổ chức) | **C** (Tiếp nhận đăng ký) | **A / R** (Examiner chấm) | **I** (Báo cáo) |
-| GĐ 5: Final Interview & Cấp phép | **R** (Phỏng vấn) | **R** (Thủ tục HĐ, Kit) | **A / R** (Phỏng vấn & Trình)| **A** (Ký Quyết định) |
-
-*Ghi chú quy ước RACI: R = Responsible (Thực hiện trực tiếp); A = Accountable (Chịu trách nhiệm cao nhất / Phê duyệt); C = Consulted (Tham vấn chuyên môn); I = Informed (Thông báo kết quả).*
-
----
-
-## 2. QUY TRÌNH 5 GIAI ĐOẠN TUYỂN CHỌN, ĐÀO TẠO & CẤP PHÉP OM
-
-### 2.1. Bảng Tổng Hợp 5 Giai Đoạn Tuyển Chọn & Đào Tạo
-
-| Giai đoạn | Tên Giai Đoạn Nghiệp Vụ | Thời Lượng | Chủ Thể Phụ Trách (RACI) | Cổng Đánh Giá & Điểm Đạt | Biểu Mẫu Áp Dụng |
-| :---: | :--- | :---: | :--- | :--- | :---: |
-| **GĐ 1** | Tiếp nhận Hồ sơ & Quét Năng lực (Profile Scanning) | 07 ngày làm việc | Ứng viên OM & Ban Vận hành PMO | Hồ sơ hợp lệ & Rubric Profile $> 6/10$ & Tiêu chí 2 $> 1$ | `BM-OM-01` |
-| **GĐ 2** | Đào tạo Nghiệp vụ Tự học & Hỗ trợ (Online Training) | 04 tuần (1 tháng) | Ứng viên OM & Ban Huấn luyện | Đủ 4 yêu cầu (Video, Cẩm nang, 1 session, TA Q&A) | `BM-OM-02` |
-| **GĐ 3** | Kỳ thi Đánh giá Năng lực Viết (Written Test) | 180 phút tại chỗ | Ứng viên & Giám khảo Chuyên môn | Điểm thi viết $\ge 6.5/10$ (9 câu tự luận Question Bank) | `BM-OM-03` |
-| **GĐ 4** | Sát hạch Thực tế Sự kiện (Demo Event do Ứng viên tự làm) | $\le$ 04 tuần | Ứng viên (Chủ trì) & Examiner giám sát | Điểm Live Rubric $\ge 65/100$, Độ chính xác $\ge 6$, Tin cậy $\ge 6$ | `ĐG-OM-01` |
-| **GĐ 5** | Phỏng vấn Định hướng & Cấp phép (Final Interview) | 20–30 phút & 3 ngày | Ứng viên, Hội đồng PV & Project Lead | Điểm phỏng vấn $\ge 6.5/10$ & Không vi phạm Code of Conduct | `BM-OM-04`, `TT-01`, `QĐ-01`, `CK-01` |
-
-
-### 2.2. Đặc Tả Chi Tiết 5 Giai Đoạn Chuẩn Hóa
-
-#### Giai đoạn 1: Tiếp nhận Hồ sơ & Quét Năng lực (Profile Scanning)
-
-- **Thời hạn giải quyết (SLA):** `07 ngày làm việc`
-- **Chủ thể phụ trách (RACI):** `Ứng viên OM & Ban Vận hành PMO (Thu Hà)`
-
-| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
-| :--- | :--- |
-| **Hồ sơ đầu vào (Input)** | Hồ sơ dự tuyển qua Registration Form BM-OM-01, CCCD, thông tin OM giới thiệu, minh chứng đã tham dự tối thiểu 02 phiên OffLife thực tế, xác nhận đồng ý Điều khoản tham gia, Hợp đồng dịch vụ phần mềm dự thảo và Thông báo xử lý dữ liệu cá nhân (DPA). |
-| **Thao tác nghiệp vụ (Action)** | Ứng viên nộp hồ sơ trực tuyến. Team OffLife kiểm tra tính hợp lệ bắt buộc (Có OM giới thiệu + Đồng ý văn bản pháp lý). Đánh giá hồ sơ theo Rubric Profile Scanning 10 điểm (5 tiêu chí: Động lực & gắn kết, Năng lực tổ chức then chốt, Nền tảng phù hợp giá trị, Profile & sức hút người chơi, Định hướng dài hạn). |
-| **Cổng kiểm soát (Gate / Criteria)** | **Cổng 1: Hồ sơ hợp lệ VÀ Tổng điểm Rubric > 6/10 VÀ Điểm tiêu chí 2 (Năng lực tổ chức) > 1 điểm.** |
-| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 thông báo ĐẠT Profile Scanning + Cấp tài khoản dùng thử 1 tháng + Gửi tài liệu học tập (10 Video OM Academy, Cẩm nang v3.0, Tool giả lập).<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo cảm ơn, nêu lý do chưa đạt và dừng chương trình. |
-
-#### Giai đoạn 2: Đào tạo Nghiệp vụ Tự học & Hỗ trợ Thực tế (Online Training)
-
-- **Thời hạn giải quyết (SLA):** `04 tuần (1 tháng)`
-- **Chủ thể phụ trách (RACI):** `Ứng viên OM & Ban Huấn luyện Đào tạo (Kim Thoa)`
-
-| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
-| :--- | :--- |
-| **Hồ sơ đầu vào (Input)** | Tài khoản dùng thử 1 tháng (ghi nhận trong Sheet Account List), Series 10 Video OM Academy (Module 0–9), Hướng dẫn Luật OffLife đầy đủ, Cẩm nang đào tạo OffLife Master v3.0 (12 phần), Tool tạo kịch bản giả lập (offlife.vn/sessions/new), Bảng theo dõi BM-OM-02. |
-| **Thao tác nghiệp vụ (Action)** | Ứng viên tự học video và nghiên cứu cẩm nang; dùng Tool tạo kịch bản để tự luyện tập; tham gia hỗ trợ tổ chức tối thiểu 01 session thật cùng OM đi trước; gửi danh sách câu hỏi thắc mắc trước và tham dự buổi TA Q&A trực tiếp (2 tiếng) vào cuối tuần thứ 4. |
-| **Cổng kiểm soát (Gate / Criteria)** | **Cổng 2: Hoàn thành đủ 4 yêu cầu bắt buộc: (1) Tự học video & cẩm nang, (2) Hỗ trợ ít nhất 1 session thật, (3) Gửi câu hỏi trước, (4) Tham gia trọn vẹn buổi TA Q&A.** |
-| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 xác nhận hoàn thành Online Training + Thông báo lịch thi viết tập trung Written Test.<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo chưa đủ điều kiện, dừng chương trình (hoặc gia hạn tài khoản 2–4 tuần nếu có lý do chính đáng). |
-
-#### Giai đoạn 3: Kỳ thi Đánh giá Năng lực Viết (Written Test)
-
-- **Thời hạn giải quyết (SLA):** `180 phút (3 tiếng) tại chỗ`
-- **Chủ thể phụ trách (RACI):** `Ứng viên OM & Hội đồng Giám khảo Sát hạch Chuyên môn`
-
-| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
-| :--- | :--- |
-| **Hồ sơ đầu vào (Input)** | Đề thi in 9 câu tự luận rút từ Question Bank 65 câu (Part A: 6 câu kỹ thuật mô phỏng; Part B: 3 câu mở cá nhân/đạo đức), Phiếu làm bài thi viết BM-OM-03, Thước đo tiêu chí Rubric Written Test. |
-| **Thao tác nghiệp vụ (Action)** | Thí sinh làm bài thi viết tay độc lập tại chỗ trong 180 phút (khoảng 20 phút/câu). Hội đồng chấm bài theo Rubric Written Test trong vòng 5 ngày làm việc. Đánh giá độ sâu hiểu biết về 3 nguồn lực M/H/I, session flow, giá trị OnLife và phản xạ tuân thủ. |
-| **Cổng kiểm soát (Gate / Criteria)** | **Cổng 3: Điểm bài thi đạt từ 6.5/10 điểm trở lên và không có câu trả lời vi phạm chuẩn mực đạo đức.** |
-| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT (≥ 6.5đ): Gửi Email EM-OM-01 thông báo kết quả thi viết + Hướng dẫn chuẩn bị và đăng ký lịch Demo Event.<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo kết quả: Lần 1: Hẹn thi lại sau 2–4 tuần; Lần 2: Email cảm ơn và dừng chương trình. |
-
-#### Giai đoạn 4: Sát hạch Thực địa Sự kiện (Demo Event do Ứng viên tự tổ chức)
-
-- **Thời hạn giải quyết (SLA):** `Trong vòng 4 tuần (Thời lượng phiên: 180 phút)`
-- **Chủ thể phụ trách (RACI):** `Ứng viên OM (Trưởng BTC Event) & Examiner của OffLife giám sát`
-
-| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
-| :--- | :--- |
-| **Hồ sơ đầu vào (Input)** | Lịch đăng ký Demo Event (trước ít nhất 14 ngày), Tối thiểu 5 người chơi thật, Địa điểm, Dụng cụ bàn chơi, Logistics do ứng viên tự chuẩn bị, Bảng tiêu chí chấm điểm Live Event Scoring Rubric ĐG-OM-01. |
-| **Thao tác nghiệp vụ (Action)** | Ứng viên tự tổ chức trọn vẹn buổi OffLife bằng nguồn lực riêng và dẫn đủ 6 phase (từ Pre-OffLife đến Feedback Collection). Examiner của OffLife có mặt trực tiếp tại bàn quan sát và chấm điểm độc lập trên Live Rubric 100 điểm (+10 thưởng). Thu thập khảo sát CSAT người chơi. |
-| **Cổng kiểm soát (Gate / Criteria)** | **Cổng 4: Sự kiện hợp lệ (≥ 5 người chơi, đủ 6 phase) VÀ Tổng điểm ≥ 65/100 VÀ Độ chính xác truyền đạt ≥ 6/10 VÀ Mức độ tin cậy OM ↔ người chơi ≥ 6/10 VÀ Không vi phạm Zero Tolerance.** |
-| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 chúc mừng đạt Demo Event + Mời tham gia buổi Phỏng vấn cuối cùng (Final Interview).<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 kèm feedback chi tiết: Lần 1: Được đăng ký tổ chức lại Demo Event lần 2 trong vòng 4 tuần; Lần 2: Email cảm ơn và dừng chương trình. |
-
-#### Giai đoạn 5: Phỏng vấn Định hướng & Công nhận Certified OM (Final Interview & Certification)
-
-- **Thời hạn giải quyết (SLA):** `20–30 phút phỏng vấn & 03 ngày làm việc hoàn tất thủ tục`
-- **Chủ thể phụ trách (RACI):** `Ứng viên OM, Hội đồng Phỏng vấn, Ban Vận hành PMO & Project Lead`
-
-| Hạng mục đặc tả | Nội dung chuẩn hóa thực hiện |
-| :--- | :--- |
-| **Hồ sơ đầu vào (Input)** | Hồ sơ ứng viên, Bài thi Written Test, Kết quả Demo Event, Phiếu phỏng vấn BM-OM-04 (Rubric 10đ: Động lực đúng đắn 7đ + Định hướng nghề nghiệp 5 năm 3đ). |
-| **Thao tác nghiệp vụ (Action)** | Hội đồng phỏng vấn (2–3 người) trao đổi trực tiếp hai chiều, đánh giá con người, động lực thật và độ gắn kết lâu dài. Sau khi đạt, Hội đồng Chuyên môn lập Tờ trình TT-OM-01 trình Project Lead ký Quyết định công nhận QĐ-OM-01; OM thực hiện giao kết Hợp đồng dịch vụ phần mềm/subscription trực tuyến + NDA + DPA (CK-OM-01); kích hoạt tài khoản Subscription chính thức trên manage.html và bàn giao Kit BB-OM-01. |
-| **Cổng kiểm soát (Gate / Criteria)** | **Cổng 5: Điểm phỏng vấn đạt ≥ 6.5/10 VÀ Không có dấu hiệu vi phạm Code of Conduct VÀ Hoàn tất ký kết Thỏa thuận hợp đồng pháp lý.** |
-| **Kết quả đầu ra & Giao thức Email** | • NẾU ĐẠT: Gửi Email EM-OM-01 Chúc mừng & Công nhận Certified OffLife Master chính thức + Hướng dẫn giao kết Hợp đồng Subscription, kích hoạt tài khoản manage.html và bàn giao Bộ Kit.<br>• NẾU CHƯA ĐẠT: Gửi Email EM-OM-02 thông báo cảm ơn và chính sách phỏng vấn lại/dừng chương trình. |
-
-### 2.3. Quy Chế Giao Thức Email Kết Quả Tại 5 Cổng Kiểm Soát
-Nhằm bảo đảm tính chuyên nghiệp, minh bạch và tôn trọng ứng viên, tại mỗi Cổng kiểm soát của quy trình 5 giai đoạn, Ban Tuyển chọn bắt buộc gửi thông báo điện tử qua email theo thời hạn SLA:
-
-1. **Kịch bản ĐẠT TIÊU CHUẨN (Áp dụng Biểu mẫu `EM-OM-01`):**
-   - Xác nhận cụ thể tiêu chí / điểm số đã hoàn thành xuất sắc.
-   - Hướng dẫn chi tiết bước kế tiếp (Next Steps): Hồ sơ tài liệu cần chuẩn bị, tài khoản/mật khẩu truy cập, lịch trình và thời hạn hoàn thành.
-2. **Kịch bản CHƯA ĐẠT / TỪ CHỐI (Áp dụng Biểu mẫu `EM-OM-02`):**
-   - Thông báo kết luận khách quan, văn minh, bảo mật.
-   - **Bắt buộc nêu rõ căn cứ lý do chưa đạt** theo đúng tiêu chuẩn của Cổng kiểm soát tương ứng (thiếu OM giới thiệu, điểm Profile $\le 6$, thi trượt lý thuyết, Demo Event không đạt điểm sàn, vi phạm Zero Tolerance).
-   - Nêu rõ **Chính sách hỗ trợ & thi lại**: Cho phép thi lại Written Test 1 lần (sau 2-4 tuần); cho phép tổ chức lại Demo Event lần 2 (trong 4 tuần); chính sách bảo lưu hồ sơ và thời hạn đăng ký tái dự tuyển.
-
----
-
-## 3. SƠ ĐỒ ĐIỀU HÀNH PHÂN LÀN (SWIMLANE FLOWCHART)
-
-### 3.1. Sơ Đồ Vector Phân Làn Trực Quan (SVG Vector Diagram)
-*(Hiển thị tương tác chuẩn 4 phân làn chức năng qua trọn vẹn 5 Giai đoạn đào tạo và cấp phép OM)*
-
-![Sơ đồ Điều hành Phân làn Tuyển chọn & Cấp phép OM](assets/swimlane_flowchart.svg)
-
----
-
-### 3.2. Mã Nguồn Sơ Đồ Lưu Đồ Quy Trình (Mermaid Architecture)
-*(Chuẩn cú pháp Mermaid rendering độc lập trên mọi nền tảng mã nguồn)*
-
-```mermaid
-flowchart TD
-    classDef startEnd fill:#10b981,stroke:#059669,stroke-width:2px,color:#fff;
-    classDef action fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af;
-    classDef decision fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e;
-    classDef reject fill:#fee2e2,stroke:#ef4444,stroke-width:1.5px,color:#991b1b;
-
-    subgraph LANE_UV ["1. ỨNG VIÊN OM (Applicant)"]
-        UV_Start(["Bắt đầu: Đăng ký ứng tuyển"]):::startEnd
-        UV_Submit["GĐ 1: Gửi hồ sơ BM-OM-01 qua Form"]:::action
-        UV_Learn["GĐ 2: Tự học 4 tuần & Hỗ trợ 1 session"]:::action
-        UV_Written["GĐ 3: Làm bài thi Written Test 180 phút"]:::action
-        UV_Demo["GĐ 4: Tự tổ chức Demo Event ≥ 5 người"]:::action
-        UV_Interview["GĐ 5: Phỏng vấn Final Interview (20-30p)"]:::action
-        UV_Official(["Chính thức nhận License Certified OM"]):::startEnd
-    end
-
-    subgraph LANE_HR ["2. BAN VẬN HÀNH / PMO (Thu Hà)"]
-        HR_Scan["Kiểm tra hợp lệ & Chấm Rubric Profile 10đ"]:::action
-        HR_Gate1{"Hồ sơ hợp lệ & Rubric > 6/10 & TC2 > 1?"}:::decision
-        HR_Reject1["Từ chối: Gửi Email EM-OM-02"]:::reject
-        HR_Trial["Cấp Trial Account 1 tháng & Gửi 10 Video"]:::action
-        HR_Contract["Giao kết HĐ Subscription CK-OM-01"]:::action
-        HR_Kit["Cấp manage.html & Bàn giao Kit BB-OM-01"]:::action
-    end
-
-    subgraph LANE_LEAD ["3. HỘI ĐỒNG CHUYÊN MÔN / EXAMINER (Kim Thoa)"]
-        LEAD_TA["Tổ chức buổi TA Q&A giải đáp thắc mắc (2h)"]:::action
-        LEAD_Exam["Ra đề & Chấm bài thi Written Test (Thang 10)"]:::action
-        LEAD_Gate3{"Điểm Written Test ≥ 6.5/10?"}:::decision
-        LEAD_ReExam["Chưa đạt: Hẹn thi lại 1 lần / Dừng"]:::reject
-        LEAD_Observe["Examiner chấm Live Event Scoring Rubric"]:::action
-        LEAD_Gate4{"Điểm ≥ 65 & Độ chính xác ≥ 6 & Tin cậy ≥ 6?"}:::decision
-        LEAD_ReDemo["Chưa đạt: Hẹn Demo lại lần 2"]:::reject
-        LEAD_Interview["Phỏng vấn động lực & định hướng 5 năm"]:::action
-        LEAD_Gate5{"Điểm phỏng vấn ≥ 6.5/10 & Không vi phạm?"}:::decision
-        LEAD_Report["Lập Tờ trình TT-OM-01 đề xuất công nhận"]:::action
-    end
-
-    subgraph LANE_BGD ["4. BAN QUẢN LÝ DỰ ÁN (Võ Duy Anh)"]
-        BGD_Approve{"Thẩm tra Tờ trình & Hồ sơ?"}:::decision
-        BGD_Sign["Ký ban hành Quyết định công nhận QĐ-OM-01"]:::action
-    end
-
-    UV_Start --> UV_Submit
-    UV_Submit --> HR_Scan
-    HR_Scan --> HR_Gate1
-    HR_Gate1 -->|Không đạt| HR_Reject1
-    HR_Gate1 -->|Đạt chuẩn| HR_Trial
-    HR_Trial --> UV_Learn
-    UV_Learn --> LEAD_TA
-    LEAD_TA --> UV_Written
-    UV_Written --> LEAD_Exam
-    LEAD_Exam --> LEAD_Gate3
-    LEAD_Gate3 -->|Chưa đạt| LEAD_ReExam
-    LEAD_Gate3 -->|Đạt chuẩn (≥ 6.5đ)| UV_Demo
-    UV_Demo --> LEAD_Observe
-    LEAD_Observe --> LEAD_Gate4
-    LEAD_Gate4 -->|Chưa đạt| LEAD_ReDemo
-    LEAD_Gate4 -->|Đạt chuẩn (≥ 65đ)| UV_Interview
-    UV_Interview --> LEAD_Interview
-    LEAD_Interview --> LEAD_Gate5
-    LEAD_Gate5 -->|Đạt chuẩn| LEAD_Report
-    LEAD_Report --> BGD_Approve
-    BGD_Approve -->|Phê chuẩn| BGD_Sign
-    BGD_Sign --> HR_Contract
-    HR_Contract --> HR_Kit
-    HR_Kit --> UV_Official
+### 1.2. Khung Chủ Thể & Phân Định Vai Trò Chuyên Môn (Bám sát Tài liệu gốc)
+
+Dự án OffLife xác lập lộ trình phát triển rõ ràng với **02 trạng thái chủ thể chính** và **05 vai trò nghiệp vụ nội bộ**:
+
+```
++---------------------------------------------------------------------------------------------------+
+|                                 LỘ TRÌNH PHÁT TRIỂN NGHỀ NGHIỆP                                    |
+|                                                                                                   |
+|    [APPLICANT]  ==========( 6 - 10 tuần qua 5 giai đoạn đào tạo & sát hạch )=========>  [CERTIFIED OM]   |
+|  (Ứng viên tham gia)                                                                (OM Chính thức)  |
++---------------------------------------------------------------------------------------------------+
 ```
 
----
+#### 1. Applicant (Ứng viên tham gia chương trình)
+- **Định vị:** Cá nhân đã trải nghiệm OffLife, được một Certified OM chính thức giới thiệu, đã nộp hồ sơ hợp lệ và vượt qua vòng thẩm định sơ bộ.
+- **Quyền hạn trong quá trình học:**
+  * Được cấp **Tài khoản dùng thử (Trial Account) 1 tháng** trên Portal học tập và Tool giả lập kịch bản;
+  * Được tiếp cận trọn bộ tài liệu: Series video bài học OM Academy (Module 0–9), Hướng dẫn Luật đầy đủ, Tài liệu Đào tạo OffLife Master (12 phần) và Tool kịch bản giả lập `offlife.vn/sessions/new`;
+  * Được tham gia hỗ trợ tổ chức session thật cùng OM đi trước;
+  * Được tham gia buổi giải đáp thắc mắc chuyên sâu trực tiếp cùng Trợ giảng (TA Q&A 2 tiếng).
+- **Giới hạn nghiêm ngặt:**
+  * Chỉ được tham gia với vai trò hỗ trợ điều phối / quan sát viên tại bàn chơi;
+  * **Tuyệt đối chưa được tự tổ chức, điều phối độc lập** phiên chơi hoặc thu phí dịch vụ khi chưa được cấp chứng nhận Certified OM;
+  * Hoàn thành toàn bộ lộ trình qua 5 cổng thẩm định trong thời hạn từ 6 đến 10 tuần.
 
-## 4. MA TRẬN 11 BIỂU MẪU & TRA CỨU NGHIỆP VỤ (DOCUMENT MATRIX)
-
-### 4.1. Bảng Ma Trận Phân Quyền & Thời Hạn Xử Lý (SLA)
-
-| STT | Mã Hiệu | Tên Biểu Mẫu / Văn Bản Chuẩn Hóa | Phân Nhóm Thể Thức | Đơn Vị Lập (Maker) | Cấp Phê Duyệt (Approver) | Thời Hạn (SLA) |
-| :---: | :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | **BM-OM-01** | Phiếu Đăng ký Dự tuyển & Quét Năng lực (Profile Scanning) | Tuyển chọn | Ứng viên OM | Team OffLife / PMO | 07 ngày |
-| 2 | **BM-OM-02** | Bảng Theo dõi Tiến độ Đào tạo Online & Trial Account | Đào tạo | Ứng viên & Team | Ban Huấn luyện | 04 tuần |
-| 3 | **BM-OM-03** | Đề thi Tự luận & Phiếu Chấm Kỳ thi Viết (Written Test) | Sát hạch chuyên môn | Giám khảo Chuyên môn| Hội đồng Chuyên môn | 180 phút |
-| 4 | **ĐG-OM-01** | Bảng Tiêu chí Chấm điểm Thực tế Demo Event (Live Rubric)| Sát hạch chuyên môn | Examiner của OffLife | Hội đồng Chuyên môn | 01 phiên |
-| 5 | **BM-OM-04** | Biên bản Phỏng vấn Định hướng & Động lực (Final Interview)| Sát hạch chuyên môn | Hội đồng Phỏng vấn | Hội đồng Chuyên môn | 20–30 phút |
-| 6 | **TT-OM-01** | Tờ trình Đề xuất Công nhận Certified OM (Chuẩn NĐ 30) | Hành chính (NĐ 30) | Hội đồng Chuyên môn | Trưởng Ban Quản lý Dự án | 01 ngày |
-| 7 | **QĐ-OM-01** | Quyết định Công nhận Chức danh Certified OM (Chuẩn NĐ 30) | Hành chính (NĐ 30) | Bộ phận Pháp chế | Trưởng Dự án ký duyệt | 01 ngày |
-| 8 | **CK-OM-01** | Hợp đồng Dịch vụ Phần mềm (Subscription) + NDA + DPA | Pháp lý & Cam kết | Bộ phận Pháp chế | Project Lead & OM ký | 0.5 ngày |
-| 9 | **BB-OM-01** | Biên bản Bàn giao Bộ Kit & Kích hoạt Tài khoản Quản trị | Quản trị tài sản | Quản trị Kit & Nền tảng| OM tiếp nhận | 0.5 ngày |
-| 10 | **EM-OM-01** | Hệ thống Email Thông Báo Kết Quả ĐẠT (5 Cổng Kiểm Soát) | Thông báo điện tử | Team Tuyển chọn / PMO| Hệ thống / Trưởng Ban | Trong ngày |
-| 11 | **EM-OM-02** | Hệ thống Email Thông Báo CHƯA ĐẠT & Phản Hồi Lý Do (5 Cổng) | Thông báo điện tử | Hội đồng CM / PMO | Hệ thống / Trưởng Ban | Trong ngày |
-
-### 4.2. Bảng Quy Chuẩn Nội Dung Dữ Liệu & Điểm Kiểm Soát
-
-| Mã Hiệu | Cổng Quy Trình Áp Dụng | Thành Phần Trường Dữ Liệu Bắt Buộc | Điểm Kiểm Soát Trọng Tâm |
-| :---: | :---: | :--- | :--- |
-| **BM-OM-01** | GĐ 1 (Profile) | Thông tin OM giới thiệu, CCCD, minh chứng trải nghiệm $\ge 2$ phiên, Rubric 5 tiêu chí (10đ) | Xác thực có OM giới thiệu; Rubric $> 6/10$ & Năng lực tổ chức $> 1$ |
-| **BM-OM-02** | GĐ 2 (Online) | Hoàn thành 10 video OM Academy, Cẩm nang v3.0, thực hành Tool giả lập, 1 session thật, TA Q&A | Đạt đủ 4 yêu cầu tự học trước khi cấp quyền dự thi viết Written Test |
-| **BM-OM-03** | GĐ 3 (Written) | Đề thi 9 câu tự luận (Part A 6 câu kỹ thuật + Part B 3 câu mở cá nhân/đạo đức) | Thang điểm 10, yêu cầu đạt từ $\ge 6.5/10$ điểm trở lên |
-| **ĐG-OM-01** | GĐ 4 (Demo Event) | Chấm trực tiếp tại hiện trường: Kết quả chính (60đ) + Yếu tố khác (40đ) + Thưởng (+10đ) | Tổng điểm $\ge 65/100$, Độ chính xác $\ge 6$, Tin cậy $\ge 6$ & Zero Tolerance |
-| **BM-OM-04** | GĐ 5 (Interview) | 2 tiêu chí phỏng vấn: Động lực đúng đắn (0-7đ) + Định hướng nghề nghiệp 5 năm (0-3đ) | Điểm tổng $\ge 6.5/10$ & Không có dấu hiệu vi phạm Code of Conduct |
-| **TT-OM-01** | Hậu Sát hạch | Thể thức Nghị định 30/2020/NĐ-CP, báo cáo tổng hợp kết quả 5 giai đoạn đính kèm bảng điểm | Thẩm tra tính đầy đủ và trung thực của hồ sơ trước khi trình Project Lead |
-| **QĐ-OM-01** | Hậu Sát hạch | Thể thức văn bản hành chính NĐ 30: Điều 1 Công nhận danh hiệu, Điều 2 Quyền hạn & Trách nhiệm | Công nhận danh hiệu nội bộ Certified OM; hiệu lực thi hành 01 năm |
-| **CK-OM-01** | Giao kết Pháp lý | Hợp đồng cung cấp dịch vụ phần mềm OffLife (Subscription) + Bảo mật NDA + Bảo vệ dữ liệu DPA | Ràng buộc quyền sử dụng manage.html, cam kết không tư vấn tài chính |
-| **BB-OM-01** | Bàn giao | Kiểm kê hiện vật Kit Boardgame mới 100%, ghi nhận tài khoản Subscription, xuất hóa đơn | Thu hồi tài khoản dùng thử, kích hoạt tài khoản chính thức |
-| **EM-OM-01** | Cổng 1 đến Cổng 5 | Thông báo kết quả đạt chuẩn, cấp tài khoản dùng thử, mời thi viết, mời Demo, công nhận OM | Gửi đúng hạn SLA, bảo đảm ứng viên nắm rõ lộ trình kế tiếp |
-| **EM-OM-02** | Cổng 1 đến Cổng 5 | Kết luận chưa đạt, phân tích lý do theo tiêu chuẩn cổng, chính sách thi lại/demo lại lần 2 | Phản hồi văn minh, bảo mật thông tin, giữ tinh thần cầu thị và xây dựng |
+#### 2. Certified OM (Điều phối viên Chính thức)
+- **Định vị:** Người đã hoàn thành xuất sắc cả 5 giai đoạn thẩm định của chương trình đào tạo, được Team OffLife chính thức cấp Chứng nhận tư cách điều phối viên.
+- **Bản chất pháp lý & danh hiệu:** Là danh hiệu chuyên môn nội bộ của chương trình OffLife xác nhận năng lực dẫn dắt sự kiện; không phải là văn bằng giáo dục quốc gia hay chứng chỉ hành nghề độc quyền của nhà nước.
+- **Quyền lợi chính thức của Certified OM:**
+  * **Ghi danh danh dự:** Được ghi tên chính thức vào Danh sách Certified OM của Hệ thống OffLife;
+  * **Quyền mua Subscription:** Được quyền ký kết Hợp đồng dịch vụ phần mềm trực tuyến và mua các gói bản quyền Subscription để tự tổ chức và điều hành các sự kiện OffLife;
+  * **Độc lập dẫn sự kiện:** Toàn quyền tổ chức các phiên workshop OffLife tiêu chuẩn cho cộng đồng, doanh nghiệp, trường học;
+  * **Quyền giới thiệu thế hệ mới (Referral):** Quyền phát hành thư bảo lãnh và gửi link giới thiệu Applicant mới tham gia chương trình đào tạo OM;
+  * **Được tham gia các chương trình cập nhật:** Cập nhật tính năng mới định kỳ 2 tuần/lần từ đội ngũ R&D OffLife.
+- **Nghĩa vụ của Certified OM:**
+  * Quản lý và bảo mật tài khoản Subscription cá nhân; tuyệt đối không chia sẻ tài khoản cho bên thứ ba;
+  * Tuân thủ Bộ quy tắc ứng xử (Code of Conduct) và chuẩn mực Zero-Tolerance (không phán xét, không trục lợi dữ liệu, không bán hàng lừa dối người chơi);
+  * Gia hạn gói Subscription trước thời điểm hết hạn 30 ngày để duy trì trạng thái hoạt động của tài khoản quản trị.
 
 ---
 
-## 5. HỆ THỐNG TIÊU CHÍ ĐÁNH GIÁ NĂNG LỰC ĐỊNH LƯỢNG (RUBRICS ĐG-OM)
+### 1.3. Hệ Thống Các Vai Trò Nghiệp Vụ Vận Hành Đào Tạo
+Nhằm bảo đảm tính khách quan và chất lượng đào tạo, Team OffLife phân định 5 vai trò nghiệp vụ:
 
-### 5.1. Rubric Profile Scanning 10 Điểm (Giai đoạn 1)
-Áp dụng đánh giá hồ sơ đăng ký dự tuyển:
-- Tiêu chí 1: Động lực & sự gắn kết với sứ mệnh OnLife (0 - 2 điểm)
-- Tiêu chí 2: Năng lực tổ chức sự kiện & quy tụ người tham gia (0 - 2 điểm - **Tiêu chí then chốt**)
-- Tiêu chí 3: Nền tảng chuyên môn & mức độ phù hợp giá trị (0 - 2 điểm)
-- Tiêu chí 4: Profile cá nhân & sức hút với tệp người chơi tiềm năng (0 - 2 điểm)
-- Tiêu chí 5: Định hướng dài hạn & mức độ đầu tư thời gian cho OffLife (0 - 2 điểm)  
-$$\text{Điều Kiện Đạt Cổng 1:} \quad \text{Tổng Điểm} > 6.0 / 10 \quad \text{VÀ} \quad \text{Tiêu chí 2} > 1.0 \quad \text{VÀ} \quad \text{Có OM giới thiệu}$$
+1. **OM Giới thiệu (Referral OM):** Certified OM đang hoạt động, phát hiện và gửi link đăng ký Registration Form cho ứng viên tiềm năng; xác nhận sự đồng hành ban đầu.
+2. **Trợ giảng (TA - Teaching Assistant):** Cán bộ phụ trách chuyên môn của OffLife, trực tiếp điều phối buổi **TA Q&A (2 tiếng)** vào cuối tuần thứ 4 của Giai đoạn 2 để giải đáp toàn bộ câu hỏi của ứng viên về luật chơi, cơ chế số phận/may mắn, cách điều phối và kỹ năng debriefing.
+3. **Giám khảo Chấm thi (OffLife Examiner):** Cán bộ có kinh nghiệm dày dặn từ Team OffLife (hoặc Certified OM kỳ cựu được Ban Điều hành chỉ định), có mặt trực tiếp tại phiên Demo Event của ứng viên để quan sát và chấm điểm định lượng theo *Live Event Scoring Rubric (100 điểm + 10 điểm thưởng)*.
+4. **Hội đồng Phỏng vấn (Interviewer):** Đại diện Team OffLife (giai đoạn đầu gồm 2–3 người), phụ trách thực hiện phiên phỏng vấn 20–30 phút tại Giai đoạn 5 để thẩm định động lực cá nhân và sự phù hợp văn hóa.
+5. **Ban Quản trị Dự án (Team OffLife):** Chịu trách nhiệm tổng thể tiếp nhận hồ sơ, chấm Profile Scanning, ra đề thi từ Ngân hàng 65 câu hỏi, tổ chức phòng thi Written Test, cấp và quản trị tài khoản trên Google Sheet Account List, giao kết hợp đồng Subscription và kích hoạt tài khoản chính thức.
 
 ---
 
-### 5.2. Rubric Written Test Đánh Giá Năng Lực Viết (Giai đoạn 3)
-- **Hình thức thi:** Viết tay độc lập trực tiếp tại chỗ, thời lượng 180 phút (khoảng 20 phút/câu).
-- **Cấu trúc đề:** 9 câu tự luận rút từ Question Bank 65 câu:
-  * **Part A - Kỹ thuật & Vận hành (6 câu - Tối đa 6.0 điểm):** Bản chất 3 nguồn lực M/H/I, session flow 7 bước hàng năm, xử lý khủng hoảng vỡ nợ, đột tử, độc lập tài chính, kỹ thuật Debriefing.
-  * **Part B - Động lực & Liêm chính (3 câu - Tối đa 4.0 điểm):** 3 nguyên tắc hoạt động, bài học chiêm nghiệm cá nhân, cam kết tuân thủ quy chế Zero Tolerance.  
-$$\text{Điều Kiện Đạt Cổng 3:} \quad \text{Tổng Điểm Bài Thi} \ge 6.5 / 10.0 \quad \text{(Được thi lại 01 lần sau 2–4 tuần)}$$
+### 1.4. Bảng So Sánh Quyền Hạn & Nghĩa Vụ: Applicant vs Certified OM
+
+| Tiêu Chí So Sánh | Applicant (Ứng viên tham gia đào tạo) | Certified OM (Điều phối viên chính thức) |
+| :--- | :--- | :--- |
+| **Tư cách pháp lý** | Cá nhân dự tuyển, học viên chương trình đào tạo | **Điều phối viên chính thức được chứng nhận** |
+| **Điều kiện tham gia** | Đã chơi OffLife + Được OM giới thiệu + Đồng ý quy chế | Vượt qua trọn vẹn 5 Giai đoạn thẩm định của chương trình |
+| **Tài khoản hệ thống** | Tài khoản dùng thử 1 tháng (Trial Account) | **Tài khoản bản quyền phần mềm (Subscription Account)** |
+| **Quyền tổ chức sự kiện** | Chỉ được làm Demo Event có Examiner giám sát | **Toàn quyền độc lập tổ chức & thu phí dịch vụ workshop** |
+| **Quyền bảo lãnh giới thiệu** | Chưa được quyền giới thiệu | **Được quyền giới thiệu Applicant mới vào hệ thống** |
+| **Trách nhiệm bảo mật** | Cam kết bảo mật nội dung đào tạo & đề thi | Ký Hợp đồng dịch vụ SaaS + Cam kết NDA & DPA (`CK-OM-01`) |
+| **Chính sách duy trì** | Hoàn thành lộ trình 5 giai đoạn trong 6–10 tuần | Duy trì chất lượng điều phối, gia hạn gói Subscription đúng hạn |
 
 ---
 
-### 5.3. Live Event Scoring Rubric 100 Điểm Thực Hành Demo Event (Giai đoạn 4)
-Examiner của OffLife có mặt trực tiếp tại bàn chơi quan sát và chấm theo thang điểm 100 (+10 thưởng):
+## PHẦN 2: LỘ TRÌNH 5 GIAI ĐOẠN ĐÀO TẠO, SÁT HẠCH & CẤP LICENSE CHI TIẾT
 
-| Nhóm Tiêu Chí | Tiêu Chí Thành Phần | Điểm Tối Đa | Yêu Cầu Điểm Chặn |
-| :--- | :--- | :---: | :---: |
-| **A. Kết Quả Chính (60đ)** | 1. Mức độ hài lòng của người chơi (Dựa trên phản hồi khảo sát CSAT) | 20 điểm | |
-| | 2. Độ trơn tru của event (Điều hành chuẩn xác đủ 6 phases sự kiện) | 20 điểm | |
-| | 3. Insight chuyển hóa của người chơi (Khơi gợi bài học OffLife $\rightarrow$ OnLife) | 20 điểm | |
-| **B. Yếu Tố Bổ Trợ (40đ)** | 4. Năng lượng và phong thái điều phối của OM | 10 điểm | |
-| | 5. Năng lượng và sự hào hứng của người chơi | 10 điểm | |
-| | 6. Độ chính xác của thông tin truyền đạt (Luật chơi, số liệu) | 10 điểm | **BẮT BUỘC $\ge 6.0$** |
-| | 7. Mức độ tin cậy và gắn kết giữa OM và người chơi | 10 điểm | **BẮT BUỘC $\ge 6.0$** |
-| **C. Điểm Thưởng (+10đ)** | 8. Kỹ năng xử lý tình huống xuất sắc hoặc truyền cảm hứng đặc biệt | +10 điểm | |
+```
++-----------------------------------------------------------------------------------------------------------------------------------------+
+|                                              LỘ TRÌNH 5 GIAI ĐOẠN ĐÀO TẠO & SÁT HẠCH OM                                                 |
+|                                                                                                                                         |
+| [GĐ 1: Profile Scanning] -> [GĐ 2: Online Training] -> [GĐ 3: Written Test] -> [GĐ 4: Demo Event] -> [GĐ 5: Interview] -> [CERTIFIED OM] |
+|        (7 ngày)                    (4 tuần)                   (3 tiếng)                 (<= 4 tuần)              (20-30 phút)         |
+|   Rubric Hồ sơ 10đ             TA Q&A trực tiếp          Đề 9 câu tự luận        Live Rubric 100đ+10        Động lực & Tầm nhìn       |
++-----------------------------------------------------------------------------------------------------------------------------------------+
+```
 
-$$\text{Điều Kiện Đạt Cổng 4:} \quad \text{Tổng Điểm} \ge 65 / 100 \quad \text{VÀ} \quad \text{Độ chính xác} \ge 6.0 \quad \text{VÀ} \quad \text{Tin cậy} \ge 6.0 \quad \text{VÀ} \quad \text{Không Zero Tolerance}$$
-*(Được quyền đăng ký tổ chức lại Demo Event lần 2 trong vòng 04 tuần nếu lần 1 chưa đạt)*
+### GIAI ĐOẠN 1: PROFILE SCANNING (SÀNG LỌC HỒ SƠ ỨNG VIÊN)
+1. **Mục tiêu:** Thẩm định tính hợp lệ của hồ sơ ứng viên, sự gắn kết động lực và năng lực tổ chức sự kiện ban đầu trước khi tiếp nhận vào chương trình đào tạo chuyên sâu.
+2. **Kênh tiếp nhận:** Applicant nhận link từ OM giới thiệu và nộp qua Registration Form.
+3. **Thời gian xử lý (SLA):** Phản hồi kết quả chính thức qua email trong vòng **07 ngày làm việc**.
+4. **Điều kiện hợp lệ tiên quyết (Cổng chặn - Bắt buộc đủ cả 2):**
+   - **Bắt buộc có OM chính thức giới thiệu (OM Referral);**
+   - **Tích chọn đồng ý trọn vẹn 3 văn kiện pháp lý:** Điều khoản & điều kiện tham gia chương trình đào tạo; Dự thảo Hợp đồng cung cấp dịch vụ phần mềm (Subscription); Thông báo và Thỏa thuận xử lý dữ liệu cá nhân (DPA).
+   *(Lưu ý: Thiếu một trong hai điều kiện trên thì hồ sơ bị loại ngay lập tức mà không tiến hành chấm điểm).*
+5. **Rubric Chấm Điểm Hồ Sơ (Thang điểm 10):**
+   - Tiêu chí 1: Động lực & sự gắn kết (0 – 2 điểm);
+   - Tiêu chí 2: Năng lực tổ chức sự kiện [Then chốt] (0 – 2 điểm);
+   - Tiêu chí 3: Nền tảng chuyên môn & phù hợp giá trị cốt lõi (0 – 2 điểm);
+   - Tiêu chí 4: Profile cá nhân & sức hút với tệp người chơi tiềm năng (0 – 2 điểm);
+   - Tiêu chí 5: Định hướng phát triển dài hạn & mức độ đầu tư thời gian (0 – 2 điểm).
+6. **Tiêu chuẩn công nhận Đạt:**
+   $$	ext{Tổng điểm Rubric} > 6.0/10 \quad 	ext{VÀ} \quad 	ext{Tiêu chí 2 (Năng lực tổ chức)} > 1.0	ext{ điểm}$$
+7. **Kết quả đầu ra:**
+   - *Đạt:* Team OffLife gửi Email chúc mừng kèm Bộ tài liệu học tập và thông tin Tài khoản dùng thử 1 tháng.
+   - *Chưa đạt:* Gửi Email cảm ơn lịch thiệp và dừng chương trình.
+
+### GIAI ĐOẠN 2: ONLINE TRAINING (ĐÀO TẠO TRỰC TUYẾN & TỰ HỌC CÓ HƯỚNG DẪN)
+1. **Thời lượng:** Khoảng **04 tuần**.
+2. **Bộ học liệu tiêu chuẩn cấp cho ứng viên:**
+   - Series Video bài học OM Academy (Module 0–9) tại `offlife.vn/learn/videos`;
+   - Hướng dẫn Luật chơi Đầy đủ tại `offlife.vn/learn/rules`;
+   - Tài liệu Đào tạo OffLife Master v3.0 (12 phần) tại `offlife.vn/learn/rules?doc=om_training`;
+   - Công cụ Giả lập Kịch bản (Simulator Tool) tại `offlife.vn/sessions/new`.
+3. **Quy chế Tài khoản dùng thử (Trial Account):**
+   - Thời hạn hiệu lực: Đúng **01 tháng**, đủ cho giai đoạn tự học và ôn tập trước kỳ thi Written Test;
+   - Team OffLife ghi nhận thông tin tài khoản vào Google Sheet Account List;
+   - Trong trường hợp hết hạn trước ngày thi hoặc cần thi lại, ứng viên được xem xét gia hạn thêm từ 2 đến 4 tuần.
+4. **Buổi Giải đáp Chuyên môn cùng Trợ giảng (TA Q&A):**
+   - *Thời điểm:* Cuối tuần thứ 4 của giai đoạn đào tạo;
+   - *Hình thức:* Trực tiếp (hoặc Online tập trung); thời lượng **2 tiếng**;
+   - *Nội dung:* Trợ giảng (TA) giải đáp trực tiếp các vướng mắc về luật chơi, cơ chế vận hành số phận/may mắn, quản trị 3 nguồn lực Tiền - Sức khỏe - Trí tuệ và kỹ năng xử lý tình huống phát sinh;
+   - *Đầu vào:* Ứng viên bắt buộc phải tổng hợp và gửi trước danh sách câu hỏi trước buổi học ít nhất 48 giờ.
+5. **Cổng kiểm tra điều kiện hoàn thành (Bắt buộc đủ 4 tiêu chí để sang Giai đoạn 3):**
+   - [x] Tự học hoàn thành 100% video bài giảng, Hướng dẫn luật và Tài liệu đào tạo 12 phần;
+   - [x] Đã tham gia hỗ trợ tổ chức ít nhất 01 phiên workshop thực tế cùng OM đi trước;
+   - [x] Đã nộp danh sách câu hỏi chuẩn bị trước buổi TA Q&A;
+   - [x] Đã tham dự trọn vẹn buổi TA Q&A (2 tiếng).
+
+### GIAI ĐOẠN 3: WRITTEN TEST (SÁT HẠCH KIẾN THỨC BẰNG BÀI THI VIẾT)
+1. **Hình thức thi:** Trực tiếp, viết tay độc lập, không sử dụng tài liệu.
+2. **Thời lượng:** **180 phút** (3 tiếng), trung bình phân bổ khoảng 20 phút cho mỗi câu hỏi.
+3. **Cấu trúc & Nguồn đề thi:**
+   - Bốc thăm ngẫu nhiên từ Ngân hàng đề thi Written Test Question Bank (65 câu: 44 Technical + 21 Open/Personal);
+   - Đề chính thức gồm **09 câu tự luận chuyên sâu**:
+     * Phần A (6 câu Kỹ thuật): Nguyên tắc nền tảng, core model, chỉ số định lượng M/H/I, tài chính và flow 6 phase.
+     * Phần B (3 câu Mở & Chiêm nghiệm cá nhân): Động lực, bài học OnLife, tầm nhìn và compliance.
+4. **Tiêu chuẩn công nhận Đạt:**
+   - Chấm theo Rubric Chấm Written Test;
+   - Điểm số yêu cầu: **Tổng điểm $\ge 6.5 / 10$ điểm**.
+5. **Chính sách thi lại (Re-test Policy):**
+   - Ứng viên chưa đạt được quyền đăng ký thi lại duy nhất 01 lần sau 2 đến 4 tuần ôn tập; nếu lần 2 vẫn chưa đạt: gửi email cảm ơn và dừng chương trình.
+
+### GIAI ĐOẠN 4: DEMO EVENT (TỔ CHỨC SỰ KIỆN THỰC HÀNH CÓ GIÁM KHẢO CHẤM)
+1. **Thời hạn triển khai:** Trong vòng **04 tuần** kể từ khi nhận thông báo đạt bài thi Written Test.
+2. **Trách nhiệm của Ứng viên:** Tự tìm tối thiểu 05 người chơi thật, chuẩn bị địa điểm, vật dụng, công cụ mô phỏng; trực tiếp dẫn trọn vẹn 6 phase và thực hiện debriefing thu feedback.
+3. **Điều kiện bắt buộc để phiên Demo Event hợp lệ (Cổng chặn tính điểm):**
+   - Tối thiểu **05 người chơi thực tế** tham gia trọn vẹn;
+   - Hoàn thành đầy đủ **6 phase** của một phiên OffLife;
+   - Ứng viên tự tổ chức độc lập bằng nguồn lực của mình;
+   - **Bắt buộc có Giám khảo Chấm thi (OffLife Examiner) có mặt trực tiếp** quan sát và chấm điểm.
+4. **Bảng Tiêu Chí Chấm Điểm Thực Hành (Live Event Scoring Rubric - 100 điểm + 10 điểm thưởng):**
+
+| Nhóm Tiêu Chí | Nội Dung Tiêu Chí Đánh Giá Năng Lực | Điểm Tối Đa | Ghi Chú Chuẩn Mực |
+| :--- | :--- | :---: | :--- |
+| **Nhóm Kết Quả Chính (60đ)** | **1. Mức độ hài lòng của người chơi** | 20 | Đánh giá qua khảo sát CSAT, cảm xúc và chia sẻ chân thực của người chơi. |
+| | **2. Độ trơn tru của sự kiện (Event Flow)** | 20 | Kiểm soát chuẩn xác từng phase trong tiến trình 6 phase, nhịp độ mượt mà. |
+| | **3. Insight của người chơi (OffLife $ightarrow$ OnLife)** | 20 | Người chơi nhận diện bài học sâu sắc, chuyển hóa từ mô phỏng sang thực tế. |
+| **Nhóm Yếu Tố Khác (40đ)** | **4. Năng lượng của OM** | 10 | Thần thái tích cực, truyền cảm hứng, làm chủ không gian bàn chơi. |
+| | **5. Năng lượng của người chơi** | 10 | Khơi gợi người chơi hào hứng, tập trung, tích cực thảo luận. |
+| | **6. Độ chính xác của thông tin truyền đạt** | 10 | **[TIÊU CHÍ BẮT BUỘC - LIỆT NẾU < 6Đ]** Giải thích chuẩn xác luật, con số, công thức. |
+| | **7. Mức độ tin cậy OM $\longleftrightarrow$ người chơi** | 10 | **[TIÊU CHÍ BẮT BUỘC - LIỆT NẾU < 6Đ]** Không gian cởi mở an toàn, không phán xét. |
+| **Điểm Thưởng (Bonus)** | **8. Thể hiện xuất sắc vượt trội** | +10 | Sáng tạo phương pháp điều phối độc đáo, xử lý khủng hoảng tâm lý xuất sắc. |
+
+5. **Điều kiện công nhận Đạt:**
+   $$	ext{Tổng điểm} \ge 65/100 \quad 	ext{VÀ} \quad 	ext{Độ chính xác} \ge 6/10 \quad 	ext{VÀ} \quad 	ext{Mức độ tin cậy} \ge 6/10$$
+   *(Lưu ý: Nếu một trong hai tiêu chí bắt buộc dưới 6 điểm thì kết luận CHƯA ĐẠT, bất kể tổng điểm).*
+6. **Chính sách thực hiện lại:** Được đăng ký làm lại Demo Event tối đa 01 lần (tổng cộng tối đa 2 lần).
+
+### GIAI ĐOẠN 5: INTERVIEW (PHỎNG VẤN CUỐI CÙNG VỚI TEAM OFFLIFE)
+1. **Mục đích:** Không kiểm tra lại kiến thức hay kỹ năng kỹ thuật, mà tập trung đánh giá phẩm chất con người: động lực tham gia, mức độ phù hợp của định hướng cá nhân với sứ mệnh của OffLife, và bảo đảm tính liêm chính nghề nghiệp.
+2. **Hình thức & Thời lượng:** Trực tiếp hoặc Online; thời lượng từ **20 đến 30 phút**; giai đoạn đầu có 2–3 người phỏng vấn.
+3. **Trình tự phỏng vấn chuẩn 8 bước:**
+   - Giới thiệu buổi phỏng vấn; Applicant tự giới thiệu; Câu hỏi theo hồ sơ & bài test; 3 điểm mạnh & 3 điểm yếu; *"Vì sao bạn chọn tham gia OffLife?"*; *"5 năm tới bạn sẽ ở đâu trong sự nghiệp?"*; Trả lời câu hỏi của Applicant; Kết thúc và chấm điểm độc lập.
+4. **Rubric Chấm Điểm Phỏng Vấn (Thang điểm 10):**
+   - Động lực đúng đắn (Tối đa 7 điểm): Xuất phát từ sự quan tâm chân thành đến người chơi, tin vào sứ mệnh OnLife và mong muốn phát triển; lý do cụ thể, chân thành, nhất quán.
+   - Định hướng nghề nghiệp (Tối đa 3 điểm): Lộ trình 5 năm tới phù hợp với OffLife và hai bên có thể đồng hành.
+5. **Điều kiện công nhận Đạt:**
+   $$	ext{Tổng điểm phỏng vấn} \ge 6.5 / 10 \quad 	ext{VÀ} \quad 	ext{Không có dấu hiệu vi phạm Code of Conduct}$$
+   *(Lưu ý: Nếu phát hiện dấu hiệu chỉ vì tiền bạc đơn thuần, xem nhẹ người chơi hoặc có ý định chào bán gian dối thì kết luận CHƯA ĐẠT ngay lập tức, bất kể tổng điểm).*
+6. **Kết quả:** Đạt yêu cầu thì được chính thức công nhận tư cách **Certified OM**.
 
 ---
 
-### 5.4. Rubric Final Interview Phỏng Vấn Định Hướng 10 Điểm (Giai đoạn 5)
-Hội đồng phỏng vấn (2–3 người) trò chuyện 20–30 phút đánh giá sự phù hợp con người:
-- **Tiêu chí 1: Động lực đúng đắn (0 - 7.0 điểm):** Xuất phát từ sự quan tâm chân thành đến người chơi, tin vào sứ mệnh OnLife, mong muốn phát triển bền vững; lý do cụ thể, nhất quán với hồ sơ và bài thi viết.
-- **Tiêu chí 2: Định hướng nghề nghiệp 5 năm (0 - 3.0 điểm):** Lộ trình 5 năm tới phù hợp với hệ sinh thái OffLife và hai bên có thể đồng hành lâu dài.  
-$$\text{Điều Kiện Đạt Cổng 5:} \quad \text{Tổng Điểm Phỏng Vấn} \ge 6.5 / 10.0 \quad \text{VÀ} \quad \text{Không có dấu hiệu vi phạm Code of Conduct}$$
+## PHẦN 3: CÔNG NHẬN CHỨNG NHẬN (CERTIFICATION) & KÍCH HOẠT SUBSCRIPTION
+
+1. **Ý nghĩa của danh hiệu Certified OM:**
+   - Là danh hiệu nội bộ chứng nhận đủ điều kiện tự tổ chức và dẫn dắt các sự kiện OffLife độc lập;
+   - Đối với cá nhân: Chỉ những người đạt chuẩn Certified OM mới được quyền mua gói Subscription phần mềm OffLife; đối với tổ chức không bắt buộc điều kiện này;
+   - Certified OM được ghi danh chính thức, được quyền mua subscription và được bảo lãnh giới thiệu applicant mới.
+2. **Quy trình cấp tài khoản Subscription phần mềm:**
+   - Gửi email công nhận & hướng dẫn $ightarrow$ Giao kết Hợp đồng dịch vụ trực tuyến $ightarrow$ Chuyển khoản thanh toán phí bản quyền $ightarrow$ Xác nhận thanh toán (2-3 ngày) $ightarrow$ Kích hoạt tài khoản quản trị chính thức trên Google Sheet Account List & thu hồi tài khoản dùng thử $ightarrow$ Xuất hóa đơn điện tử $ightarrow$ Nhắc gia hạn trước 30 ngày.
+3. **Nguyên tắc quản trị tài khoản:**
+   - Có hiệu lực theo gói đã mua tính từ ngày cấp;
+   - Nghiêm cấm chia sẻ tài khoản cho người khác;
+   - Hết hạn mà không gia hạn thì tài khoản sẽ bị tự động khóa trên hệ thống.
 
 ---
 
-### 5.5. Phiếu Rà Soát Quy Chế Không Khoan Nhượng (Zero Tolerance Checklist)
-
-> [!CAUTION]
-> **CHẾ TÀI ĐÌNH CHỈ KHẨN CẤP:**  
-> Nếu phát hiện ứng viên có bất kỳ hành vi nào dưới đây, quy trình sát hạch bị **đình chỉ ngay lập tức**, ghi nhận **0 điểm** và lập biên bản loại vĩnh viễn:
-> - [ ] **Hành vi 1:** Chào mời, tiếp thị sản phẩm tài chính, bảo hiểm, bất động sản hoặc khóa học bên ngoài.
-> - [ ] **Hành vi 2:** Đưa ra lời khuyên đầu tư tài chính cá nhân cụ thể ngoài đời thực cho người tham gia.
-> - [ ] **Hành vi 3:** Có lời nói, thái độ xúc phạm, phán xét chỉ trích nặng nề đối với người tham gia.
-> - [ ] **Hành vi 4:** Thu thập trái phép thông tin cá nhân, chia sẻ bảo mật của người tham gia cho bên thứ ba.
-
----
-
-## 6. KHO BIỂU MẪU & TOÀN VĂN 11 VĂN BẢN QUẢN TRỊ CHUẨN HÓA
-*(Được chuẩn hóa toàn diện theo Nghị định số 30/2020/NĐ-CP của Chính phủ và Hệ thống Hợp đồng Dịch vụ Phần mềm Subscription)*
+## PHẦN 4: HỆ THỐNG BIỂU MẪU & VĂN BẢN MẪU CHUẨN NGHỊ ĐỊNH 30/2020/NĐ-CP
 
 
-### 6.1. Mẫu BM-OM-01: Phiếu Đăng Ký Dự Tuyển & Quét Năng Lực Ứng Viên (Profile Scanning Rubric)
+### MẪU 01 (BM-OM-01): PHIẾU ĐĂNG KÝ DỰ TUYỂN & QUÉT NĂNG LỰC ỨNG VIÊN (PROFILE SCANNING RUBRIC)
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -535,8 +263,9 @@ III. PHẦN ĐÁNH GIÁ CHẤM ĐIỂM HỒ SƠ (DÀNH CHO TEAM OFFLIFE - RUBRIC
        (Ký và ghi rõ họ tên)                         (Ký và ghi rõ họ tên)
 ```
 
+---
 
-### 6.2. Mẫu BM-OM-02: Bảng Theo Dõi Tiến Độ Đào Tạo Online & Quản Trị Tài Khoản Dùng Thử
+### MẪU 02 (BM-OM-02): BẢNG THEO DÕI TIẾN ĐỘ ĐÀO TẠO ONLINE & QUẢN TRỊ TÀI KHOẢN DÙNG THỬ
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -578,8 +307,9 @@ II. KẾT LUẬN CỦA BAN HUẤN LUYỆN ĐÀO TẠO (CỔNG 2):
       (Ký và ghi rõ họ tên)                            (Ký và ghi rõ họ tên)
 ```
 
+---
 
-### 6.3. Mẫu BM-OM-03: Đề Thi Tự Luận & Phiếu Chấm Kỳ Thi Viết Năng Lực (Written Test 180 Phút)
+### MẪU 03 (BM-OM-03): ĐỀ THI TỰ LUẬN & PHIẾU CHẤM KỲ THI VIẾT NĂNG LỰC (WRITTEN TEST 180 PHÚT)
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -627,8 +357,9 @@ II. BẢNG ĐIỂM ĐÁNH GIÁ CỦA GIÁM KHẢO (RUBRIC THANG ĐIỂM 10):
     (Ký và ghi rõ họ tên)                         (Ký và ghi rõ họ tên)
 ```
 
+---
 
-### 6.4. Mẫu ĐG-OM-01: Bảng Tiêu Chí Chấm Điểm Thực Hành Demo Event (Live Scoring Rubric)
+### MẪU 04 (ĐG-OM-01): BẢNG TIÊU CHÍ CHẤM ĐIỂM THỰC HÀNH DEMO EVENT (LIVE SCORING RUBRIC)
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -681,8 +412,9 @@ III. KẾT LUẬN CỦA EXAMINER (CỔNG 4):
       (Ký và ghi rõ họ tên)                          (Ký và ghi rõ họ tên)
 ```
 
+---
 
-### 6.5. Mẫu BM-OM-04: Biên Bản Phỏng Vấn Định Hướng & Động Lực Cá Nhân (Final Interview Rubric)
+### MẪU 05 (BM-OM-04): BIÊN BẢN PHỎNG VẤN ĐỊNH HƯỚNG & ĐỘNG LỰC CÁ NHÂN (FINAL INTERVIEW RUBRIC)
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -727,8 +459,9 @@ II. BẢNG CHẤM ĐIỂM PHỎNG VẤN (RUBRIC 10 ĐIỂM):
       (Ký và ghi rõ họ tên)                            (Ký và ghi rõ họ tên)
 ```
 
+---
 
-### 6.6. Mẫu TT-OM-01: Tờ Trình Đề Nghị Công Nhận Đạt Chuẩn & Cấp Quyền Certified OffLife Master (Chuẩn NĐ 30)
+### MẪU 06 (TT-OM-01): TỜ TRÌNH ĐỀ NGHỊ CÔNG NHẬN ĐẠT CHUẨN & CẤP QUYỀN CERTIFIED OFFLIFE MASTER (CHUẨN NĐ 30)
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -778,8 +511,9 @@ Nơi nhận:                                            TRƯỞNG HỘI ĐỒNG 
                                                                      Kim Thoa
 ```
 
+---
 
-### 6.7. Mẫu QĐ-OM-01: Quyết Định Công Nhận Chức Danh Certified OffLife Master (Chuẩn NĐ 30)
+### MẪU 07 (QĐ-OM-01): QUYẾT ĐỊNH CÔNG NHẬN CHỨC DANH CERTIFIED OFFLIFE MASTER (CHUẨN NĐ 30)
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -813,11 +547,12 @@ Nơi nhận:                                            TRƯỞNG BAN QUẢN LÝ
                                                                    Võ Duy Anh
 ```
 
+---
 
-### 6.8. Mẫu CK-OM-01: Hợp Đồng Cung Cấp Dịch Vụ Phần Mềm (Subscription) + NDA + DPA
+### MẪU 08 (CK-OM-01): HỢP ĐỒNG CUNG CẤP DỊCH VỤ PHẦN MỀM (SUBSCRIPTION) + NDA + DPA
 
 ```text
-CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                       CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
                             Độc lập - Tự do - Hạnh phúc
                                      ---o0o---
 
@@ -859,8 +594,9 @@ Hợp đồng được lập thành 02 bản có giá trị pháp lý như nhau,
     (Ký và ghi rõ họ tên)                                  (Ký và ghi rõ họ tên)
 ```
 
+---
 
-### 6.9. Mẫu BB-OM-01: Biên Bản Bàn Giao Bộ Kit Điều Phối Vật Lý & Kích Hoạt Tài Khoản Quản Trị
+### MẪU 09 (BB-OM-01): BIÊN BẢN BÀN GIAO BỘ KIT ĐIỀU PHỐI VẬT LÝ & KÍCH HOẠT TÀI KHOẢN QUẢN TRỊ
 
 ```text
 DỰ ÁN GIÁO DỤC OFFLIFE               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
@@ -898,8 +634,9 @@ Bên Nhận cam kết bảo quản tài sản, sử dụng phần mềm đúng t
       (Ký và ghi rõ họ tên)                                 (Ký và ghi rõ họ tên)
 ```
 
+---
 
-### 6.10. Mẫu EM-OM-01: Hệ Thống Email Chuẩn Hóa Thông Báo Kết Quả ĐẠT (5 Cổng Kiểm Soát GĐ 1-5)
+### MẪU 10 (EM-OM-01): HỆ THỐNG EMAIL CHUẨN HÓA THÔNG BÁO KẾT QUẢ ĐẠT (5 CỔNG KIỂM SOÁT GĐ 1-5)
 
 ```text
 ================================================================================
@@ -948,8 +685,9 @@ Ban Quản lý Dự án OffLife trân trọng chúc mừng Anh/Chị đã vượ
 Đính kèm email là Quyết định công nhận QĐ-OM-01 và Hướng dẫn giao kết Hợp đồng dịch vụ phần mềm (Subscription). Sau khi kích hoạt tài khoản, Anh/Chị sẽ nhận Bộ Kit vật lý và toàn quyền độc lập tổ chức các phiên OffLife!
 ```
 
+---
 
-### 6.11. Mẫu EM-OM-02: Hệ Thống Email Chuẩn Hóa Thông Báo CHƯA ĐẠT & Phản Hồi Lý Do (5 Cổng)
+### MẪU 11 (EM-OM-02): HỆ THỐNG EMAIL CHUẨN HÓA THÔNG BÁO CHƯA ĐẠT & PHẢN HỒI LÝ DO (5 CỔNG)
 
 ```text
 ================================================================================
@@ -992,3 +730,6 @@ Hội đồng Phỏng vấn xin chân thành cảm ơn Anh/Chị đã dành th�
 Sau khi cân nhắc kỹ lưỡng về sự phù hợp giữa định hướng cá nhân và mục tiêu dài hạn của Dự án OffLife, Hội đồng rất tiếc chưa thể công nhận danh hiệu Certified OM cho Anh/Chị ở thời điểm hiện tại.
 Chúc Anh/Chị luôn gặt hái nhiều thành công trong sự nghiệp và cuộc sống!
 ```
+
+---
+

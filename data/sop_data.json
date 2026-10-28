@@ -1,8 +1,8 @@
 {
-  "version": 1793078000000,
-  "last_updated": "2026-10-28T18:00:00.000Z",
-  "updated_by": "Ban Quản lý Dự án OffLife",
-  "commit_note": "Harmonize 5-Phase SOP with OffLife Master Training Program",
+  "version": "3.1.0",
+  "last_updated": "2026-10-28T19:20:00+07:00",
+  "updated_by": "Team OffLife (Chuẩn hóa 100% theo Training Program gốc)",
+  "commit_note": "Chuẩn hóa 100% mô hình 2 chủ thể Applicant -> Certified OM theo tài liệu gốc Training Program",
   "content": {},
   "steps": {
     "1": {
